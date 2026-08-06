@@ -2,15 +2,15 @@
 
 from __future__ import annotations
 
-from typing import TYPE_CHECKING
-
 from rich.console import Console
 
 from src.aggregator.arbeitnow import ArbeitnowSource
 from src.aggregator.custom_careers import CustomCareerPageSource
 from src.aggregator.deduplicator import deduplicate_jobs
+from src.aggregator.feed_adapters import create_platform_source
 from src.aggregator.indeed import IndeedSource
 from src.aggregator.linkedin_jobs import LinkedInJobsSource
+from src.aggregator.platforms_registry import Platform, resolve_enabled_platforms
 from src.aggregator.remotive import RemotiveSource
 from src.aggregator.remoteok import RemoteOKSource
 from src.aggregator.upwork import UpworkSource
@@ -18,12 +18,9 @@ from src.aggregator.wellfound import WellfoundSource
 from src.aggregator.weworkremotely import WeWorkRemotelySource
 from src.models import JobPosting
 
-if TYPE_CHECKING:
-    pass
-
 console = Console()
 
-SOURCE_REGISTRY = {
+BUILTIN_REGISTRY = {
     "remoteok": RemoteOKSource,
     "weworkremotely": WeWorkRemotelySource,
     "remotive": RemotiveSource,
@@ -32,28 +29,45 @@ SOURCE_REGISTRY = {
     "upwork": UpworkSource,
     "wellfound": WellfoundSource,
     "linkedin_jobs": LinkedInJobsSource,
-    "custom_career_pages": CustomCareerPageSource,
 }
+
+# Backward-compatible alias
+SOURCE_REGISTRY = BUILTIN_REGISTRY
+
+
+def _create_source(config: dict, platform: Platform):
+    if platform.adapter == "builtin":
+        cls = BUILTIN_REGISTRY.get(platform.builtin_key or platform.id)
+        if cls:
+            return cls(config)
+        return None
+    return create_platform_source(config, platform)
+
+
+def _fetch_custom_careers(config: dict, keywords) -> list[JobPosting]:
+    urls = config.get("sources", {}).get("custom_career_pages", [])
+    if not urls:
+        return []
+    source = CustomCareerPageSource(config)
+    console.print(f"[cyan]Fetching from {source.name}...[/cyan]")
+    try:
+        jobs = source.fetch(keywords)
+        console.print(f"  Found {len(jobs)} QA postings")
+        return jobs
+    except Exception as exc:
+        console.print(f"  [yellow]Warning: {source.name} failed: {exc}[/yellow]")
+        return []
 
 
 def aggregate_jobs(config: dict) -> list[JobPosting]:
     keywords = config.get("search", {}).get("keywords", ["QA"])
-    sources_config = config.get("sources", {})
+    enabled_platforms = resolve_enabled_platforms(config)
     all_jobs: list[JobPosting] = []
 
-    for source_key, enabled in sources_config.items():
-        if source_key == "custom_career_pages":
-            if not sources_config.get("custom_career_pages"):
-                continue
-            enabled = True
-        if not enabled:
+    for platform in enabled_platforms:
+        source = _create_source(config, platform)
+        if not source:
             continue
-
-        source_cls = SOURCE_REGISTRY.get(source_key)
-        if not source_cls:
-            continue
-
-        source = source_cls(config)
         console.print(f"[cyan]Fetching from {source.name}...[/cyan]")
         try:
             jobs = source.fetch(keywords)
@@ -61,6 +75,8 @@ def aggregate_jobs(config: dict) -> list[JobPosting]:
             all_jobs.extend(jobs)
         except Exception as exc:
             console.print(f"  [yellow]Warning: {source.name} failed: {exc}[/yellow]")
+
+    all_jobs.extend(_fetch_custom_careers(config, keywords))
 
     deduped = deduplicate_jobs(all_jobs)
 
@@ -76,7 +92,7 @@ def aggregate_jobs(config: dict) -> list[JobPosting]:
     elif config.get("search", {}).get("only_freelance"):
         console.print(
             "[yellow]No freelance/contract QA postings found. "
-            "Try: set search.only_freelance to false, enable Upwork/Indeed APIs, "
+            "Try: python main.py fetch --all-qa, enable Upwork/Indeed APIs, "
             "or add custom career pages.[/yellow]"
         )
     return deduped

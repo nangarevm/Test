@@ -1,0 +1,714 @@
+# Registry of 100 remote/overseas job platforms.
+# adapter: builtin | rss | json | manual
+# Platforms with adapter=manual are listed for reference; add their career pages
+# under sources.custom_career_pages to fetch from them directly.
+
+categories:
+  general_remote: General remote job boards
+  freelance_gig: Freelance/gig marketplaces
+  tech_focused: Tech-focused
+  startup_focused: Startup-focused
+  region_specific: Region-specific
+  writing: Writing
+  design: Design
+  customer_support: Customer support / virtual assistant
+  marketing: Marketing
+  eor_global_hiring: Employer-of-record / global hiring platforms
+  large_aggregators: Large general aggregators
+  other_niche: Other niche/remote-specific
+
+platforms:
+  # --- General remote job boards (1-20) ---
+  - id: weworkremotely
+    name: We Work Remotely
+    category: general_remote
+    url: https://weworkremotely.com
+    adapter: builtin
+    builtin_key: weworkremotely
+    enabled_by_default: true
+    notes: QA-specific RSS feed; may be blocked by Cloudflare in some environments
+
+  - id: remote_co
+    name: Remote.co
+    category: general_remote
+    url: https://remote.co
+    adapter: rss
+    feed_url: https://remote.co/remote-jobs/feed/
+    notes: Public RSS feed; may be slow or unavailable
+
+  - id: remoteok
+    name: RemoteOK
+    category: general_remote
+    url: https://remoteok.com
+    adapter: builtin
+    builtin_key: remoteok
+    enabled_by_default: true
+
+  - id: flexjobs
+    name: FlexJobs
+    category: general_remote
+    url: https://www.flexjobs.com
+    adapter: manual
+    notes: Paid membership required; no public API
+
+  - id: working_nomads
+    name: Working Nomads
+    category: general_remote
+    url: https://www.workingnomads.com
+    adapter: json
+    feed_url: https://www.workingnomads.com/api/exposed_jobs/
+    enabled_by_default: true
+    json_mapping:
+      title: title
+      company: company_name
+      description: description
+      link: url
+      location: location
+
+  - id: jobspresso
+    name: Jobspresso
+    category: general_remote
+    url: https://jobspresso.co
+    adapter: rss
+    feed_url: https://jobspresso.co/feed/
+    enabled_by_default: true
+
+  - id: remotive
+    name: Remotive
+    category: general_remote
+    url: https://remotive.com
+    adapter: builtin
+    builtin_key: remotive
+    enabled_by_default: true
+
+  - id: nodesk
+    name: NoDesk
+    category: general_remote
+    url: https://nodesk.co
+    adapter: manual
+    notes: Browse manually or add specific job listing URLs
+
+  - id: justremote
+    name: JustRemote
+    category: general_remote
+    url: https://justremote.co
+    adapter: manual
+    notes: No stable public feed; add career page URLs manually
+
+  - id: skipthedrive
+    name: SkipTheDrive
+    category: general_remote
+    url: https://www.skipthedrive.com
+    adapter: manual
+
+  - id: virtual_vocations
+    name: Virtual Vocations
+    category: general_remote
+    url: https://www.virtualvocations.com
+    adapter: manual
+    notes: Paid service; no public API
+
+  - id: pangian
+    name: Pangian
+    category: general_remote
+    url: https://pangian.com
+    adapter: manual
+
+  - id: himalayas
+    name: Himalayas.app
+    category: general_remote
+    url: https://himalayas.app
+    adapter: json
+    feed_url: https://himalayas.app/jobs/api?limit=200&category=qa
+    enabled_by_default: true
+    json_mapping:
+      items_path: jobs
+      title: title
+      company: companyName
+      description: description
+      link: applicationLink
+      location: locationRestrictions
+      employment_type: employmentType
+
+  - id: grow_remote
+    name: Grow Remote
+    category: general_remote
+    url: https://growremote.com
+    adapter: manual
+
+  - id: dynamite_jobs
+    name: Dynamite Jobs
+    category: general_remote
+    url: https://dynamitejobs.com
+    adapter: manual
+
+  - id: remoteleaf
+    name: RemoteLeaf
+    category: general_remote
+    url: https://remoteleaf.com
+    adapter: manual
+
+  - id: dailyremote
+    name: DailyRemote
+    category: general_remote
+    url: https://dailyremote.com
+    adapter: manual
+    notes: Cloudflare-protected; no reliable public feed
+
+  - id: remotehub
+    name: RemoteHub
+    category: general_remote
+    url: https://remotehub.io
+    adapter: manual
+
+  - id: jobvertise
+    name: Jobvertise
+    category: general_remote
+    url: https://www.jobvertise.com
+    adapter: manual
+
+  - id: remote4me
+    name: Remote4Me
+    category: general_remote
+    url: https://remote4me.com
+    adapter: manual
+
+  # --- Freelance/gig marketplaces (21-30) ---
+  - id: upwork
+    name: Upwork
+    category: freelance_gig
+    url: https://www.upwork.com
+    adapter: builtin
+    builtin_key: upwork
+    requires_api_key: true
+    enabled_by_default: true
+    notes: Best source for freelance QA; requires UPWORK_ACCESS_TOKEN
+
+  - id: fiverr
+    name: Fiverr
+    category: freelance_gig
+    url: https://www.fiverr.com
+    adapter: manual
+    notes: Gig marketplace; no job posting API
+
+  - id: freelancer_com
+    name: Freelancer.com
+    category: freelance_gig
+    url: https://www.freelancer.com
+    adapter: manual
+    notes: Has API but requires developer registration
+
+  - id: toptal
+    name: Toptal
+    category: freelance_gig
+    url: https://www.toptal.com
+    adapter: manual
+    notes: Invite-only network; no public job feed
+
+  - id: guru_com
+    name: Guru.com
+    category: freelance_gig
+    url: https://www.guru.com
+    adapter: manual
+
+  - id: peopleperhour
+    name: PeoplePerHour
+    category: freelance_gig
+    url: https://www.peopleperhour.com
+    adapter: manual
+
+  - id: 99designs
+    name: 99designs
+    category: freelance_gig
+    url: https://99designs.com
+    adapter: manual
+
+  - id: truelancer
+    name: Truelancer
+    category: freelance_gig
+    url: https://www.truelancer.com
+    adapter: manual
+
+  - id: workana
+    name: Workana
+    category: freelance_gig
+    url: https://www.workana.com
+    adapter: manual
+    notes: Latin America freelance marketplace
+
+  - id: nubelo
+    name: Nubelo
+    category: freelance_gig
+    url: https://www.nubelo.com
+    adapter: manual
+
+  # --- Tech-focused (31-46) ---
+  - id: wellfound
+    name: Wellfound (AngelList Talent)
+    category: tech_focused
+    url: https://wellfound.com
+    adapter: builtin
+    builtin_key: wellfound
+
+  - id: hired
+    name: Hired
+    category: tech_focused
+    url: https://hired.com
+    adapter: manual
+
+  - id: dice
+    name: Dice
+    category: tech_focused
+    url: https://www.dice.com
+    adapter: manual
+    notes: Requires publisher API key
+
+  - id: turing
+    name: Turing
+    category: tech_focused
+    url: https://www.turing.com
+    adapter: manual
+
+  - id: andela
+    name: Andela
+    category: tech_focused
+    url: https://andela.com
+    adapter: manual
+
+  - id: crossover
+    name: Crossover
+    category: tech_focused
+    url: https://www.crossover.com
+    adapter: manual
+
+  - id: xteam
+    name: X-Team
+    category: tech_focused
+    url: https://x-team.com
+    adapter: manual
+
+  - id: gunio
+    name: Gun.io
+    category: tech_focused
+    url: https://gun.io
+    adapter: manual
+
+  - id: arc_dev
+    name: Arc.dev
+    category: tech_focused
+    url: https://arc.dev
+    adapter: manual
+
+  - id: lemon_io
+    name: Lemon.io
+    category: tech_focused
+    url: https://lemon.io
+    adapter: manual
+    notes: Developer marketplace; listings often appear on Remotive
+
+  - id: terminal_io
+    name: Terminal.io
+    category: tech_focused
+    url: https://terminal.io
+    adapter: manual
+
+  - id: clouddevs
+    name: CloudDevs
+    category: tech_focused
+    url: https://clouddevs.com
+    adapter: manual
+
+  - id: outdefine
+    name: Outdefine
+    category: tech_focused
+    url: https://outdefine.com
+    adapter: manual
+
+  - id: braintrust
+    name: Braintrust
+    category: tech_focused
+    url: https://www.usebraintrust.com
+    adapter: manual
+
+  - id: torc
+    name: Torc
+    category: tech_focused
+    url: https://www.torc.dev
+    adapter: manual
+
+  - id: codementor
+    name: Codementor
+    category: tech_focused
+    url: https://www.codementor.io
+    adapter: manual
+
+  # --- Startup-focused (47-49) ---
+  - id: ycombinator
+    name: Y Combinator Work at a Startup
+    category: startup_focused
+    url: https://www.workatastartup.com
+    adapter: manual
+    notes: No stable public API; browse workatastartup.com
+
+  - id: startup_jobs
+    name: Startup Jobs
+    category: startup_focused
+    url: https://startup.jobs
+    adapter: manual
+    notes: Cloudflare-protected RSS
+
+  - id: otta
+    name: Otta / Welcome to the Jungle
+    category: startup_focused
+    url: https://otta.com
+    adapter: manual
+
+  # --- Region-specific (50-63) ---
+  - id: jobbatical
+    name: Jobbatical
+    category: region_specific
+    url: https://jobbatical.com
+    adapter: manual
+    notes: Europe relocation/remote
+
+  - id: landing_jobs
+    name: Landing.jobs
+    category: region_specific
+    url: https://landing.jobs
+    adapter: json
+    feed_url: https://landing.jobs/api/v1/jobs?limit=100
+    enabled_by_default: true
+    json_mapping:
+      title: title
+      company: company_name
+      description: role_description
+      link: url
+      location: locations
+      employment_type: type
+    notes: Company name not in list API; extracted from URL when missing
+
+  - id: eu_remote_jobs
+    name: EU Remote Jobs
+    category: region_specific
+    url: https://euremotejobs.com
+    adapter: rss
+    feed_url: https://euremotejobs.com/feed/
+    enabled_by_default: true
+
+  - id: latamlist
+    name: LatamList
+    category: region_specific
+    url: https://latamlist.com
+    adapter: manual
+    notes: Latin America tech
+
+  - id: getonboard
+    name: GetOnBoard
+    category: region_specific
+    url: https://www.getonboard.com
+    adapter: manual
+    notes: Latin America
+
+  - id: remote_africa
+    name: RemoteAfrica
+    category: region_specific
+    url: https://remoteafrica.io
+    adapter: manual
+
+  - id: jobs_in_africa
+    name: Jobs in Africa
+    category: region_specific
+    url: https://jobsinafrica.com
+    adapter: manual
+
+  - id: glints
+    name: Glints
+    category: region_specific
+    url: https://glints.com
+    adapter: manual
+    notes: Southeast Asia
+
+  - id: jobstreet
+    name: JobStreet
+    category: region_specific
+    url: https://www.jobstreet.com
+    adapter: manual
+    notes: Southeast Asia
+
+  - id: jobsdb
+    name: JobsDB
+    category: region_specific
+    url: https://www.jobsdb.com
+    adapter: manual
+    notes: Asia
+
+  - id: naukri
+    name: Naukri
+    category: region_specific
+    url: https://www.naukri.com
+    adapter: manual
+    notes: India
+
+  - id: shine
+    name: Shine.com
+    category: region_specific
+    url: https://www.shine.com
+    adapter: manual
+    notes: India
+
+  - id: timesjobs
+    name: TimesJobs
+    category: region_specific
+    url: https://www.timesjobs.com
+    adapter: manual
+    notes: India
+
+  - id: indeed_india
+    name: Indeed India
+    category: region_specific
+    url: https://www.indeed.co.in
+    adapter: manual
+    notes: Use Indeed Publisher API with India locale
+
+  # --- Writing (64-66) ---
+  - id: problogger
+    name: ProBlogger Job Board
+    category: writing
+    url: https://problogger.com/jobs
+    adapter: rss
+    feed_url: https://problogger.com/jobs/feed/
+
+  - id: contena
+    name: Contena
+    category: writing
+    url: https://www.contena.co
+    adapter: manual
+
+  - id: freelance_writing_jobs
+    name: Freelance Writing Jobs
+    category: writing
+    url: https://freelancewritingjobs.com
+    adapter: manual
+
+  # --- Design (67-69) ---
+  - id: dribbble
+    name: Dribbble Jobs
+    category: design
+    url: https://dribbble.com/jobs
+    adapter: rss
+    feed_url: https://dribbble.com/jobs.rss
+
+  - id: behance
+    name: Behance Job Board
+    category: design
+    url: https://www.behance.net/joblist
+    adapter: manual
+
+  - id: coroflot
+    name: Coroflot
+    category: design
+    url: https://www.coroflot.com
+    adapter: manual
+
+  # --- Customer support / VA (70-73) ---
+  - id: virtual_assistants
+    name: VirtualAssistants.com
+    category: customer_support
+    url: https://www.virtualassistants.com
+    adapter: manual
+
+  - id: zirtual
+    name: Zirtual
+    category: customer_support
+    url: https://www.zirtual.com
+    adapter: manual
+
+  - id: boldly
+    name: Boldly
+    category: customer_support
+    url: https://boldly.com
+    adapter: manual
+
+  - id: flexprofessionals
+    name: FlexProfessionals
+    category: customer_support
+    url: https://www.flexprofessionals.com
+    adapter: manual
+
+  # --- Marketing (74) ---
+  - id: marketerhire
+    name: MarketerHire
+    category: marketing
+    url: https://marketerhire.com
+    adapter: manual
+
+  # --- Employer-of-record / global hiring (75-82) ---
+  - id: deel
+    name: Deel
+    category: eor_global_hiring
+    url: https://www.deel.com
+    adapter: manual
+    notes: EOR platform; companies hiring via Deel may list on other boards
+
+  - id: remote_com
+    name: Remote.com
+    category: eor_global_hiring
+    url: https://remote.com
+    adapter: manual
+
+  - id: oyster
+    name: Oyster HR
+    category: eor_global_hiring
+    url: https://www.oysterhr.com
+    adapter: manual
+
+  - id: papaya_global
+    name: Papaya Global
+    category: eor_global_hiring
+    url: https://www.papayaglobal.com
+    adapter: manual
+
+  - id: multiplier
+    name: Multiplier
+    category: eor_global_hiring
+    url: https://www.usemultiplier.com
+    adapter: manual
+
+  - id: velocity_global
+    name: Velocity Global
+    category: eor_global_hiring
+    url: https://velocityglobal.com
+    adapter: manual
+
+  - id: globalization_partners
+    name: Globalization Partners (G-P)
+    category: eor_global_hiring
+    url: https://www.globalization-partners.com
+    adapter: manual
+
+  - id: safeguard_global
+    name: Safeguard Global
+    category: eor_global_hiring
+    url: https://www.safeguardglobal.com
+    adapter: manual
+
+  # --- Large general aggregators (83-90) ---
+  - id: linkedin_jobs
+    name: LinkedIn Jobs
+    category: large_aggregators
+    url: https://www.linkedin.com/jobs
+    adapter: builtin
+    builtin_key: linkedin_jobs
+    notes: Public postings only; no profile scraping
+
+  - id: indeed
+    name: Indeed
+    category: large_aggregators
+    url: https://www.indeed.com
+    adapter: builtin
+    builtin_key: indeed
+    requires_api_key: true
+    notes: Requires INDEED_PUBLISHER_ID
+
+  - id: glassdoor
+    name: Glassdoor
+    category: large_aggregators
+    url: https://www.glassdoor.com
+    adapter: manual
+
+  - id: ziprecruiter
+    name: ZipRecruiter
+    category: large_aggregators
+    url: https://www.ziprecruiter.com
+    adapter: manual
+
+  - id: monster
+    name: Monster
+    category: large_aggregators
+    url: https://www.monster.com
+    adapter: manual
+
+  - id: careerbuilder
+    name: CareerBuilder
+    category: large_aggregators
+    url: https://www.careerbuilder.com
+    adapter: manual
+
+  - id: simplyhired
+    name: SimplyHired
+    category: large_aggregators
+    url: https://www.simplyhired.com
+    adapter: manual
+
+  - id: google_jobs
+    name: Google for Jobs
+    category: large_aggregators
+    url: https://www.google.com/search?q=jobs
+    adapter: manual
+    notes: Aggregated results; use Indeed/LinkedIn APIs instead
+
+  # --- Other niche/remote-specific (91-100) ---
+  - id: jobspresso_alt
+    name: Jobspresso (alt listing)
+    category: other_niche
+    url: https://jobspresso.co
+    adapter: rss
+    feed_url: https://jobspresso.co/feed/
+    notes: Duplicate catalog entry (#91); same feed as jobspresso
+
+  - id: remotebase
+    name: RemoteBase
+    category: other_niche
+    url: https://remotebase.com
+    adapter: manual
+
+  - id: remote_woman
+    name: Remote Woman
+    category: other_niche
+    url: https://remotewoman.com
+    adapter: rss
+    feed_url: https://remotewoman.com/feed/
+
+  - id: remoteyear
+    name: RemoteYear Community Board
+    category: other_niche
+    url: https://www.remoteyear.com
+    adapter: manual
+
+  - id: europe_remotely
+    name: EuropeRemotely
+    category: other_niche
+    url: https://europeremotely.com
+    adapter: manual
+
+  - id: hackerrank_jobs
+    name: HackerRank Jobs
+    category: other_niche
+    url: https://www.hackerrank.com/careers
+    adapter: manual
+
+  - id: guru_remote
+    name: Guru Remote
+    category: other_niche
+    url: https://www.guru.com
+    adapter: manual
+
+  - id: remote4u
+    name: Remote4U
+    category: other_niche
+    url: https://remote4u.com
+    adapter: manual
+
+  - id: nodesk_europe
+    name: NodeskEurope
+    category: other_niche
+    url: https://nodesk.co/europe
+    adapter: manual
+
+  - id: arbeitnow
+    name: Arbeitnow
+    category: other_niche
+    url: https://www.arbeitnow.com
+    adapter: builtin
+    builtin_key: arbeitnow
+    enabled_by_default: true

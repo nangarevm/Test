@@ -66,6 +66,60 @@ def fetch(ctx: click.Context, all_qa: bool) -> None:
             console.print(f"    ... and {len(merged) - 10} more")
 
 
+@cli.command("platforms")
+@click.option("--category", "-g", default=None, help="Filter by category (e.g. general_remote)")
+@click.option("--fetchable-only", is_flag=True, help="Show only platforms with automated feeds")
+@click.pass_context
+def platforms_cmd(ctx: click.Context, category: str | None, fetchable_only: bool) -> None:
+    """List all 100 registered remote job platforms."""
+    from rich.table import Table
+
+    from src.aggregator.platforms_registry import (
+        category_label,
+        group_platforms,
+        load_platforms,
+        resolve_enabled_platforms,
+    )
+
+    config = ctx.obj["config"]
+    all_platforms = load_platforms()
+    enabled = {p.id for p in resolve_enabled_platforms(config)}
+
+    if category:
+        filtered = [p for p in all_platforms if p.category == category]
+        groups = {category: filtered}
+    else:
+        filtered = all_platforms
+        groups = group_platforms(filtered)
+
+    table = Table(title=f"Job Platforms ({len(all_platforms)} registered)")
+    table.add_column("ID", style="dim")
+    table.add_column("Name")
+    table.add_column("Category")
+    table.add_column("Adapter")
+    table.add_column("Enabled")
+    table.add_column("URL")
+
+    for cat, items in sorted(groups.items(), key=lambda x: category_label(x[0])):
+        for p in items:
+            if fetchable_only and not p.is_fetchable:
+                continue
+            table.add_row(
+                p.id,
+                p.name,
+                category_label(p.category),
+                p.adapter + (" *" if p.requires_api_key else ""),
+                "yes" if p.id in enabled else "no",
+                p.url,
+            )
+    console.print(table)
+    fetchable = sum(1 for p in all_platforms if p.is_fetchable)
+    console.print(
+        f"\n{fetchable} platforms have automated adapters; "
+        f"{len(enabled)} enabled in current config."
+    )
+
+
 @cli.command()
 @click.pass_context
 def enrich(ctx: click.Context) -> None:

@@ -28,16 +28,34 @@ search:
     - "United States"
 
 sources:
+  # Legacy toggles (maps to platform registry entries)
   remoteok: true
   weworkremotely: true
   remotive: true
   arbeitnow: true
   indeed: false          # requires INDEED_PUBLISHER_ID in .env
   upwork: true           # best source for freelance QA; requires Upwork OAuth in .env
-  wellfound: false       # limited public access; enable if you have API access
-  linkedin_jobs: false   # public job search; use sparingly
+  wellfound: false
+  linkedin_jobs: false
   custom_career_pages:
     - "https://careers.example.com/jobs"
+
+# Platform registry (100 remote/overseas job boards — see platforms/platforms.yaml)
+platform_registry:
+  # Enable all platforms with a working public feed/API adapter
+  auto_enable_feeds: true
+  # Or enable entire categories: general_remote, freelance_gig, tech_focused,
+  # startup_focused, region_specific, writing, design, customer_support,
+  # marketing, eor_global_hiring, large_aggregators, other_niche
+  groups: []
+  # Explicitly include/exclude platform IDs (overrides groups)
+  include: []
+  exclude:
+    - flexjobs           # paid, no public API
+    - fiverr             # gig marketplace, no job feed
+    - problogger         # writing-focused
+    - dribbble           # design-focused
+    - remote_woman       # niche community board
 
 email:
   provider: "smtp"       # smtp | sendgrid | mailgun
