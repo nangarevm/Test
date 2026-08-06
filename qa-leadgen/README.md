@@ -54,7 +54,16 @@ python main.py platforms -g freelance_gig
 Extracts: company, role, JD text, location, seniority, **employment type**, posting date, application link, and any public contact email in the posting. Deduplicates across sources.
 
 ### 2. Excel Export — Job Requirements Tracker
-Columns: Company, Role, JD Summary, Location, Experience Level, **Employment Type**, Source, Contact Email, Posting Link, Date Found, Status (New/Contacted/Responded/Closed).
+Columns: Company, Role, JD Summary, Location, Experience Level, **Employment Type**, Source, Contact Email, Posting Link, Date Found, Status.
+
+**Workbook sheets:**
+| Sheet | Contents |
+|-------|----------|
+| `All Jobs` | Master list (all unique jobs, deduplicated) |
+| `YYYY-MM-DD` | One sheet per day with that day's scan results |
+| `Daily Summary` | Date, jobs found, freelance count, top sources |
+| `Overseas Job Boards` | 165 job platforms by country (reference directory) |
+| `Company Directory` | Enriched company contacts (after `enrich` command) |
 
 ### 3. Company Contact Enrichment
 For companies without a public contact in the posting, looks up publicly listed business info (Contact Us pages, mailto links). Does **not** scrape personal LinkedIn profiles.

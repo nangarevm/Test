@@ -17,15 +17,15 @@ from src.aggregator.platforms_registry import (
 )
 
 
-def test_load_all_100_platforms():
+def test_load_all_platforms():
     platforms = load_platforms()
-    assert len(platforms) == 100
+    assert len(platforms) >= 150
     ids = {p.id for p in platforms}
-    assert len(ids) == 100
+    assert len(ids) == len(platforms)
     assert "weworkremotely" in ids
-    assert "upwork" in ids
-    assert "himalayas" in ids
-    assert "nodesk_europe" in ids
+    assert "jobicy" in ids
+    assert "seek_au" in ids
+    assert "bayt" in ids
 
 
 def test_platform_categories():

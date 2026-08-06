@@ -1,0 +1,482 @@
+# Overseas software job boards by country/region.
+# QA/software roles are filtered during fetch; add career page URLs for manual sources.
+
+platforms:
+  # --- United States & Canada ---
+  - id: dice_us
+    name: Dice (USA)
+    category: overseas_software
+    country: United States
+    url: https://www.dice.com
+    adapter: manual
+    notes: Tech jobs USA; API available with publisher account
+
+  - id: stackoverflow_jobs
+    name: Stack Overflow Jobs
+    category: overseas_software
+    country: United States
+    url: https://stackoverflow.com/jobs
+    adapter: manual
+    notes: Global tech community job board
+
+  - id: builtin
+    name: Built In
+    category: overseas_software
+    country: United States
+    url: https://builtin.com/jobs
+    adapter: manual
+
+  - id: jobbank_canada
+    name: Job Bank Canada
+    category: overseas_software
+    country: Canada
+    url: https://www.jobbank.gc.ca
+    adapter: manual
+
+  - id: eluta_ca
+    name: Eluta.ca
+    category: overseas_software
+    country: Canada
+    url: https://www.eluta.ca
+    adapter: manual
+
+  # --- United Kingdom & Ireland ---
+  - id: reed_uk
+    name: Reed.co.uk
+    category: overseas_software
+    country: United Kingdom
+    url: https://www.reed.co.uk
+    adapter: manual
+
+  - id: cwjobs_uk
+    name: CWJobs
+    category: overseas_software
+    country: United Kingdom
+    url: https://www.cwjobs.co.uk
+    adapter: manual
+
+  - id: technojobs_uk
+    name: Technojobs UK
+    category: overseas_software
+    country: United Kingdom
+    url: https://www.technojobs.co.uk
+    adapter: manual
+
+  - id: totaljobs_uk
+    name: Totaljobs
+    category: overseas_software
+    country: United Kingdom
+    url: https://www.totaljobs.com
+    adapter: manual
+
+  - id: irishjobs
+    name: IrishJobs.ie
+    category: overseas_software
+    country: Ireland
+    url: https://www.irishjobs.ie
+    adapter: manual
+
+  # --- Western Europe ---
+  - id: stepstone_de
+    name: StepStone Germany
+    category: overseas_software
+    country: Germany
+    url: https://www.stepstone.de
+    adapter: manual
+
+  - id: xing_jobs
+    name: XING Jobs
+    category: overseas_software
+    country: Germany
+    url: https://www.xing.com/jobs
+    adapter: manual
+
+  - id: apec_fr
+    name: Apec France
+    category: overseas_software
+    country: France
+    url: https://www.apec.fr
+    adapter: manual
+
+  - id: welcome_jungle_fr
+    name: Welcome to the Jungle France
+    category: overseas_software
+    country: France
+    url: https://www.welcometothejungle.com
+    adapter: manual
+
+  - id: nationale_vacaturebank
+    name: Nationale Vacaturebank
+    category: overseas_software
+    country: Netherlands
+    url: https://www.nationalevacaturebank.nl
+    adapter: manual
+
+  - id: intermediair_nl
+    name: Intermediair
+    category: overseas_software
+    country: Netherlands
+    url: https://www.intermediair.nl
+    adapter: manual
+
+  - id: jobs_ch
+    name: jobs.ch
+    category: overseas_software
+    country: Switzerland
+    url: https://www.jobs.ch
+    adapter: manual
+
+  - id: infojobs_es
+    name: InfoJobs Spain
+    category: overseas_software
+    country: Spain
+    url: https://www.infojobs.net
+    adapter: manual
+
+  - id: infojobs_it
+    name: InfoJobs Italy
+    category: overseas_software
+    country: Italy
+    url: https://www.infojobs.it
+    adapter: manual
+
+  - id: net_empregos_pt
+    name: Net Empregos Portugal
+    category: overseas_software
+    country: Portugal
+    url: https://www.net-empregos.com
+    adapter: manual
+
+  - id: pracuj_pl
+    name: Pracuj.pl
+    category: overseas_software
+    country: Poland
+    url: https://www.pracuj.pl
+    adapter: manual
+
+  - id: nofluffjobs
+    name: No Fluff Jobs
+    category: overseas_software
+    country: Poland
+    url: https://nofluffjobs.com
+    adapter: manual
+    notes: Public API may require auth; add career pages manually
+
+  - id: jobs_cz
+    name: Jobs.cz
+    category: overseas_software
+    country: Czech Republic
+    url: https://www.jobs.cz
+    adapter: manual
+
+  - id: thehub_se
+    name: The Hub Sweden
+    category: overseas_software
+    country: Sweden
+    url: https://thehub.io
+    adapter: manual
+
+  # --- Asia-Pacific ---
+  - id: seek_au
+    name: SEEK Australia
+    category: overseas_software
+    country: Australia
+    url: https://www.seek.com.au
+    adapter: manual
+
+  - id: jora_au
+    name: Jora Australia
+    category: overseas_software
+    country: Australia
+    url: https://au.jora.com
+    adapter: manual
+
+  - id: trademe_nz
+    name: Trade Me Jobs NZ
+    category: overseas_software
+    country: New Zealand
+    url: https://www.trademe.co.nz/jobs
+    adapter: manual
+
+  - id: daijob_jp
+    name: Daijob Japan
+    category: overseas_software
+    country: Japan
+    url: https://www.daijob.com
+    adapter: manual
+
+  - id: saramin_kr
+    name: Saramin Korea
+    category: overseas_software
+    country: South Korea
+    url: https://www.saramin.co.kr
+    adapter: manual
+
+  - id: jobkorea_kr
+    name: JobKorea
+    category: overseas_software
+    country: South Korea
+    url: https://www.jobkorea.co.kr
+    adapter: manual
+
+  - id: mycareersfuture_sg
+    name: MyCareersFuture Singapore
+    category: overseas_software
+    country: Singapore
+    url: https://www.mycareersfuture.gov.sg
+    adapter: manual
+
+  - id: jobstreet_sg
+    name: JobStreet Singapore
+    category: overseas_software
+    country: Singapore
+    url: https://www.jobstreet.com.sg
+    adapter: manual
+
+  - id: kalibrr_ph
+    name: Kalibrr Philippines
+    category: overseas_software
+    country: Philippines
+    url: https://www.kalibrr.com
+    adapter: manual
+
+  - id: jobstreet_my
+    name: JobStreet Malaysia
+    category: overseas_software
+    country: Malaysia
+    url: https://www.jobstreet.com.my
+    adapter: manual
+
+  - id: jobstreet_id
+    name: JobStreet Indonesia
+    category: overseas_software
+    country: Indonesia
+    url: https://www.jobstreet.co.id
+    adapter: manual
+
+  - id: liepin_cn
+    name: Liepin China
+    category: overseas_software
+    country: China
+    url: https://www.liepin.com
+    adapter: manual
+
+  - id: zhaopin_cn
+    name: Zhaopin China
+    category: overseas_software
+    country: China
+    url: https://www.zhaopin.com
+    adapter: manual
+
+  - id: naukri_in
+    name: Naukri.com India
+    category: overseas_software
+    country: India
+    url: https://www.naukri.com
+    adapter: manual
+
+  - id: shine_in
+    name: Shine.com India
+    category: overseas_software
+    country: India
+    url: https://www.shine.com
+    adapter: manual
+
+  - id: timesjobs_in
+    name: TimesJobs India
+    category: overseas_software
+    country: India
+    url: https://www.timesjobs.com
+    adapter: manual
+
+  - id: foundit_in
+    name: Foundit (Monster India)
+    category: overseas_software
+    country: India
+    url: https://www.foundit.in
+    adapter: manual
+
+  # --- Middle East ---
+  - id: bayt
+    name: Bayt.com
+    category: overseas_software
+    country: UAE / Middle East
+    url: https://www.bayt.com
+    adapter: manual
+
+  - id: gulftalent
+    name: GulfTalent
+    category: overseas_software
+    country: UAE / Gulf
+    url: https://www.gulftalent.com
+    adapter: manual
+
+  - id: drushim_il
+    name: Drushim Israel
+    category: overseas_software
+    country: Israel
+    url: https://www.drushim.co.il
+    adapter: manual
+
+  - id: alljobs_il
+    name: AllJobs Israel
+    category: overseas_software
+    country: Israel
+    url: https://www.alljobs.co.il
+    adapter: manual
+
+  # --- Latin America ---
+  - id: catho_br
+    name: Catho Brazil
+    category: overseas_software
+    country: Brazil
+    url: https://www.catho.com.br
+    adapter: manual
+
+  - id: vagas_br
+    name: Vagas.com Brazil
+    category: overseas_software
+    country: Brazil
+    url: https://www.vagas.com.br
+    adapter: manual
+
+  - id: computrabajo_mx
+    name: Computrabajo Mexico
+    category: overseas_software
+    country: Mexico
+    url: https://www.computrabajo.com.mx
+    adapter: manual
+
+  - id: occ_mexico
+    name: OCC Mundial Mexico
+    category: overseas_software
+    country: Mexico
+    url: https://www.occ.com.mx
+    adapter: manual
+
+  - id: bumeran_ar
+    name: Bumeran Argentina
+    category: overseas_software
+    country: Argentina
+    url: https://www.bumeran.com.ar
+    adapter: manual
+
+  - id: zonajobs_ar
+    name: ZonaJobs Argentina
+    category: overseas_software
+    country: Argentina
+    url: https://www.zonajobs.com.ar
+    adapter: manual
+
+  - id: elempleo_co
+    name: Elempleo Colombia
+    category: overseas_software
+    country: Colombia
+    url: https://www.elempleo.com
+    adapter: manual
+
+  - id: getonboard_latam
+    name: GetOnBoard LATAM
+    category: overseas_software
+    country: Latin America
+    url: https://www.getonbrd.com
+    adapter: manual
+
+  - id: torre_latam
+    name: Torre.co LATAM
+    category: overseas_software
+    country: Latin America
+    url: https://torre.co
+    adapter: manual
+
+  # --- Africa ---
+  - id: careers24_za
+    name: Careers24 South Africa
+    category: overseas_software
+    country: South Africa
+    url: https://www.careers24.com
+    adapter: manual
+
+  - id: pnet_za
+    name: PNet South Africa
+    category: overseas_software
+    country: South Africa
+    url: https://www.pnet.co.za
+    adapter: manual
+
+  - id: jobberman_ng
+    name: Jobberman Nigeria
+    category: overseas_software
+    country: Nigeria
+    url: https://www.jobberman.com
+    adapter: manual
+
+  - id: brightermonday_ke
+    name: BrighterMonday Kenya
+    category: overseas_software
+    country: Kenya
+    url: https://www.brightermonday.co.ke
+    adapter: manual
+
+  - id: jobsgalore_za
+    name: Jobs.co.za
+    category: overseas_software
+    country: South Africa
+    url: https://www.jobs.co.za
+    adapter: manual
+
+  # --- Global / remote software APIs ---
+  - id: jobicy
+    name: Jobicy
+    category: overseas_software
+    country: Global
+    url: https://jobicy.com
+    adapter: json
+    feed_url: https://jobicy.com/api/v2/remote-jobs?count=200
+    enabled_by_default: true
+    json_mapping:
+      items_path: jobs
+      title: jobTitle
+      company: companyName
+      description: jobDescription
+      link: url
+      location: jobGeo
+      employment_type: jobType
+
+  - id: remoteintech
+    name: Remote In Tech
+    category: overseas_software
+    country: Global
+    url: https://remotintech.company
+    adapter: manual
+
+  - id: python_org_jobs
+    name: Python.org Jobs
+    category: overseas_software
+    country: Global
+    url: https://www.python.org/jobs
+    adapter: rss
+    feed_url: https://www.python.org/jobs/feed/rss/
+    enabled_by_default: true
+
+  - id: weworkremotely_dev
+    name: We Work Remotely (Programming)
+    category: overseas_software
+    country: Global
+    url: https://weworkremotely.com
+    adapter: rss
+    feed_url: https://weworkremotely.com/categories/remote-programming-jobs.rss
+
+  - id: authentic_jobs
+    name: Authentic Jobs
+    category: overseas_software
+    country: Global
+    url: https://authenticjobs.com
+    adapter: manual
+
+  - id: crunchboard
+    name: Crunchboard (TechCrunch)
+    category: overseas_software
+    country: Global
+    url: https://www.crunchboard.com
+    adapter: manual

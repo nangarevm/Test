@@ -19,10 +19,12 @@ from src.enrichment.company_enricher import CompanyEnricher
 from src.export.excel_export import (
     export_company_directory,
     export_jobs_tracker,
+    export_overseas_directory,
     load_company_directory,
     load_jobs_tracker,
     merge_jobs,
 )
+from src.aggregator.platforms_registry import load_platforms
 from src.outreach.tracker import OutreachManager
 
 console = Console()
@@ -40,8 +42,10 @@ def _run_fetch(ctx: click.Context, all_qa: bool = False) -> None:
 
     existing = load_jobs_tracker(jobs_file) if jobs_file.exists() else []
     merged = merge_jobs(existing, new_jobs)
-    export_jobs_tracker(merged, jobs_file)
+    daily_sheet = export_jobs_tracker(merged, jobs_file, daily_jobs=new_jobs)
+    export_overseas_directory(load_platforms(), jobs_file)
     console.print(f"[green]Saved {len(merged)} jobs to {jobs_file}[/green]")
+    console.print(f"  Daily sheet: {daily_sheet} ({len(new_jobs)} jobs found this run)")
 
 
 @click.group()
@@ -106,6 +110,7 @@ def platforms_cmd(ctx: click.Context, category: str | None, fetchable_only: bool
     table.add_column("Category")
     table.add_column("Adapter")
     table.add_column("Enabled")
+    table.add_column("Country", style="dim")
     table.add_column("URL")
 
     for cat, items in sorted(groups.items(), key=lambda x: category_label(x[0])):
@@ -118,6 +123,7 @@ def platforms_cmd(ctx: click.Context, category: str | None, fetchable_only: bool
                 category_label(p.category),
                 p.adapter + (" *" if p.requires_api_key else ""),
                 "yes" if p.id in enabled else "no",
+                getattr(p, "country", "") or "Global",
                 p.url,
             )
     console.print(table)

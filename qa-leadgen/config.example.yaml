@@ -77,6 +77,8 @@ output:
   directory: "./data"
   jobs_tracker: "job_requirements_tracker.xlsx"
   company_directory: "company_directory.xlsx"
+  # Excel tracker includes: All Jobs, Daily Summary, one sheet per day (YYYY-MM-DD),
+  # and Overseas Job Boards directory
 
 # Telegram delivery — sends Excel reports on a schedule
 telegram:

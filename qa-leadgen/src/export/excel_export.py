@@ -1,14 +1,18 @@
-"""Excel export for job requirements tracker and company directory."""
+"""Excel export with daily sheets and master tracker."""
 
 from __future__ import annotations
 
-from datetime import datetime
+from datetime import date, datetime
 from pathlib import Path
 
 import pandas as pd
 
 from src.models import CompanyContact, JobPosting, JobStatus
 
+MASTER_SHEET = "All Jobs"
+LEGACY_SHEET = "Job Requirements"
+DAILY_SUMMARY_SHEET = "Daily Summary"
+OVERSEAS_DIRECTORY_SHEET = "Overseas Job Boards"
 
 JOBS_COLUMNS = [
     "Company",
@@ -24,6 +28,14 @@ JOBS_COLUMNS = [
     "Status",
 ]
 
+DAILY_SUMMARY_COLUMNS = [
+    "Date",
+    "Jobs Found Today",
+    "Freelance/Contract",
+    "Top Sources",
+    "Total All-Time Jobs",
+]
+
 COMPANY_COLUMNS = [
     "Company",
     "Website",
@@ -32,16 +44,6 @@ COMPANY_COLUMNS = [
     "General Contact Email",
     "Location",
     "Enrichment Source",
-]
-
-OUTREACH_COLUMNS = [
-    "Job Key",
-    "To Email",
-    "Subject",
-    "Status",
-    "Sent At",
-    "Opened At",
-    "Replied At",
 ]
 
 
@@ -62,6 +64,15 @@ def _job_to_row(job: JobPosting) -> dict:
     }
 
 
+def _jobs_to_df(jobs: list[JobPosting]) -> pd.DataFrame:
+    rows = [_job_to_row(j) for j in jobs]
+    df = pd.DataFrame(rows)
+    display_cols = [c for c in JOBS_COLUMNS if c in df.columns or not rows]
+    if not df.empty:
+        return df[display_cols]
+    return pd.DataFrame(columns=JOBS_COLUMNS)
+
+
 def _row_to_job(row: dict) -> JobPosting:
     status_val = row.get("Status", "New")
     try:
@@ -71,11 +82,11 @@ def _row_to_job(row: dict) -> JobPosting:
 
     date_str = row.get("Date Found", "")
     try:
-        date_found = datetime.strptime(date_str, "%Y-%m-%d %H:%M")
+        date_found = datetime.strptime(str(date_str), "%Y-%m-%d %H:%M")
     except (ValueError, TypeError):
         date_found = datetime.utcnow()
 
-    job = JobPosting(
+    return JobPosting(
         company=row.get("Company", ""),
         role=row.get("Role", ""),
         jd_text=row.get("JD Summary", ""),
@@ -90,25 +101,109 @@ def _row_to_job(row: dict) -> JobPosting:
         status=status,
         dedup_key=row.get("_dedup_key", ""),
     )
-    return job
 
 
-def export_jobs_tracker(jobs: list[JobPosting], filepath: Path) -> None:
-    rows = [_job_to_row(j) for j in jobs]
-    df = pd.DataFrame(rows)
-    display_cols = [c for c in JOBS_COLUMNS if c in df.columns]
-    df[display_cols].to_excel(filepath, index=False, sheet_name="Job Requirements")
+def _sheet_name_for_day(day: date | None = None) -> str:
+    return (day or date.today()).strftime("%Y-%m-%d")
+
+
+def _read_existing_sheets(filepath: Path) -> dict[str, pd.DataFrame]:
+    if not filepath.exists():
+        return {}
+    try:
+        book = pd.read_excel(filepath, sheet_name=None)
+        return {str(name): df for name, df in book.items()}
+    except Exception:
+        return {}
+
+
+def _build_daily_summary_row(
+    day: date,
+    daily_jobs: list[JobPosting],
+    total_jobs: int,
+) -> dict:
+    freelance = sum(
+        1 for j in daily_jobs if j.employment_type in {"Freelance", "Contract", "Part-time"}
+    )
+    sources: dict[str, int] = {}
+    for job in daily_jobs:
+        sources[job.source] = sources.get(job.source, 0) + 1
+    top = ", ".join(f"{k} ({v})" for k, v in sorted(sources.items(), key=lambda x: -x[1])[:5])
+    return {
+        "Date": day.isoformat(),
+        "Jobs Found Today": len(daily_jobs),
+        "Freelance/Contract": freelance,
+        "Top Sources": top or "n/a",
+        "Total All-Time Jobs": total_jobs,
+    }
+
+
+def _update_daily_summary(existing: pd.DataFrame | None, row: dict) -> pd.DataFrame:
+    df = existing.copy() if existing is not None and not existing.empty else pd.DataFrame(columns=DAILY_SUMMARY_COLUMNS)
+    df = df[df["Date"].astype(str) != row["Date"]] if not df.empty and "Date" in df.columns else df
+    df = pd.concat([df, pd.DataFrame([row])], ignore_index=True)
+    return df.sort_values("Date", ascending=False).reset_index(drop=True)
+
+
+def export_jobs_tracker(
+    jobs: list[JobPosting],
+    filepath: Path,
+    *,
+    daily_jobs: list[JobPosting] | None = None,
+    export_day: date | None = None,
+) -> str:
+    """
+    Export master sheet + one sheet per day + daily summary.
+    Returns the daily sheet name written.
+    """
+    day = export_day or date.today()
+    daily_sheet = _sheet_name_for_day(day)
+    sheets = _read_existing_sheets(filepath)
+
+    master_df = _jobs_to_df(jobs)
+    sheets[MASTER_SHEET] = master_df
+
+    snapshot = daily_jobs if daily_jobs is not None else jobs
+    sheets[daily_sheet] = _jobs_to_df(snapshot)
+
+    summary_row = _build_daily_summary_row(day, snapshot, len(jobs))
+    sheets[DAILY_SUMMARY_SHEET] = _update_daily_summary(sheets.get(DAILY_SUMMARY_SHEET), summary_row)
+
+    # Drop legacy sheet name if migrating
+    sheets.pop(LEGACY_SHEET, None)
+
+    filepath.parent.mkdir(parents=True, exist_ok=True)
+    with pd.ExcelWriter(filepath, engine="openpyxl") as writer:
+        sheet_order = [MASTER_SHEET, DAILY_SUMMARY_SHEET]
+        for name, df in sheets.items():
+            if name not in sheet_order:
+                sheet_order.append(name)
+        for name in sheet_order:
+            if name in sheets:
+                sheets[name].to_excel(writer, sheet_name=name, index=False)
+
     _autosize_columns(filepath)
+    return daily_sheet
 
 
 def load_jobs_tracker(filepath: Path) -> list[JobPosting]:
     if not filepath.exists():
         return []
-    df = pd.read_excel(filepath, sheet_name="Job Requirements")
+    sheets = _read_existing_sheets(filepath)
+    for sheet_name in (MASTER_SHEET, LEGACY_SHEET):
+        if sheet_name in sheets:
+            df = sheets[sheet_name]
+            break
+    else:
+        return []
+
     jobs = []
     for _, row in df.iterrows():
         row_dict = row.to_dict()
-        row_dict["_dedup_key"] = f"{row_dict.get('Company', '').lower()}|{row_dict.get('Role', '').lower()}"
+        if not row_dict.get("_dedup_key"):
+            company = str(row_dict.get("Company", "")).lower()
+            role = str(row_dict.get("Role", "")).lower()
+            row_dict["_dedup_key"] = f"{company}|{role}"
         jobs.append(_row_to_job(row_dict))
     return jobs
 
@@ -128,6 +223,32 @@ def merge_jobs(existing: list[JobPosting], new_jobs: list[JobPosting]) -> list[J
     return list(by_key.values())
 
 
+def export_overseas_directory(platforms: list, filepath: Path) -> None:
+    """Write/update overseas job boards reference sheet in the tracker workbook."""
+    rows = [
+        {
+            "Country/Region": getattr(p, "country", "") or "Global",
+            "Platform": p.name,
+            "Category": p.category,
+            "URL": p.url,
+            "Auto-Fetch": "Yes" if p.is_fetchable else "Manual",
+            "Adapter": p.adapter,
+            "Notes": p.notes,
+        }
+        for p in platforms
+    ]
+    df = pd.DataFrame(rows)
+
+    sheets = _read_existing_sheets(filepath)
+    sheets[OVERSEAS_DIRECTORY_SHEET] = df
+
+    filepath.parent.mkdir(parents=True, exist_ok=True)
+    with pd.ExcelWriter(filepath, engine="openpyxl") as writer:
+        for name, sheet_df in sheets.items():
+            sheet_df.to_excel(writer, sheet_name=name, index=False)
+    _autosize_columns(filepath)
+
+
 def export_company_directory(companies: list[CompanyContact], filepath: Path) -> None:
     rows = [
         {
@@ -142,14 +263,23 @@ def export_company_directory(companies: list[CompanyContact], filepath: Path) ->
         for c in companies
     ]
     df = pd.DataFrame(rows, columns=COMPANY_COLUMNS)
-    df.to_excel(filepath, index=False, sheet_name="Company Directory")
+
+    sheets = _read_existing_sheets(filepath)
+    sheets["Company Directory"] = df
+
+    with pd.ExcelWriter(filepath, engine="openpyxl") as writer:
+        for name, sheet_df in sheets.items():
+            sheet_df.to_excel(writer, sheet_name=name, index=False)
     _autosize_columns(filepath)
 
 
 def load_company_directory(filepath: Path) -> list[CompanyContact]:
     if not filepath.exists():
         return []
-    df = pd.read_excel(filepath, sheet_name="Company Directory")
+    sheets = _read_existing_sheets(filepath)
+    if "Company Directory" not in sheets:
+        return []
+    df = sheets["Company Directory"]
     companies = []
     for _, row in df.iterrows():
         companies.append(

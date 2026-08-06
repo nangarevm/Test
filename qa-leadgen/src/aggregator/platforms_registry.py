@@ -9,6 +9,7 @@ from typing import Any
 import yaml
 
 PLATFORMS_FILE = Path(__file__).parent.parent.parent / "platforms" / "platforms.yaml"
+OVERSEAS_FILE = Path(__file__).parent.parent.parent / "platforms" / "overseas_software_jobs.yaml"
 
 
 @dataclass
@@ -17,6 +18,7 @@ class Platform:
     name: str
     category: str
     url: str
+    country: str = ""
     adapter: str = "manual"
     feed_url: str = ""
     builtin_key: str = ""
@@ -35,27 +37,39 @@ class Platform:
 
 
 def load_platforms(path: Path | None = None) -> list[Platform]:
-    file_path = path or PLATFORMS_FILE
-    with open(file_path, encoding="utf-8") as f:
-        raw = yaml.safe_load(f) or {}
+    if path:
+        files = [path]
+    else:
+        files = [PLATFORMS_FILE, OVERSEAS_FILE]
 
     platforms: list[Platform] = []
-    for item in raw.get("platforms", []):
-        platforms.append(
-            Platform(
-                id=item["id"],
-                name=item["name"],
-                category=item.get("category", "other"),
-                url=item.get("url", ""),
-                adapter=item.get("adapter", "manual"),
-                feed_url=item.get("feed_url", ""),
-                builtin_key=item.get("builtin_key", ""),
-                enabled_by_default=item.get("enabled_by_default", False),
-                notes=item.get("notes", ""),
-                json_mapping=item.get("json_mapping", {}),
-                requires_api_key=item.get("requires_api_key", False),
+    seen_ids: set[str] = set()
+    for file_path in files:
+        if not file_path.exists():
+            continue
+        with open(file_path, encoding="utf-8") as f:
+            raw = yaml.safe_load(f) or {}
+        for item in raw.get("platforms", []):
+            pid = item["id"]
+            if pid in seen_ids:
+                continue
+            seen_ids.add(pid)
+            platforms.append(
+                Platform(
+                    id=pid,
+                    name=item["name"],
+                    category=item.get("category", "other"),
+                    url=item.get("url", ""),
+                    country=item.get("country", ""),
+                    adapter=item.get("adapter", "manual"),
+                    feed_url=item.get("feed_url", ""),
+                    builtin_key=item.get("builtin_key", ""),
+                    enabled_by_default=item.get("enabled_by_default", False),
+                    notes=item.get("notes", ""),
+                    json_mapping=item.get("json_mapping", {}),
+                    requires_api_key=item.get("requires_api_key", False),
+                )
             )
-        )
     return platforms
 
 
@@ -145,6 +159,7 @@ def category_label(category: str) -> str:
         "tech_focused": "Tech-Focused",
         "startup_focused": "Startup-Focused",
         "region_specific": "Region-Specific",
+        "overseas_software": "Overseas Software Job Boards",
         "writing": "Writing",
         "design": "Design",
         "customer_support": "Customer Support / VA",
