@@ -32,9 +32,11 @@ def telegram_config():
 def test_is_configured(telegram_config):
     notifier = TelegramNotifier(telegram_config)
     assert notifier.is_configured is True
+    assert notifier.is_enabled() is True
 
     telegram_config["telegram"]["enabled"] = False
-    assert TelegramNotifier(telegram_config).is_configured is False
+    assert TelegramNotifier(telegram_config).is_configured is True
+    assert TelegramNotifier(telegram_config).is_enabled() is False
 
 
 @patch("src.notifications.telegram.requests.post")

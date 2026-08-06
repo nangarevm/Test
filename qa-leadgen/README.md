@@ -144,9 +144,21 @@ python main.py telegram send --fetch-first
 # Run continuously: fetch + send every 12 hours
 python main.py telegram run
 
-# Custom interval (e.g. every 6 hours)
-python main.py telegram run --interval 6
+# Interactive bot — control scanning from Telegram chat
+python main.py telegram bot
 ```
+
+**Telegram bot commands** (send these to your bot in chat):
+
+| Command | Action |
+|---------|--------|
+| `/start` | Start automatic scanning every 12h + Excel delivery |
+| `/stop` | Stop automatic scanning |
+| `/scan` | Run a one-time job scan now |
+| `/report` | Send current Excel files |
+| `/scanreport` | Scan now, then send Excel |
+| `/status` | Show scanning status and job counts |
+| `/help` | List all commands |
 
 **Cron alternative** (if you prefer system cron over a long-running process):
 ```cron

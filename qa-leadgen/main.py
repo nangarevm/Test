@@ -198,7 +198,7 @@ def run_all(ctx: click.Context) -> None:
 @cli.group()
 @click.pass_context
 def telegram(ctx: click.Context) -> None:
-    """Send Excel reports to Telegram on demand or every 12 hours."""
+    """Telegram reports, bot commands, and scheduled scanning."""
     pass
 
 
@@ -264,6 +264,35 @@ def telegram_run(ctx: click.Context, interval: float | None, no_immediate: bool,
 
     job = make_fetch_and_send_job(config, data_dir, fetch_job, send_job)
     run_scheduled_loop(job, interval_hours=hours, run_immediately=not no_immediate)
+
+
+@telegram.command("bot")
+@click.option("--all-qa", is_flag=True, help="Include full-time QA roles when scanning")
+@click.pass_context
+def telegram_bot(ctx: click.Context, all_qa: bool) -> None:
+    """Run interactive Telegram bot (start/stop scanning via chat commands)."""
+    from src.notifications.telegram import TelegramNotifier
+    from src.notifications.telegram_bot import TelegramBotController
+
+    config = ctx.obj["config"]
+    data_dir = ctx.obj["data_dir"]
+    notifier = TelegramNotifier(config)
+
+    if not notifier.is_configured:
+        console.print(
+            "[red]Telegram not configured.[/red]\n"
+            "Set bot_token and chat_id in config.yaml or .env"
+        )
+        raise SystemExit(1)
+
+    def fetch_job() -> None:
+        _run_fetch(ctx, all_qa=all_qa)
+
+    def send_job() -> bool:
+        return notifier.send_reports(config, data_dir)
+
+    controller = TelegramBotController(config, data_dir, fetch_job, send_job)
+    controller.run()
 
 
 if __name__ == "__main__":

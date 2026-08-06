@@ -33,19 +33,23 @@ class TelegramNotifier:
 
     @property
     def is_configured(self) -> bool:
-        return bool(self.enabled and self.bot_token and self.chat_id)
+        return bool(self.bot_token and self.chat_id)
+
+    def is_enabled(self) -> bool:
+        return bool(self.enabled and self.is_configured)
 
     def _api_url(self, method: str) -> str:
         return TELEGRAM_API_BASE.format(token=self.bot_token, method=method)
 
-    def send_message(self, text: str) -> bool:
-        if not self.is_configured:
-            console.print("[red]Telegram not configured. Set telegram.enabled, bot_token, and chat_id.[/red]")
+    def send_message(self, text: str, chat_id: str | None = None) -> bool:
+        target = chat_id or self.chat_id
+        if not self.bot_token or not target:
+            console.print("[red]Telegram not configured. Set bot_token and chat_id.[/red]")
             return False
         try:
             resp = requests.post(
                 self._api_url("sendMessage"),
-                json={"chat_id": self.chat_id, "text": text},
+                json={"chat_id": target, "text": text},
                 timeout=30,
             )
             resp.raise_for_status()
