@@ -1,0 +1,59 @@
+# Canonical QA / testing search terms used by the app and backend scripts.
+# Merged with any extra terms in config.yaml search.keywords
+
+titles_roles:
+  - qa engineer
+  - quality assurance
+  - quality assurance engineer
+  - qa analyst
+  - qa lead
+  - qa manager
+  - qa specialist
+  - qa consultant
+  - qa coordinator
+  - qa associate
+  - qa architect
+  - qc engineer
+  - qc analyst
+  - quality engineer
+  - quality analyst
+  - quality specialist
+  - sdet
+  - test engineer
+  - software test engineer
+  - software tester
+  - test analyst
+  - testing engineer
+  - test specialist
+  - test lead
+  - test manager
+
+automation:
+  - test automation
+  - test automation engineer
+  - automation engineer
+  - automation tester
+  - automation qa
+  - manual tester
+  - manual qa
+
+specialized_testing:
+  - performance tester
+  - security tester
+  - mobile qa
+  - game qa
+  - game tester
+  - uat
+  - user acceptance test
+
+tool_names:
+  - selenium
+  - playwright
+  - cypress
+  - appium
+
+# Extra terms used when querying job board APIs
+search_boosters:
+  - freelance qa
+  - contract qa
+  - remote qa

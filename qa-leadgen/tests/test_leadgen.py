@@ -19,6 +19,9 @@ def test_is_qa_related():
     assert is_qa_related("Senior QA Engineer", "manual testing")
     assert is_qa_related("SDET", "")
     assert is_qa_related("Software Tester", "automation experience required")
+    assert is_qa_related("QA Consultant", "")
+    assert is_qa_related("Playwright Engineer", "")
+    assert is_qa_related("Manual Tester", "remote contract")
     assert not is_qa_related("Senior Java Backend Developer", "Spring Boot microservices")
     assert not is_qa_related("Avi Go", "quality assurance math ops golang")
 

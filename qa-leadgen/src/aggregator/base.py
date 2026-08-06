@@ -16,18 +16,7 @@ EMAIL_PATTERN = re.compile(
     r"[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}"
 )
 
-QA_TITLE_PATTERN = re.compile(
-    r"\b(qa\b|q\.a\.|quality assurance|software test(?:er|ing)?|sdet|test engineer|"
-    r"automation engineer|quality engineer|qe\b|qa engineer|manual test(?:er|ing)?|"
-    r"automation test(?:er|ing)?|uat\b|quality analyst)\b",
-    re.IGNORECASE,
-)
-
-QA_DESCRIPTION_PATTERN = re.compile(
-    r"\b(qa\b|quality assurance|software test|sdet|test engineer|automation engineer|"
-    r"quality engineer|test automation|manual testing|qa team)\b",
-    re.IGNORECASE,
-)
+from src.search_keywords import get_search_keywords, is_qa_related as _is_qa_related
 
 FREELANCE_PATTERN = re.compile(
     r"\b(freelance|freelancer|contract(?:or)?|consulting|1099|gig work|project[\s-]based)\b",
@@ -69,12 +58,9 @@ def infer_seniority(title: str, description: str = "") -> str:
     return "Not specified"
 
 
-def is_qa_related(title: str, description: str = "") -> bool:
-    """Require a strong QA signal in the title, or QA terms in both title and description."""
-    if QA_TITLE_PATTERN.search(title):
-        return True
-    title_has_test_hint = bool(re.search(r"\b(test|quality|qa)\b", title, re.IGNORECASE))
-    return title_has_test_hint and bool(QA_DESCRIPTION_PATTERN.search(description))
+def is_qa_related(title: str, description: str = "", config: dict | None = None) -> bool:
+    """Match QA/testing roles using the shared keyword list."""
+    return _is_qa_related(title, description, config)
 
 
 def infer_employment_type(
@@ -160,7 +146,7 @@ class JobSource(ABC):
         api_job_type: str | None = None,
         date_found: datetime | None = None,
     ) -> JobPosting | None:
-        if not is_qa_related(role, jd_text):
+        if not is_qa_related(role, jd_text, self.config):
             return None
 
         resolved_employment = employment_type or infer_employment_type(

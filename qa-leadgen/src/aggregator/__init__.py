@@ -17,6 +17,7 @@ from src.aggregator.upwork import UpworkSource
 from src.aggregator.wellfound import WellfoundSource
 from src.aggregator.weworkremotely import WeWorkRemotelySource
 from src.models import JobPosting
+from src.search_keywords import get_search_keywords
 
 console = Console()
 
@@ -60,7 +61,7 @@ def _fetch_custom_careers(config: dict, keywords) -> list[JobPosting]:
 
 
 def aggregate_jobs(config: dict) -> list[JobPosting]:
-    keywords = config.get("search", {}).get("keywords", ["QA"])
+    keywords = get_search_keywords(config)
     enabled_platforms = resolve_enabled_platforms(config)
     all_jobs: list[JobPosting] = []
 

@@ -8,15 +8,14 @@ user:
   website: "https://yourportfolio.com"
 
 search:
+  # Full QA keyword list: config/qa_search_keywords.yaml (43+ terms)
+  use_default_keywords: true
   keywords:
     - "freelance qa"
     - "contract qa"
-    - "QA"
-    - "quality assurance"
-    - "software tester"
-    - "SDET"
-    - "test engineer"
-    - "automation engineer"
+  # Default list already includes: qa engineer, quality assurance, sdet,
+  # test automation engineer, manual tester, selenium, playwright, cypress,
+  # appium, mobile qa, game tester, uat, and all titles from your search list.
   # When true, only keep freelance/contract/part-time roles
   only_freelance: true
   employment_types:
