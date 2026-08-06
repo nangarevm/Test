@@ -1,0 +1,52 @@
+# Copy to config.yaml and fill in your values.
+
+user:
+  name: "Your Name"
+  email: "you@example.com"
+  phone: "+1-555-0100"
+  resume_path: "./resume.pdf"
+  website: "https://yourportfolio.com"
+
+search:
+  keywords:
+    - "QA"
+    - "quality assurance"
+    - "software tester"
+    - "SDET"
+    - "test engineer"
+    - "automation engineer"
+  locations:
+    - "remote"
+    - "United States"
+
+sources:
+  remoteok: true
+  weworkremotely: true
+  remotive: true
+  indeed: false          # requires INDEED_PUBLISHER_ID in .env
+  upwork: false          # requires Upwork OAuth credentials in .env
+  wellfound: false       # limited public access; enable if you have API access
+  linkedin_jobs: false   # public job search; use sparingly
+  custom_career_pages:
+    - "https://careers.example.com/jobs"
+
+email:
+  provider: "smtp"       # smtp | sendgrid | mailgun
+  daily_limit: 45
+  smtp_host: "smtp.gmail.com"
+  smtp_port: 587
+  smtp_user: ""
+  smtp_password: ""
+  sendgrid_api_key: ""   # or set SENDGRID_API_KEY in .env
+  mailgun_api_key: ""    # or set MAILGUN_API_KEY in .env
+  mailgun_domain: ""
+
+enrichment:
+  enabled: true
+  request_delay_seconds: 2
+  user_agent: "QA-LeadGen-Bot/1.0 (compliant business contact lookup)"
+
+output:
+  directory: "./data"
+  jobs_tracker: "job_requirements_tracker.xlsx"
+  company_directory: "company_directory.xlsx"

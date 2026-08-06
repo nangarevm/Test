@@ -1,0 +1,4 @@
+# QA Lead-Gen data outputs
+qa-leadgen/data/
+qa-leadgen/config.yaml
+qa-leadgen/.env

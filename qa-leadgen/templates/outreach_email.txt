@@ -1,0 +1,19 @@
+Subject: Experienced QA Engineer — Interest in {{role}} at {{company}}
+
+Hi {{company}} Team,
+
+I came across your {{role}} opening and was impressed by the focus on quality in your job description. With hands-on experience in manual and automated testing, API validation, and CI/CD integration, I believe I could contribute meaningfully to your QA efforts.
+
+A few highlights relevant to your posting:
+{{jd_highlights}}
+
+I'd welcome the chance to discuss how my background aligns with your team's needs. I've attached my resume for your review, and I'm happy to share work samples or complete a technical assessment at your convenience.
+
+Best regards,
+{{user_name}}
+{{user_email}}
+{{user_phone}}
+{{user_website}}
+
+---
+You are receiving this email because your company posted a public job listing. If you prefer not to receive future messages, reply with "unsubscribe" and I will remove you from my list immediately.
