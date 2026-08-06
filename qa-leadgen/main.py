@@ -73,7 +73,9 @@ def fetch(ctx: click.Context, all_qa: bool) -> None:
     if merged:
         console.print(f"  Employment breakdown: {freelance} freelance/contract/part-time, {len(merged) - freelance} other")
         for j in merged[:10]:
-            console.print(f"    [{j.employment_type}] {j.company} — {j.role} ({j.source})")
+            console.print(
+                f"    [{j.work_mode}] [{j.employment_type}] {j.company} — {j.role} ({j.source})"
+            )
         if len(merged) > 10:
             console.print(f"    ... and {len(merged) - 10} more")
 

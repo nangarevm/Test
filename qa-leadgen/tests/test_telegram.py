@@ -87,4 +87,5 @@ def test_build_summary(telegram_config, tmp_path):
     notifier = TelegramNotifier(telegram_config)
     summary = notifier.build_summary(jobs_file)
     assert "Jobs tracked: 1" in summary
+    assert "Remote: 1" in summary
     assert "Freelance/contract: 1" in summary

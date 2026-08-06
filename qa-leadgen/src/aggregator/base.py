@@ -42,6 +42,30 @@ SENIORITY_PATTERNS = [
     (re.compile(r"\b(manager|director|head of)\b", re.I), "Leadership"),
 ]
 
+HYBRID_PATTERN = re.compile(
+    r"\b(hybrid|part[\s-]?remote|flexible[\s-]?work(?:place| arrangement)?|"
+    r"\d+[\s-]?days?\s+(?:in[\s-]?)?office|office[\s-]?hybrid)\b",
+    re.IGNORECASE,
+)
+REMOTE_PATTERN = re.compile(
+    r"\b(remote|work[\s-]?from[\s-]?home|wfh|fully[\s-]?remote|telecommute|"
+    r"telecommuting|distributed(?:\s+team)?|work[\s-]?anywhere|100%[\s-]?remote|"
+    r"location[\s-]?independent)\b",
+    re.IGNORECASE,
+)
+OFFICE_PATTERN = re.compile(
+    r"\b(on[\s-]?site|onsite|in[\s-]?office|office[\s-]?based|in[\s-]?person)\b",
+    re.IGNORECASE,
+)
+REMOTE_LOCATION_HINTS = {
+    "remote",
+    "worldwide",
+    "anywhere",
+    "global",
+    "work from home",
+    "wfh",
+}
+
 
 def extract_email(text: str) -> str | None:
     if not text:
@@ -79,6 +103,31 @@ def infer_employment_type(
     if FULL_TIME_PATTERN.search(combined):
         return "Full-time"
     return "Not specified"
+
+
+def infer_work_mode(location: str = "", title: str = "", description: str = "") -> str:
+    """Classify a role as Remote, Hybrid, or Office from location and posting text."""
+    from src.models import WorkMode
+
+    combined = f"{location} {title} {description}"
+    location_lower = (location or "").strip().lower()
+
+    if HYBRID_PATTERN.search(combined):
+        return WorkMode.HYBRID.value
+    if OFFICE_PATTERN.search(combined):
+        return WorkMode.OFFICE.value
+    if REMOTE_PATTERN.search(combined):
+        return WorkMode.REMOTE.value
+
+    if location_lower in REMOTE_LOCATION_HINTS or location_lower.startswith("remote"):
+        return WorkMode.REMOTE.value
+    if "hybrid" in location_lower:
+        return WorkMode.HYBRID.value
+
+    if location_lower and location_lower not in {"not specified", "see posting", "n/a", "unknown"}:
+        return WorkMode.OFFICE.value
+
+    return WorkMode.NOT_SPECIFIED.value
 
 
 def is_freelance_or_contract(employment_type: str, title: str, description: str = "") -> bool:
@@ -143,6 +192,7 @@ class JobSource(ABC):
         contact_email: str | None = None,
         experience_level: str | None = None,
         employment_type: str | None = None,
+        work_mode: str | None = None,
         api_job_type: str | None = None,
         date_found: datetime | None = None,
     ) -> JobPosting | None:
@@ -155,13 +205,17 @@ class JobSource(ABC):
         if not matches_employment_filter(resolved_employment, role, jd_text, self.config):
             return None
 
+        resolved_location = location.strip() or "Remote"
+        resolved_work_mode = work_mode or infer_work_mode(resolved_location, role, jd_text)
+
         return JobPosting(
             company=company.strip(),
             role=role.strip(),
             jd_text=jd_text.strip(),
-            location=location.strip() or "Remote",
+            location=resolved_location,
             experience_level=experience_level or infer_seniority(role, jd_text),
             employment_type=resolved_employment,
+            work_mode=resolved_work_mode,
             source=source,
             contact_email=contact_email or extract_email(jd_text),
             posting_link=posting_link,

@@ -23,6 +23,13 @@ class EmailStatus(str, Enum):
     BOUNCED = "Bounced"
 
 
+class WorkMode(str, Enum):
+    REMOTE = "Remote"
+    HYBRID = "Hybrid"
+    OFFICE = "Office"
+    NOT_SPECIFIED = "Not specified"
+
+
 @dataclass
 class JobPosting:
     company: str
@@ -33,6 +40,7 @@ class JobPosting:
     source: str
     posting_link: str
     employment_type: str = "Not specified"
+    work_mode: str = WorkMode.NOT_SPECIFIED.value
     date_found: datetime = field(default_factory=datetime.utcnow)
     contact_email: Optional[str] = None
     status: JobStatus = JobStatus.NEW

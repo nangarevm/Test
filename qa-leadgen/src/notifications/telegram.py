@@ -10,6 +10,7 @@ import requests
 from rich.console import Console
 
 from src.export.excel_export import load_jobs_tracker
+from src.models import WorkMode
 
 console = Console()
 
@@ -27,6 +28,7 @@ class TelegramNotifier:
             "message_template",
             "QA Lead-Gen report ({timestamp})\n"
             "Jobs tracked: {job_count}\n"
+            "Remote: {remote_count} | Hybrid: {hybrid_count} | Office: {office_count}\n"
             "Freelance/contract: {freelance_count}\n"
             "New: {new_count} | Contacted: {contacted_count}",
         )
@@ -94,6 +96,9 @@ class TelegramNotifier:
         freelance = sum(
             1 for j in jobs if j.employment_type in {"Freelance", "Contract", "Part-time"}
         )
+        remote = sum(1 for j in jobs if j.work_mode == WorkMode.REMOTE.value)
+        hybrid = sum(1 for j in jobs if j.work_mode == WorkMode.HYBRID.value)
+        office = sum(1 for j in jobs if j.work_mode == WorkMode.OFFICE.value)
         status_counts: dict[str, int] = {}
         for job in jobs:
             status_counts[job.status.value] = status_counts.get(job.status.value, 0) + 1
@@ -101,6 +106,9 @@ class TelegramNotifier:
         return self.message_template.format(
             timestamp=datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"),
             job_count=len(jobs),
+            remote_count=remote,
+            hybrid_count=hybrid,
+            office_count=office,
             freelance_count=freelance,
             new_count=status_counts.get("New", 0),
             contacted_count=status_counts.get("Contacted", 0),

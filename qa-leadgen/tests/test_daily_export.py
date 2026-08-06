@@ -41,6 +41,7 @@ def test_daily_sheet_export(tmp_path):
             role="SDET",
             jd_text="automation",
             location="UK",
+            work_mode="Remote",
             experience_level="Senior",
             source="Test2",
             posting_link="http://example.com/2",
@@ -59,6 +60,8 @@ def test_daily_sheet_export(tmp_path):
     assert len(book[MASTER_SHEET]) == 1
     assert len(book["2026-08-06"]) == 1
     assert book[DAILY_SUMMARY_SHEET].iloc[0]["Jobs Found Today"] == 1
+    assert book[DAILY_SUMMARY_SHEET].iloc[0]["Remote"] == 1
+    assert "Work Mode" in book[MASTER_SHEET].columns
 
     loaded = load_jobs_tracker(filepath)
     assert len(loaded) == 1

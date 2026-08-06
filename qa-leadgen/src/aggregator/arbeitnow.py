@@ -6,7 +6,7 @@ from datetime import datetime
 from typing import Iterable
 
 from src.aggregator.base import JobSource
-from src.models import JobPosting
+from src.models import JobPosting, WorkMode
 
 
 class ArbeitnowSource(JobSource):
@@ -31,6 +31,7 @@ class ArbeitnowSource(JobSource):
                 continue
 
             location = "Remote" if item.get("remote") else (item.get("location", "") or "Not specified")
+            work_mode = WorkMode.REMOTE.value if item.get("remote") else None
             api_job_type = None
             if "contract" in title.lower():
                 api_job_type = "contract"
@@ -42,6 +43,7 @@ class ArbeitnowSource(JobSource):
                 role=title,
                 jd_text=description,
                 location=location,
+                work_mode=work_mode,
                 source=self.name,
                 posting_link=item.get("url", ""),
                 api_job_type=api_job_type,

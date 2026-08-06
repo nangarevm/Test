@@ -77,7 +77,7 @@ output:
   jobs_tracker: "job_requirements_tracker.xlsx"
   company_directory: "company_directory.xlsx"
   # Excel tracker includes: All Jobs, Daily Summary, one sheet per day (YYYY-MM-DD),
-  # and Overseas Job Boards directory
+  # Overseas Job Boards directory, and Work Mode column (Remote/Hybrid/Office)
 
 # Telegram delivery — sends Excel reports on a schedule
 telegram:
@@ -89,6 +89,7 @@ telegram:
   message_template: |
     QA Lead-Gen report ({timestamp})
     Jobs tracked: {job_count}
+    Remote: {remote_count} | Hybrid: {hybrid_count} | Office: {office_count}
     Freelance/contract: {freelance_count}
     New: {new_count} | Contacted: {contacted_count} | Responded: {responded_count}
 

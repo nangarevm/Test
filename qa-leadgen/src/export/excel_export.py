@@ -7,7 +7,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from src.models import CompanyContact, JobPosting, JobStatus
+from src.models import CompanyContact, JobPosting, JobStatus, WorkMode
 
 MASTER_SHEET = "All Jobs"
 LEGACY_SHEET = "Job Requirements"
@@ -19,6 +19,7 @@ JOBS_COLUMNS = [
     "Role",
     "JD Summary",
     "Location",
+    "Work Mode",
     "Experience Level",
     "Employment Type",
     "Source",
@@ -31,6 +32,9 @@ JOBS_COLUMNS = [
 DAILY_SUMMARY_COLUMNS = [
     "Date",
     "Jobs Found Today",
+    "Remote",
+    "Hybrid",
+    "Office",
     "Freelance/Contract",
     "Top Sources",
     "Total All-Time Jobs",
@@ -53,6 +57,7 @@ def _job_to_row(job: JobPosting) -> dict:
         "Role": job.role,
         "JD Summary": job.jd_summary,
         "Location": job.location,
+        "Work Mode": job.work_mode,
         "Experience Level": job.experience_level,
         "Employment Type": job.employment_type,
         "Source": job.source,
@@ -86,12 +91,23 @@ def _row_to_job(row: dict) -> JobPosting:
     except (ValueError, TypeError):
         date_found = datetime.utcnow()
 
+    work_mode = row.get("Work Mode") or WorkMode.NOT_SPECIFIED.value
+    if work_mode == WorkMode.NOT_SPECIFIED.value:
+        from src.aggregator.base import infer_work_mode
+
+        work_mode = infer_work_mode(
+            row.get("Location", ""),
+            row.get("Role", ""),
+            row.get("JD Summary", ""),
+        )
+
     return JobPosting(
         company=row.get("Company", ""),
         role=row.get("Role", ""),
         jd_text=row.get("JD Summary", ""),
         jd_summary=row.get("JD Summary", ""),
         location=row.get("Location", ""),
+        work_mode=work_mode,
         experience_level=row.get("Experience Level", ""),
         employment_type=row.get("Employment Type", "Not specified") or "Not specified",
         source=row.get("Source", ""),
@@ -152,6 +168,9 @@ def _build_daily_summary_row(
     freelance = sum(
         1 for j in daily_jobs if j.employment_type in {"Freelance", "Contract", "Part-time"}
     )
+    remote = sum(1 for j in daily_jobs if j.work_mode == WorkMode.REMOTE.value)
+    hybrid = sum(1 for j in daily_jobs if j.work_mode == WorkMode.HYBRID.value)
+    office = sum(1 for j in daily_jobs if j.work_mode == WorkMode.OFFICE.value)
     sources: dict[str, int] = {}
     for job in daily_jobs:
         sources[job.source] = sources.get(job.source, 0) + 1
@@ -159,6 +178,9 @@ def _build_daily_summary_row(
     return {
         "Date": day.isoformat(),
         "Jobs Found Today": len(daily_jobs),
+        "Remote": remote,
+        "Hybrid": hybrid,
+        "Office": office,
         "Freelance/Contract": freelance,
         "Top Sources": top or "n/a",
         "Total All-Time Jobs": total_jobs,
@@ -242,6 +264,11 @@ def merge_jobs(existing: list[JobPosting], new_jobs: list[JobPosting]) -> list[J
             if len(job.jd_text) > len(existing_job.jd_text):
                 existing_job.jd_text = job.jd_text
                 existing_job.jd_summary = job.jd_summary
+            if (
+                existing_job.work_mode == WorkMode.NOT_SPECIFIED.value
+                and job.work_mode != WorkMode.NOT_SPECIFIED.value
+            ):
+                existing_job.work_mode = job.work_mode
         else:
             by_key[job.dedup_key] = job
     return list(by_key.values())
