@@ -17,6 +17,7 @@ from src.aggregator.upwork import UpworkSource
 from src.aggregator.wellfound import WellfoundSource
 from src.aggregator.weworkremotely import WeWorkRemotelySource
 from src.models import JobPosting
+from src.regions import filter_jobs_by_regions, platform_regions
 from src.search_keywords import get_search_keywords
 
 console = Console()
@@ -62,7 +63,16 @@ def _fetch_custom_careers(config: dict, keywords) -> list[JobPosting]:
 
 def aggregate_jobs(config: dict) -> list[JobPosting]:
     keywords = get_search_keywords(config)
+    search = config.get("search", {})
+    target_regions = search.get("regions", [])
     enabled_platforms = resolve_enabled_platforms(config)
+
+    if target_regions:
+        enabled_platforms = [
+            p for p in enabled_platforms
+            if any(region in platform_regions(p.country) for region in target_regions)
+        ]
+
     all_jobs: list[JobPosting] = []
 
     for platform in enabled_platforms:
@@ -80,6 +90,7 @@ def aggregate_jobs(config: dict) -> list[JobPosting]:
     all_jobs.extend(_fetch_custom_careers(config, keywords))
 
     deduped = deduplicate_jobs(all_jobs)
+    deduped = filter_jobs_by_regions(deduped, target_regions)
 
     freelance_count = sum(
         1 for j in deduped if j.employment_type in {"Freelance", "Contract", "Part-time"}
@@ -90,6 +101,11 @@ def aggregate_jobs(config: dict) -> list[JobPosting]:
             f"  Freelance/contract/part-time: {freelance_count} | "
             f"Other: {len(deduped) - freelance_count}"
         )
+        if target_regions:
+            from src.regions import REGION_LABELS
+
+            labels = [REGION_LABELS[r] for r in target_regions if r in REGION_LABELS]
+            console.print(f"  Regions: {', '.join(labels)}")
     elif config.get("search", {}).get("only_freelance"):
         console.print(
             "[yellow]No freelance/contract QA postings found. "

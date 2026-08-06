@@ -25,6 +25,12 @@ search:
   locations:
     - "remote"
     - "United States"
+  # Target job markets: usa, europe, australia, uae (empty = all regions)
+  regions:
+    - usa
+    - europe
+    - australia
+    - uae
 
 sources:
   # Legacy toggles (maps to platform registry entries)

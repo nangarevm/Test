@@ -41,6 +41,7 @@ class JobPosting:
     posting_link: str
     employment_type: str = "Not specified"
     work_mode: str = WorkMode.NOT_SPECIFIED.value
+    job_region: str = ""
     date_found: datetime = field(default_factory=datetime.utcnow)
     contact_email: Optional[str] = None
     status: JobStatus = JobStatus.NEW
@@ -52,6 +53,10 @@ class JobPosting:
             self.jd_summary = self._summarize(self.jd_text)
         if not self.dedup_key:
             self.dedup_key = f"{self.company.lower().strip()}|{self.role.lower().strip()}"
+        if not self.job_region:
+            from src.regions import infer_job_region
+
+            self.job_region = infer_job_region(self.location, self.jd_text, self.role)
 
     @staticmethod
     def _summarize(text: str, max_len: int = 300) -> str:

@@ -26,6 +26,41 @@ platforms:
     url: https://builtin.com/jobs
     adapter: manual
 
+  - id: glassdoor_us
+    name: Glassdoor USA
+    category: overseas_software
+    country: United States
+    url: https://www.glassdoor.com/Job
+    adapter: manual
+
+  - id: ziprecruiter_us
+    name: ZipRecruiter USA
+    category: overseas_software
+    country: United States
+    url: https://www.ziprecruiter.com
+    adapter: manual
+
+  - id: careerbuilder_us
+    name: CareerBuilder USA
+    category: overseas_software
+    country: United States
+    url: https://www.careerbuilder.com
+    adapter: manual
+
+  - id: adzuna_us
+    name: Adzuna USA
+    category: overseas_software
+    country: United States
+    url: https://www.adzuna.com
+    adapter: manual
+
+  - id: usajobs
+    name: USAJobs.gov
+    category: overseas_software
+    country: United States
+    url: https://www.usajobs.gov
+    adapter: manual
+
   - id: jobbank_canada
     name: Job Bank Canada
     category: overseas_software
@@ -74,6 +109,27 @@ platforms:
     category: overseas_software
     country: Ireland
     url: https://www.irishjobs.ie
+    adapter: manual
+
+  - id: eurojobs
+    name: EuroJobs
+    category: overseas_software
+    country: Germany
+    url: https://www.eurojobs.com
+    adapter: manual
+
+  - id: jooble_eu
+    name: Jooble Europe
+    category: overseas_software
+    country: Germany
+    url: https://jooble.org
+    adapter: manual
+
+  - id: monster_de
+    name: Monster Germany
+    category: overseas_software
+    country: Germany
+    url: https://www.monster.de
     adapter: manual
 
   # --- Western Europe ---
@@ -198,6 +254,27 @@ platforms:
     url: https://www.trademe.co.nz/jobs
     adapter: manual
 
+  - id: adzuna_au
+    name: Adzuna Australia
+    category: overseas_software
+    country: Australia
+    url: https://www.adzuna.com.au
+    adapter: manual
+
+  - id: careerone_au
+    name: CareerOne Australia
+    category: overseas_software
+    country: Australia
+    url: https://www.careerone.com.au
+    adapter: manual
+
+  - id: indeed_au
+    name: Indeed Australia
+    category: overseas_software
+    country: Australia
+    url: https://au.indeed.com
+    adapter: manual
+
   - id: daijob_jp
     name: Daijob Japan
     category: overseas_software
@@ -309,6 +386,27 @@ platforms:
     category: overseas_software
     country: United Arab Emirates
     url: https://www.gulftalent.com
+    adapter: manual
+
+  - id: naukrigulf
+    name: Naukrigulf
+    category: overseas_software
+    country: United Arab Emirates
+    url: https://www.naukrigulf.com
+    adapter: manual
+
+  - id: dubizzle_jobs
+    name: Dubizzle Jobs UAE
+    category: overseas_software
+    country: United Arab Emirates
+    url: https://www.dubizzle.com/jobs
+    adapter: manual
+
+  - id: tanqeeb_uae
+    name: Tanqeeb UAE
+    category: overseas_software
+    country: United Arab Emirates
+    url: https://uae.tanqeeb.com
     adapter: manual
 
   - id: drushim_il

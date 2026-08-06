@@ -19,6 +19,7 @@ JOBS_COLUMNS = [
     "Role",
     "JD Summary",
     "Location",
+    "Job Region",
     "Work Mode",
     "Experience Level",
     "Employment Type",
@@ -32,6 +33,10 @@ JOBS_COLUMNS = [
 DAILY_SUMMARY_COLUMNS = [
     "Date",
     "Jobs Found Today",
+    "USA",
+    "Europe",
+    "Australia",
+    "UAE",
     "Remote",
     "Hybrid",
     "Office",
@@ -57,6 +62,7 @@ def _job_to_row(job: JobPosting) -> dict:
         "Role": job.role,
         "JD Summary": job.jd_summary,
         "Location": job.location,
+        "Job Region": job.job_region,
         "Work Mode": job.work_mode,
         "Experience Level": job.experience_level,
         "Employment Type": job.employment_type,
@@ -101,12 +107,23 @@ def _row_to_job(row: dict) -> JobPosting:
             row.get("JD Summary", ""),
         )
 
+    job_region = row.get("Job Region") or ""
+    if not job_region:
+        from src.regions import infer_job_region
+
+        job_region = infer_job_region(
+            row.get("Location", ""),
+            row.get("JD Summary", ""),
+            row.get("Role", ""),
+        )
+
     return JobPosting(
         company=row.get("Company", ""),
         role=row.get("Role", ""),
         jd_text=row.get("JD Summary", ""),
         jd_summary=row.get("JD Summary", ""),
         location=row.get("Location", ""),
+        job_region=row.get("Job Region") or "",
         work_mode=work_mode,
         experience_level=row.get("Experience Level", ""),
         employment_type=row.get("Employment Type", "Not specified") or "Not specified",
@@ -171,6 +188,10 @@ def _build_daily_summary_row(
     remote = sum(1 for j in daily_jobs if j.work_mode == WorkMode.REMOTE.value)
     hybrid = sum(1 for j in daily_jobs if j.work_mode == WorkMode.HYBRID.value)
     office = sum(1 for j in daily_jobs if j.work_mode == WorkMode.OFFICE.value)
+    usa = sum(1 for j in daily_jobs if j.job_region == "USA")
+    europe = sum(1 for j in daily_jobs if j.job_region == "Europe")
+    australia = sum(1 for j in daily_jobs if j.job_region == "Australia")
+    uae = sum(1 for j in daily_jobs if j.job_region == "UAE")
     sources: dict[str, int] = {}
     for job in daily_jobs:
         sources[job.source] = sources.get(job.source, 0) + 1
@@ -178,6 +199,10 @@ def _build_daily_summary_row(
     return {
         "Date": day.isoformat(),
         "Jobs Found Today": len(daily_jobs),
+        "USA": usa,
+        "Europe": europe,
+        "Australia": australia,
+        "UAE": uae,
         "Remote": remote,
         "Hybrid": hybrid,
         "Office": office,

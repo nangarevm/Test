@@ -83,6 +83,13 @@ def fetch(ctx: click.Context, all_qa: bool) -> None:
 @cli.command("platforms")
 @click.option("--category", "-g", default=None, help="Filter by category (e.g. general_remote)")
 @click.option("--country", "-C", default=None, help="Filter by country/region (e.g. India)")
+@click.option(
+    "--region",
+    "-R",
+    default=None,
+    type=click.Choice(["usa", "europe", "australia", "uae"]),
+    help="Filter by target market region",
+)
 @click.option("--fetchable-only", is_flag=True, help="Show only platforms with automated feeds")
 @click.option("--summary", is_flag=True, help="Show country coverage summary only")
 @click.pass_context
@@ -90,6 +97,7 @@ def platforms_cmd(
     ctx: click.Context,
     category: str | None,
     country: str | None,
+    region: str | None,
     fetchable_only: bool,
     summary: bool,
 ) -> None:
@@ -103,6 +111,7 @@ def platforms_cmd(
         load_platforms,
         resolve_enabled_platforms,
     )
+    from src.regions import REGION_LABELS, platform_regions, region_portal_summary
 
     config = ctx.obj["config"]
     all_platforms = load_platforms()
@@ -116,6 +125,15 @@ def platforms_cmd(
         for country_name, count in coverage["by_country"].items():
             table.add_row(country_name, str(count))
         console.print(table)
+
+        region_table = Table(title="USA / Europe / Australia / UAE Coverage")
+        region_table.add_column("Region")
+        region_table.add_column("Portals", justify="right")
+        region_table.add_column("Auto-fetch", justify="right")
+        for label, stats in region_portal_summary(all_platforms).items():
+            region_table.add_row(label, str(stats["total"]), str(stats["fetchable"]))
+        console.print(region_table)
+
         console.print(
             f"\nTotal portals: {coverage['total_portals']} "
             f"({coverage['fetchable_portals']} auto-fetch, {coverage['manual_portals']} manual) | "
@@ -127,6 +145,11 @@ def platforms_cmd(
     filtered = all_platforms
     if category:
         filtered = [p for p in filtered if p.category == category]
+    if region:
+        filtered = [
+            p for p in filtered
+            if region in platform_regions(p.country or "Global")
+        ]
     if country:
         needle = country.lower()
         filtered = [
