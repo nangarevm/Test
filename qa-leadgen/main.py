@@ -82,14 +82,23 @@ def fetch(ctx: click.Context, all_qa: bool) -> None:
 
 @cli.command("platforms")
 @click.option("--category", "-g", default=None, help="Filter by category (e.g. general_remote)")
+@click.option("--country", "-C", default=None, help="Filter by country/region (e.g. India)")
 @click.option("--fetchable-only", is_flag=True, help="Show only platforms with automated feeds")
+@click.option("--summary", is_flag=True, help="Show country coverage summary only")
 @click.pass_context
-def platforms_cmd(ctx: click.Context, category: str | None, fetchable_only: bool) -> None:
-    """List all 100 registered remote job platforms."""
+def platforms_cmd(
+    ctx: click.Context,
+    category: str | None,
+    country: str | None,
+    fetchable_only: bool,
+    summary: bool,
+) -> None:
+    """List registered job platforms and country coverage."""
     from rich.table import Table
 
     from src.aggregator.platforms_registry import (
         category_label,
+        country_coverage_summary,
         group_platforms,
         load_platforms,
         resolve_enabled_platforms,
@@ -98,12 +107,36 @@ def platforms_cmd(ctx: click.Context, category: str | None, fetchable_only: bool
     config = ctx.obj["config"]
     all_platforms = load_platforms()
     enabled = {p.id for p in resolve_enabled_platforms(config)}
+    coverage = country_coverage_summary(all_platforms)
+
+    if summary:
+        table = Table(title="Job Portal Country Coverage")
+        table.add_column("Country/Region")
+        table.add_column("Portals", justify="right")
+        for country_name, count in coverage["by_country"].items():
+            table.add_row(country_name, str(count))
+        console.print(table)
+        console.print(
+            f"\nTotal portals: {coverage['total_portals']} "
+            f"({coverage['fetchable_portals']} auto-fetch, {coverage['manual_portals']} manual) | "
+            f"Global boards: {coverage['global_portals']} | "
+            f"Countries/regions: {coverage['countries_regions']}"
+        )
+        return
+
+    filtered = all_platforms
+    if category:
+        filtered = [p for p in filtered if p.category == category]
+    if country:
+        needle = country.lower()
+        filtered = [
+            p for p in filtered
+            if needle in (p.country or "Global").lower() or needle == "global" and not p.country
+        ]
 
     if category:
-        filtered = [p for p in all_platforms if p.category == category]
         groups = {category: filtered}
     else:
-        filtered = all_platforms
         groups = group_platforms(filtered)
 
     table = Table(title=f"Job Platforms ({len(all_platforms)} registered)")
@@ -125,14 +158,18 @@ def platforms_cmd(ctx: click.Context, category: str | None, fetchable_only: bool
                 category_label(p.category),
                 p.adapter + (" *" if p.requires_api_key else ""),
                 "yes" if p.id in enabled else "no",
-                getattr(p, "country", "") or "Global",
+                p.country or "Global",
                 p.url,
             )
     console.print(table)
-    fetchable = sum(1 for p in all_platforms if p.is_fetchable)
     console.print(
-        f"\n{fetchable} platforms have automated adapters; "
+        f"\n{coverage['fetchable_portals']} platforms have automated adapters; "
         f"{len(enabled)} enabled in current config."
+    )
+    console.print(
+        f"Coverage: {coverage['total_portals']} portals across "
+        f"{coverage['countries_regions']} countries/regions + "
+        f"{coverage['global_portals']} global boards."
     )
 
 

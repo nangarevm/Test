@@ -39,7 +39,7 @@ sources:
   custom_career_pages:
     - "https://careers.example.com/jobs"
 
-# Platform registry (100 remote/overseas job boards — see platforms/platforms.yaml)
+# Platform registry (192 job boards across 57+ countries — see platforms/*.yaml)
 platform_registry:
   # Enable all platforms with a working public feed/API adapter
   auto_enable_feeds: true

@@ -19,13 +19,26 @@ from src.aggregator.platforms_registry import (
 
 def test_load_all_platforms():
     platforms = load_platforms()
-    assert len(platforms) >= 150
+    assert len(platforms) >= 190
     ids = {p.id for p in platforms}
     assert len(ids) == len(platforms)
     assert "weworkremotely" in ids
     assert "jobicy" in ids
     assert "seek_au" in ids
     assert "bayt" in ids
+    assert "vietnamworks" in ids
+    assert "kariyer_tr" in ids
+
+
+def test_country_coverage_summary():
+    from src.aggregator.platforms_registry import country_coverage_summary
+
+    summary = country_coverage_summary()
+    assert summary["total_portals"] >= 190
+    assert summary["countries_regions"] >= 55
+    assert summary["global_portals"] >= 100
+    assert summary["by_country"]["India"] >= 4
+    assert summary["by_country"]["United Kingdom"] >= 4
 
 
 def test_platform_categories():

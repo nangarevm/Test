@@ -152,6 +152,39 @@ def group_platforms(platforms: list[Platform]) -> dict[str, list[Platform]]:
     return grouped
 
 
+def group_platforms_by_country(platforms: list[Platform]) -> dict[str, list[Platform]]:
+    grouped: dict[str, list[Platform]] = {}
+    for p in platforms:
+        country = (p.country or "Global").strip() or "Global"
+        grouped.setdefault(country, []).append(p)
+    return grouped
+
+
+def country_coverage_summary(platforms: list[Platform] | None = None) -> dict[str, Any]:
+    """Return portal totals and per-country counts for reporting."""
+    items = platforms or load_platforms()
+    by_country = group_platforms_by_country(items)
+    country_specific = {
+        country: entries
+        for country, entries in by_country.items()
+        if country != "Global"
+    }
+    return {
+        "total_portals": len(items),
+        "fetchable_portals": sum(1 for p in items if p.is_fetchable),
+        "manual_portals": sum(1 for p in items if not p.is_fetchable),
+        "global_portals": len(by_country.get("Global", [])),
+        "countries_regions": len(country_specific),
+        "by_country": {
+            country: len(entries)
+            for country, entries in sorted(
+                country_specific.items(),
+                key=lambda item: (-len(item[1]), item[0]),
+            )
+        },
+    }
+
+
 def category_label(category: str) -> str:
     labels = {
         "general_remote": "General Remote Job Boards",

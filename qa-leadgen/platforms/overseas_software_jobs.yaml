@@ -300,14 +300,14 @@ platforms:
   - id: bayt
     name: Bayt.com
     category: overseas_software
-    country: UAE / Middle East
+    country: United Arab Emirates
     url: https://www.bayt.com
     adapter: manual
 
   - id: gulftalent
     name: GulfTalent
     category: overseas_software
-    country: UAE / Gulf
+    country: United Arab Emirates
     url: https://www.gulftalent.com
     adapter: manual
 
@@ -479,4 +479,194 @@ platforms:
     category: overseas_software
     country: Global
     url: https://www.crunchboard.com
+    adapter: manual
+
+  # --- Additional country coverage (Belgium → Uruguay) ---
+  - id: stepstone_be
+    name: StepStone Belgium
+    category: overseas_software
+    country: Belgium
+    url: https://www.stepstone.be
+    adapter: manual
+
+  - id: jobat_be
+    name: Jobat Belgium
+    category: overseas_software
+    country: Belgium
+    url: https://www.jobat.be
+    adapter: manual
+
+  - id: karriere_at
+    name: Karriere.at Austria
+    category: overseas_software
+    country: Austria
+    url: https://www.karriere.at
+    adapter: manual
+
+  - id: finn_no
+    name: FINN Jobs Norway
+    category: overseas_software
+    country: Norway
+    url: https://www.finn.no/job
+    adapter: manual
+
+  - id: jobindex_dk
+    name: Jobindex Denmark
+    category: overseas_software
+    country: Denmark
+    url: https://www.jobindex.dk
+    adapter: manual
+
+  - id: duunitori_fi
+    name: Duunitori Finland
+    category: overseas_software
+    country: Finland
+    url: https://duunitori.fi
+    adapter: manual
+
+  - id: profession_hu
+    name: Profession.hu Hungary
+    category: overseas_software
+    country: Hungary
+    url: https://www.profession.hu
+    adapter: manual
+
+  - id: ejobs_ro
+    name: eJobs Romania
+    category: overseas_software
+    country: Romania
+    url: https://www.ejobs.ro
+    adapter: manual
+
+  - id: profesia_sk
+    name: Profesia Slovakia
+    category: overseas_software
+    country: Slovakia
+    url: https://www.profesia.sk
+    adapter: manual
+
+  - id: mojposao_hr
+    name: MojPosao Croatia
+    category: overseas_software
+    country: Croatia
+    url: https://www.mojposao.hr
+    adapter: manual
+
+  - id: kariera_gr
+    name: Kariera Greece
+    category: overseas_software
+    country: Greece
+    url: https://www.kariera.gr
+    adapter: manual
+
+  - id: kariyer_tr
+    name: Kariyer.net Turkey
+    category: overseas_software
+    country: Turkey
+    url: https://www.kariyer.net
+    adapter: manual
+
+  - id: jobsdb_th
+    name: JobsDB Thailand
+    category: overseas_software
+    country: Thailand
+    url: https://th.jobsdb.com
+    adapter: manual
+
+  - id: vietnamworks
+    name: VietnamWorks
+    category: overseas_software
+    country: Vietnam
+    url: https://www.vietnamworks.com
+    adapter: manual
+
+  - id: job104_tw
+    name: 104 Job Bank Taiwan
+    category: overseas_software
+    country: Taiwan
+    url: https://www.104.com.tw
+    adapter: manual
+
+  - id: jobsdb_hk
+    name: JobsDB Hong Kong
+    category: overseas_software
+    country: Hong Kong
+    url: https://hk.jobsdb.com
+    adapter: manual
+
+  - id: rozee_pk
+    name: Rozee.pk Pakistan
+    category: overseas_software
+    country: Pakistan
+    url: https://www.rozee.pk
+    adapter: manual
+
+  - id: bdjobs_bd
+    name: Bdjobs Bangladesh
+    category: overseas_software
+    country: Bangladesh
+    url: https://www.bdjobs.com
+    adapter: manual
+
+  - id: wuzzuf_eg
+    name: Wuzzuf Egypt
+    category: overseas_software
+    country: Egypt
+    url: https://wuzzuf.net
+    adapter: manual
+
+  - id: tonaton_gh
+    name: Tonaton Ghana Jobs
+    category: overseas_software
+    country: Ghana
+    url: https://tonaton.com/jobs
+    adapter: manual
+
+  - id: rekrute_ma
+    name: Rekrute Morocco
+    category: overseas_software
+    country: Morocco
+    url: https://www.rekrute.com
+    adapter: manual
+
+  - id: mihnati_sa
+    name: Mihnati Saudi Arabia
+    category: overseas_software
+    country: Saudi Arabia
+    url: https://www.mihnati.com
+    adapter: manual
+
+  - id: laborum_cl
+    name: Laborum Chile
+    category: overseas_software
+    country: Chile
+    url: https://www.laborum.cl
+    adapter: manual
+
+  - id: computrabajo_pe
+    name: Computrabajo Peru
+    category: overseas_software
+    country: Peru
+    url: https://www.computrabajo.com.pe
+    adapter: manual
+
+  - id: buscojobs_uy
+    name: Buscojobs Uruguay
+    category: overseas_software
+    country: Uruguay
+    url: https://www.buscojobs.com.uy
+    adapter: manual
+
+  - id: moovijob_lu
+    name: Moovijob Luxembourg
+    category: overseas_software
+    country: Luxembourg
+    url: https://www.moovijob.com
+    adapter: manual
+
+  - id: work_ua
+    name: Work.ua Ukraine
+    category: overseas_software
+    country: Ukraine
+    url: https://www.work.ua
     adapter: manual
