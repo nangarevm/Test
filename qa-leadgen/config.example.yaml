@@ -44,14 +44,17 @@ sources:
   linkedin_jobs: false
   custom_career_pages: []
 
-# 500 remote QA employers paying USD globally (config/remote_qa_companies.yaml)
+# 2000 remote QA employers across 3 catalogs (see config/remote_qa_companies*.yaml)
 company_sources:
   enabled: true
+  include_usd: true
+  include_overseas: true
+  include_india: true
   remote_only: true
-  pays_usd_only: true
-  max_ats_fetch_per_run: 75   # Greenhouse/Lever/Recruitee boards per scan
-  fetch_website_pages: false    # set true to scrape non-ATS career pages (slower)
-  regions: []                   # empty = all; or usa, europe, australia, uae
+  pays_usd_only: false          # set true to scan only USD-paying employers
+  max_ats_fetch_per_run: 75     # Greenhouse/Lever/Recruitee boards per scan
+  fetch_website_pages: false
+  regions: []
 
 # Platform registry (192 job boards across 57+ countries — see platforms/*.yaml)
 platform_registry:

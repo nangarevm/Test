@@ -1,0 +1,500 @@
+10Clouds
+15Five
+1Password
+2U
+6sense
+ADP
+Accenture
+Adobe
+Adyen
+Affirm
+AgileEngine
+Airbnb
+Airbyte
+Aircall
+Airtable
+Airwallex
+Akamai
+Alchemy
+Allata
+Amazon
+Amplitude
+Amwell
+Anchorage Digital
+Andela
+Anthropic
+Anyscale
+Apollo.io
+AppFolio
+Applause
+Apple
+Applitools
+Arize AI
+Asana
+Ashby
+At-Bay
+Atlassian
+Attentive
+Aurora Labs
+Auth0
+Autodesk
+Automattic
+Avanade
+Avenga
+BairesDev
+BambooHR
+Basecamp
+Beamery
+Belitsoft
+Betterment
+BeyondTrust
+BigCommerce
+BitGo
+Bitwarden
+Block
+Bloomreach
+Boldare
+Booking.com
+Box
+Braze
+Brex
+Brillio
+Broadcom
+BrowserStack
+Buffer
+Bugcrowd
+CI&T
+Calendly
+Calm
+Canonical
+Canva
+Capgemini
+Carbon Health
+Carta
+Census
+Censys
+Chainalysis
+ChannelAdvisor
+Checkmarx
+Checkout.com
+Chegg
+Chewy
+Chime
+Ciklum
+Circle
+CircleCI
+Cisco
+Claroty
+ClassDojo
+Clearbit
+ClickUp
+Clio
+Close
+Cloudflare
+Clover Health
+Coalition
+Cobalt
+Cockroach Labs
+Coda
+CodeSignal
+Codecademy
+Codility
+Cognizant
+Cohere
+Coinbase
+Color Health
+Comarch
+Compass
+Confluent
+Consensys
+Cortes 23
+Coursera
+Craft Docs
+Crossover
+CrowdStrike
+Culture Amp
+Customer.io
+CyberArk
+Cypress.io
+Darktrace
+DataArt
+DataCamp
+Databricks
+Datadog
+Deel
+Deep Consulting Solutions
+Deliveroo
+Deloitte Digital
+Demandbase
+Detectify
+Devoted Health
+Dialpad
+DigitalOcean
+Discord
+Docker
+DocuSign
+Doist
+DoorDash
+Doximity
+Dragos
+Drift
+Dropbox
+Duolingo
+EPAM Continuum
+EPAM Systems
+Eightfold AI
+Elastic
+Eleks
+Elinext
+Endava
+Epic Games
+Etsy
+Everlaw
+Expedia
+ExtraHop
+Factorial
+Farfetch
+Fastly
+Figma
+Fireblocks
+Five9
+Fivetran
+Flashpoint
+Flatiron Health
+Flexport
+Fly.io
+Fortinet
+FourKites
+Framer
+Freshworks
+Front
+FullStory
+Functionize
+Future Processing
+GOAT
+Gainsight
+Gem
+Gemini
+Genesys
+GitHub
+GitLab
+Gladly
+Glean
+Global App Testing
+Globant
+Glovo
+Gong
+Google
+Gorgias
+Grammarly
+Greenhouse Software
+GreyNoise
+Grid Dynamics
+Grubhub
+Guru
+Gusto
+HCLTech
+HackerOne
+HackerRank
+HashiCorp
+Hasura
+Headspace
+Health Catalyst
+Heap
+Help Scout
+HiBob
+Hightouch
+Hims & Hers
+Hinge Health
+Hippo
+Hired
+Hopper
+Hotjar
+HubSpot
+Hugging Face
+Humanloop
+IBM
+Icertis
+InEight
+InVision
+Infosys
+Innovaccer
+Instacart
+Instructure
+Intellias
+Intercom
+Intetics
+Intruder
+Ironclad
+Iterable
+Itransition
+JFrog
+JetBrains
+Justworks
+Kahoot
+Katalon
+Kayak
+Keysight Eggplant
+Khan Academy
+Kiwi.com
+Klarna
+Klaviyo
+Kodify Media Group
+Komodo Health
+Kraken
+LTIMindtree
+Labelbox
+Lacework
+LambdaTest
+LangChain
+Lattice
+LaunchDarkly
+Leapsome
+Leapwork
+Ledger
+LegalZoom
+Lemonade
+Lever
+Linear
+LinkedIn
+Loom
+Lucid Software
+Luxoft
+Lyft
+Lyra Health
+Mabl
+Mandiant
+Marqeta
+MasterClass
+Matterport
+Mercury
+Meta
+Metadata.io
+Microsoft
+Mimecast
+Mirakl
+Miro
+Mistral AI
+Mixpanel
+Modern Health
+Mollie
+MongoDB
+Monzo
+Motive
+Mural
+Mutiny
+N-iX
+Navan
+Neon
+Netflix
+Netguru
+Netlify
+New Relic
+Next Insurance
+Noom
+Nord Security
+Notion
+Nozomi Networks
+Nvidia
+Objectivity
+Okendo
+Okta
+Omada Health
+OpenAI
+Opendoor
+Oracle
+Orca Security
+Oscar Health
+Outline
+Outreach
+Oxagile
+Oyster
+PagerDuty
+Palo Alto Networks
+Papaya Global
+Paxos
+PayPal
+Paychex
+Paycom
+Paylocity
+Payoneer
+Pendo
+Percy
+Perplexity
+Persistent Systems
+Personal Capital
+Personio
+Phenom
+Pinecone
+Pinterest
+Pipedrive
+Plaid
+PlanetScale
+Pluralsight
+Poshmark
+Postman
+PowerSchool
+Procore
+Productboard
+Project44
+Proofpoint
+Pulumi
+QA Wolf
+Qualitest
+Qualys
+Quizlet
+Railway
+Rainforest QA
+Ramp
+Rapid7
+Rappi
+Rapyd
+Recorded Future
+Recruitee
+Red Hat
+Reddit
+Redfin
+Relativity
+Remitly
+Remote
+Render
+Replicate
+Retool
+Revolut
+RingCentral
+Riot Games
+Rippling
+Ro
+Robinhood
+Roblox
+Rocket Lawyer
+Root Insurance
+RudderStack
+Runway
+SAP
+Salesforce
+Salesloft
+Salsify
+Samsara
+Sauce Labs
+Scalac
+Scale AI
+ScienceSoft
+Segment
+Semgrep
+SentinelOne
+Sentry
+ServiceNow
+ShipBob
+ShipMonk
+Shopify
+Sigma Software
+Skillshare
+Skyscanner
+Slack
+Slalom
+Slite
+SmartBear
+SmartRecruiters
+Smartsheet
+Snap
+Snowflake
+Snyk
+SoFi
+Soar Financials
+Softtek
+Software Mind
+SonarSource
+Sonatype
+Splunk
+Spotify
+Spring Health
+Spryker
+Spyrosoft
+Squarespace
+Stability AI
+Starling Bank
+Stefanini
+StockX
+Stripe
+Subject7
+Supabase
+Sword Health
+Symphony Solutions
+Sympli
+Synack
+TCS
+Talkdesk
+Talkspace
+Teamtailor
+Teladoc
+Tempus
+Tenable
+Test IO
+TestGorilla
+TestRail
+Testim
+Testlio
+The Block
+Thoughtworks
+Together AI
+Toggl
+Toptal
+Transition Technologies
+Tray.io
+TriNet
+Tricentis
+TripActions
+Turing
+Twilio
+Twitch
+Typeform
+UKG
+Uber
+Udemy
+Unity
+VMware
+VTEX
+Vectra AI
+Veeva Systems
+Vention
+Veracode
+Vercel
+Virta Health
+Virtusa
+Wayfair
+Wealthbox CRM
+Wealthfront
+Weaviate
+Webflow
+Weights & Biases
+Wellfound
+Whimsical
+Wipro
+Wise
+Wix
+Wiz
+Workable
+Workato
+Workday
+XM
+Xapo Bank
+YNAB
+Yotpo
+Zalando
+Zapier
+Zendesk
+Zeplin
+Zillow
+Zocdoc
+Zoom
+ZoomInfo
+Zscaler
+commercetools
+dbt Labs
+eBay
+eToro
+iCIMS
+iFood
+monday.com
+uTest

@@ -26,7 +26,7 @@ from src.export.excel_export import (
     merge_jobs,
 )
 from src.aggregator.platforms_registry import load_platforms
-from src.company_sources import catalog_summary, load_company_catalog, resolve_company_sources
+from src.company_sources import catalog_summary, load_all_company_catalogs, resolve_company_sources
 from src.outreach.tracker import OutreachManager
 
 console = Console()
@@ -46,7 +46,7 @@ def _run_fetch(ctx: click.Context, all_qa: bool = False) -> None:
     merged = merge_jobs(existing, new_jobs)
     daily_sheet = export_jobs_tracker(merged, jobs_file, daily_jobs=new_jobs)
     export_overseas_directory(load_platforms(), jobs_file)
-    export_remote_qa_companies(resolve_company_sources(config), jobs_file)
+    export_remote_qa_companies(load_all_company_catalogs(), jobs_file)
     console.print(f"[green]Saved {len(merged)} jobs to {jobs_file}[/green]")
     console.print(f"  Daily sheet: {daily_sheet} ({len(new_jobs)} jobs found this run)")
 
@@ -202,39 +202,49 @@ def platforms_cmd(
 @cli.command("companies")
 @click.option("--summary", is_flag=True, help="Show catalog summary only")
 @click.option("--ats-only", is_flag=True, help="Show only ATS auto-fetch companies")
+@click.option(
+    "--group",
+    "-g",
+    type=click.Choice(["usd_global", "overseas_global", "india", "all"]),
+    default="all",
+    help="Filter by catalog group",
+)
 @click.option("--limit", default=25, help="Rows to display (default 25)")
 @click.pass_context
-def companies_cmd(ctx: click.Context, summary: bool, ats_only: bool, limit: int) -> None:
-    """List 500 remote QA employers paying USD globally."""
+def companies_cmd(ctx: click.Context, summary: bool, ats_only: bool, group: str, limit: int) -> None:
+    """List 2000 remote QA employers (USD, overseas, and India catalogs)."""
     from rich.table import Table
 
-    config = ctx.obj["config"]
-    companies = resolve_company_sources(config)
-    stats = catalog_summary(companies)
+    all_companies = load_all_company_catalogs()
+    stats = catalog_summary(all_companies)
+    companies = all_companies if group == "all" else [c for c in all_companies if c.catalog_group == group]
 
     if summary:
-        console.print("[bold]Remote QA Company Catalog (USD, global)[/bold]")
+        console.print("[bold]Remote QA Company Catalogs[/bold]")
         console.print(f"  Total companies: {stats['total']}")
+        console.print(f"  By catalog: {stats['by_catalog_group']}")
+        console.print(f"  By currency: {stats['by_currency']}")
         console.print(f"  Remote: {stats['remote']} | Pays USD: {stats['pays_usd']}")
         console.print(f"  ATS auto-fetch: {stats['ats_fetchable']}")
         console.print(f"  Catalog/reference only: {stats['website_only']}")
-        console.print(f"  By ATS: {stats['by_ats']}")
-        console.print("\nSheet in Excel: Remote QA Companies (USD)")
+        console.print("\nExcel sheets: Remote QA Companies (USD), Remote QA Overseas (Non-USD), Remote QA Companies (India)")
         return
 
     if ats_only:
         companies = [c for c in companies if c.is_ats_fetchable]
 
-    table = Table(title=f"Remote QA Companies ({len(companies)} shown)")
+    table = Table(title=f"Remote QA Companies ({len(companies)} in view)")
     table.add_column("Company")
-    table.add_column("ATS")
+    table.add_column("Catalog")
+    table.add_column("Currency")
     table.add_column("Region")
     table.add_column("Careers URL", overflow="fold")
 
     for company in companies[:limit]:
         table.add_row(
             company.name,
-            company.ats,
+            company.catalog_group,
+            company.currency,
             company.region,
             company.careers_url,
         )
@@ -242,8 +252,7 @@ def companies_cmd(ctx: click.Context, summary: bool, ats_only: bool, limit: int)
     if len(companies) > limit:
         console.print(f"\nShowing {limit} of {len(companies)}. Use --limit to see more.")
     console.print(
-        f"\nCatalog: {stats['total']} companies | "
-        f"{stats['ats_fetchable']} scanned via ATS APIs each fetch run"
+        f"\nTotal catalog: {stats['total']} companies across 3 lists (no duplicates)"
     )
 
 

@@ -1,0 +1,5006 @@
+meta:
+  description: 500 employers with QA/testing roles in India (INR)
+  total: 500
+  currency: INR
+  catalog_group: india
+companies:
+- id: india_tech_mahindra
+  name: Tech Mahindra
+  careers_url: https://www.techmahindra.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_mphasis
+  name: Mphasis
+  careers_url: https://www.mphasis.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_cyient
+  name: Cyient
+  careers_url: https://www.cyient.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_sonata_software
+  name: Sonata Software
+  careers_url: https://www.sonatasoftware.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_birlasoft
+  name: Birlasoft
+  careers_url: https://www.birlasoft.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_coforge
+  name: Coforge
+  careers_url: https://www.coforge.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_hexaware_technologies
+  name: Hexaware Technologies
+  careers_url: https://www.hexawaretechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_zensar_technologies
+  name: Zensar Technologies
+  careers_url: https://www.zensartechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_mastek
+  name: Mastek
+  careers_url: https://www.mastek.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_l_t_technology_services
+  name: L&T Technology Services
+  careers_url: https://www.lttechnologyservices.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_kpit_technologies
+  name: KPIT Technologies
+  careers_url: https://www.kpittechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_cybage_software
+  name: Cybage Software
+  careers_url: https://www.cybagesoftware.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_sasken_technologies
+  name: Sasken Technologies
+  careers_url: https://www.saskentechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_quest_global
+  name: QuEST Global
+  careers_url: https://www.questglobal.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_ust_global
+  name: UST Global
+  careers_url: https://www.ustglobal.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_photon_infotech
+  name: Photon Infotech
+  careers_url: https://www.photoninfotech.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_css_corp
+  name: CSS Corp
+  careers_url: https://www.csscorp.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_cygnet_infotech
+  name: Cygnet Infotech
+  careers_url: https://www.cygnetinfotech.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_datamatics_global_services
+  name: Datamatics Global Services
+  careers_url: https://www.datamaticsglobalservices.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_newgen_software
+  name: Newgen Software
+  careers_url: https://www.newgensoftware.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_3i_infotech
+  name: 3i Infotech
+  careers_url: https://www.3iinfotech.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_mahindra_comviva
+  name: Mahindra Comviva
+  careers_url: https://www.mahindracomviva.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_axtria
+  name: Axtria
+  careers_url: https://www.axtria.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_eclerx_services
+  name: eClerx Services
+  careers_url: https://www.eclerxservices.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_firstsource_solutions
+  name: Firstsource Solutions
+  careers_url: https://www.firstsourcesolutions.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_genpact
+  name: Genpact
+  careers_url: https://www.genpact.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_wns_global_services
+  name: WNS Global Services
+  careers_url: https://www.wnsglobalservices.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_atos_syntel
+  name: Atos Syntel
+  careers_url: https://www.atossyntel.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_ntt_data_services
+  name: NTT DATA Services
+  careers_url: https://www.nttdataservices.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_microland
+  name: Microland
+  careers_url: https://www.microland.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_happiest_minds_technologies
+  name: Happiest Minds Technologies
+  careers_url: https://www.happiestmindstechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_nagarro
+  name: Nagarro
+  careers_url: https://www.nagarro.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_publicis_sapient
+  name: Publicis Sapient
+  careers_url: https://www.publicissapient.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_yash_technologies
+  name: Yash Technologies
+  careers_url: https://www.yashtechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_nitor_infotech
+  name: Nitor Infotech
+  careers_url: https://www.nitorinfotech.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_synechron
+  name: Synechron
+  careers_url: https://www.synechron.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_xoriant
+  name: Xoriant
+  careers_url: https://www.xoriant.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_r_systems_international
+  name: R Systems International
+  careers_url: https://www.rsystemsinternational.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_infogain
+  name: Infogain
+  careers_url: https://www.infogain.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_ness_digital_engineering
+  name: Ness Digital Engineering
+  careers_url: https://www.nessdigitalengineering.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_mindfire_solutions
+  name: Mindfire Solutions
+  careers_url: https://www.mindfiresolutions.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_indecomm_global_services
+  name: Indecomm Global Services
+  careers_url: https://www.indecommglobalservices.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_ramco_systems
+  name: Ramco Systems
+  careers_url: https://www.ramcosystems.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_einfochips
+  name: Einfochips
+  careers_url: https://www.einfochips.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_collabera
+  name: Collabera
+  careers_url: https://www.collabera.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_collabera_digital
+  name: Collabera Digital
+  careers_url: https://www.collaberadigital.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_net_solutions
+  name: Net Solutions
+  careers_url: https://www.netsolutions.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_indium_software
+  name: Indium Software
+  careers_url: https://www.indiumsoftware.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_experion_technologies
+  name: Experion Technologies
+  careers_url: https://www.experiontechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_maveric_systems
+  name: Maveric Systems
+  careers_url: https://www.mavericsystems.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_opteamix
+  name: Opteamix
+  careers_url: https://www.opteamix.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_optisol_business_solutions
+  name: OptiSol Business Solutions
+  careers_url: https://www.optisolbusinesssolutions.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_tata_elxsi
+  name: Tata Elxsi
+  careers_url: https://www.tataelxsi.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_tata_communications
+  name: Tata Communications
+  careers_url: https://www.tatacommunications.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_tata_technologies
+  name: Tata Technologies
+  careers_url: https://www.tatatechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_tata_digital
+  name: Tata Digital
+  careers_url: https://www.tatadigital.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_tanla_platforms
+  name: Tanla Platforms
+  careers_url: https://www.tanlaplatforms.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_intellect_design_arena
+  name: Intellect Design Arena
+  careers_url: https://www.intellectdesignarena.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_sterlite_technologies
+  name: Sterlite Technologies
+  careers_url: https://www.sterlitetechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_tejas_networks
+  name: Tejas Networks
+  careers_url: https://www.tejasnetworks.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_moschip_technologies
+  name: Moschip Technologies
+  careers_url: https://www.moschiptechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_mindteck
+  name: Mindteck
+  careers_url: https://www.mindteck.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_nucleus_software_exports
+  name: Nucleus Software Exports
+  careers_url: https://www.nucleussoftwareexports.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_onmobile_global
+  name: OnMobile Global
+  careers_url: https://www.onmobileglobal.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_subex
+  name: Subex
+  careers_url: https://www.subex.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_rolta_india
+  name: Rolta India
+  careers_url: https://www.roltaindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_softcell_technologies
+  name: Softcell Technologies
+  careers_url: https://www.softcelltechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_calsoft
+  name: Calsoft
+  careers_url: https://www.calsoft.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_valuelabs
+  name: ValueLabs
+  careers_url: https://www.valuelabs.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_vdart
+  name: VDart
+  careers_url: https://www.vdart.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_trigent_software
+  name: Trigent Software
+  careers_url: https://www.trigentsoftware.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_trigyn_technologies
+  name: Trigyn Technologies
+  careers_url: https://www.trigyntechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_wissen_technology
+  name: Wissen Technology
+  careers_url: https://www.wissentechnology.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_winjit_technologies
+  name: Winjit Technologies
+  careers_url: https://www.winjittechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_winwire_technologies
+  name: WinWire Technologies
+  careers_url: https://www.winwiretechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_aeries_technology
+  name: Aeries Technology
+  careers_url: https://www.aeriestechnology.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_agreeya_solutions
+  name: AgreeYa Solutions
+  careers_url: https://www.agreeyasolutions.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_altimetrik_india
+  name: Altimetrik India
+  careers_url: https://www.altimetrikindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_anunta_technology_management
+  name: Anunta Technology Management
+  careers_url: https://www.anuntatechnologymanagement.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_appsierra
+  name: AppSierra
+  careers_url: https://www.appsierra.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_arcesium_india
+  name: Arcesium India
+  careers_url: https://www.arcesiumindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_arka_it_solutions
+  name: Arka IT Solutions
+  careers_url: https://www.arkaitsolutions.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_ascendum_solutions_india
+  name: Ascendum Solutions India
+  careers_url: https://www.ascendumsolutionsindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_avalon_technologies
+  name: Avalon Technologies
+  careers_url: https://www.avalontechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_aveva_india
+  name: Aveva India
+  careers_url: https://www.avevaindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_avineon_india
+  name: Avineon India
+  careers_url: https://www.avineonindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_azentio_software
+  name: Azentio Software
+  careers_url: https://www.azentiosoftware.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_azilen_technologies
+  name: Azilen Technologies
+  careers_url: https://www.azilentechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_bafflesol_technologies
+  name: BaffleSol Technologies
+  careers_url: https://www.bafflesoltechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_brainvire_infotech
+  name: Brainvire Infotech
+  careers_url: https://www.brainvireinfotech.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_chetu_india
+  name: Chetu India
+  careers_url: https://www.chetuindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_citiustech
+  name: CitiusTech
+  careers_url: https://www.citiustech.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_clarion_technologies
+  name: Clarion Technologies
+  careers_url: https://www.clariontechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_consilium_software_india
+  name: Consilium Software India
+  careers_url: https://www.consiliumsoftwareindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_csg_international_india
+  name: CSG International India
+  careers_url: https://www.csginternationalindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_cynet_systems_india
+  name: Cynet Systems India
+  careers_url: https://www.cynetsystemsindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_cyret_technologies
+  name: Cyret Technologies
+  careers_url: https://www.cyrettechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_cymetrix_software
+  name: Cymetrix Software
+  careers_url: https://www.cymetrixsoftware.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_daffodil_software
+  name: Daffodil Software
+  careers_url: https://www.daffodilsoftware.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_dev_information_technology
+  name: Dev Information Technology
+  careers_url: https://www.devinformationtechnology.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_emids_technologies_india
+  name: Emids Technologies India
+  careers_url: https://www.emidstechnologiesindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_encora_india
+  name: Encora India
+  careers_url: https://www.encoraindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_endeavour_software_technologies
+  name: Endeavour Software Technologies
+  careers_url: https://www.endeavoursoftwaretechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_evalueserve
+  name: Evalueserve
+  careers_url: https://www.evalueserve.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_everestims_technologies
+  name: EverestIMS Technologies
+  careers_url: https://www.everestimstechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_eyepax
+  name: Eyepax
+  careers_url: https://www.eyepax.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_galaxe_solutions
+  name: GalaxE Solutions
+  careers_url: https://www.galaxesolutions.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_gavs_technologies
+  name: GAVS Technologies
+  careers_url: https://www.gavstechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_gep_worldwide_india
+  name: GEP Worldwide India
+  careers_url: https://www.gepworldwideindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_ibs_software
+  name: IBS Software
+  careers_url: https://www.ibssoftware.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_suntec_business_solutions
+  name: SunTec Business Solutions
+  careers_url: https://www.suntecbusinesssolutions.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_vuram
+  name: Vuram
+  careers_url: https://www.vuram.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_aspire_systems
+  name: Aspire Systems
+  careers_url: https://www.aspiresystems.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_vee_technologies
+  name: Vee Technologies
+  careers_url: https://www.veetechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_senecaglobal
+  name: SenecaGlobal
+  careers_url: https://www.senecaglobal.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_speridian_technologies
+  name: Speridian Technologies
+  careers_url: https://www.speridiantechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_saviant_consulting
+  name: Saviant Consulting
+  careers_url: https://www.saviantconsulting.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_saviynt_india
+  name: Saviynt India
+  careers_url: https://www.saviyntindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_allsec_technologies
+  name: Allsec Technologies
+  careers_url: https://www.allsectechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_magna_infotech
+  name: Magna Infotech
+  careers_url: https://www.magnainfotech.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_team_computers
+  name: Team Computers
+  careers_url: https://www.teamcomputers.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_redington_india
+  name: Redington India
+  careers_url: https://www.redingtonindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_ingram_micro_india
+  name: Ingram Micro India
+  careers_url: https://www.ingrammicroindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_savex_technologies
+  name: Savex Technologies
+  careers_url: https://www.savextechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_rashi_peripherals
+  name: Rashi Peripherals
+  careers_url: https://www.rashiperipherals.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_cms_info_systems
+  name: CMS Info Systems
+  careers_url: https://www.cmsinfosystems.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_cms_computers
+  name: CMS Computers
+  careers_url: https://www.cmscomputers.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_focus_softnet
+  name: Focus Softnet
+  careers_url: https://www.focussoftnet.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_g7_cr_technologies
+  name: G7 CR Technologies
+  careers_url: https://www.g7crtechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_g_cube_solutions
+  name: G-Cube Solutions
+  careers_url: https://www.gcubesolutions.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_frontalrain_technologies
+  name: FrontalRain Technologies
+  careers_url: https://www.frontalraintechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_decimal_point_analytics
+  name: Decimal Point Analytics
+  careers_url: https://www.decimalpointanalytics.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_datametica
+  name: Datametica
+  careers_url: https://www.datametica.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_denave_india
+  name: Denave India
+  careers_url: https://www.denaveindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_course5_intelligence
+  name: Course5 Intelligence
+  careers_url: https://www.course5intelligence.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_eka_software_solutions
+  name: Eka Software Solutions
+  careers_url: https://www.ekasoftwaresolutions.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_elitecore_technologies
+  name: Elitecore Technologies
+  careers_url: https://www.elitecoretechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_esds_software_solution
+  name: ESDS Software Solution
+  careers_url: https://www.esdssoftwaresolution.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_etech_global_services_india
+  name: Etech Global Services India
+  careers_url: https://www.etechglobalservicesindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_express_kcs_india
+  name: Express KCS India
+  careers_url: https://www.expresskcsindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_finastra_india
+  name: Finastra India
+  careers_url: https://www.finastraindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_cyient_dlm
+  name: Cyient DLM
+  careers_url: https://www.cyientdlm.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_sasken_communication_technologies
+  name: Sasken Communication Technologies
+  careers_url: https://www.saskencommunicationtechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_cigniti_technologies
+  name: Cigniti Technologies
+  careers_url: https://www.cignititechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_testingxperts
+  name: TestingXperts
+  careers_url: https://www.testingxperts.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_qa_infotech
+  name: QA InfoTech
+  careers_url: https://www.qainfotech.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_bugraptors
+  name: BugRaptors
+  careers_url: https://www.bugraptors.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_testvox
+  name: Testvox
+  careers_url: https://www.testvox.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_test_triangle
+  name: Test Triangle
+  careers_url: https://www.testtriangle.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_qualitykiosk_technologies
+  name: QualityKiosk Technologies
+  careers_url: https://www.qualitykiosktechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_pratiti_technologies
+  name: Pratiti Technologies
+  careers_url: https://www.pratititechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_gocomet
+  name: GoComet
+  careers_url: https://www.gocomet.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_clover_infotech
+  name: Clover Infotech
+  careers_url: https://www.cloverinfotech.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_embitel_technologies
+  name: Embitel Technologies
+  careers_url: https://www.embiteltechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_embee_software
+  name: Embee Software
+  careers_url: https://www.embeesoftware.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_knoldus
+  name: Knoldus
+  careers_url: https://www.knoldus.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_e_zest_solutions
+  name: e-Zest Solutions
+  careers_url: https://www.ezestsolutions.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_deloitte_usi
+  name: Deloitte USI
+  careers_url: https://www.deloitteusi.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_deloitte_india
+  name: Deloitte India
+  careers_url: https://www.deloitteindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_ey_gds
+  name: EY GDS
+  careers_url: https://www.eygds.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_ey_india
+  name: EY India
+  careers_url: https://www.eyindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_pwc_india
+  name: PwC India
+  careers_url: https://www.pwcindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_kpmg_india
+  name: KPMG India
+  careers_url: https://www.kpmgindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_kpmg_global_services
+  name: KPMG Global Services
+  careers_url: https://www.kpmgglobalservices.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_grant_thornton_india
+  name: Grant Thornton India
+  careers_url: https://www.grantthorntonindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_bdo_india
+  name: BDO India
+  careers_url: https://www.bdoindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_rsm_india
+  name: RSM India
+  careers_url: https://www.rsmindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_dxc_technology_india
+  name: DXC Technology India
+  careers_url: https://www.dxctechnologyindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_atos_india
+  name: Atos India
+  careers_url: https://www.atosindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_cgi_india
+  name: CGI India
+  careers_url: https://www.cgiindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_unisys_india
+  name: Unisys India
+  careers_url: https://www.unisysindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_celestica_india
+  name: Celestica India
+  careers_url: https://www.celesticaindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_hinduja_global_solutions
+  name: Hinduja Global Solutions
+  careers_url: https://www.hindujaglobalsolutions.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_sutherland_global_services
+  name: Sutherland Global Services
+  careers_url: https://www.sutherlandglobalservices.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_concentrix_india
+  name: Concentrix India
+  careers_url: https://www.concentrixindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_teleperformance_india
+  name: Teleperformance India
+  careers_url: https://www.teleperformanceindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_alorica_india
+  name: Alorica India
+  careers_url: https://www.aloricaindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_ttec_india
+  name: TTEC India
+  careers_url: https://www.ttecindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_startek_india
+  name: Startek India
+  careers_url: https://www.startekindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_taskus_india
+  name: TaskUs India
+  careers_url: https://www.taskusindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_foundever_india
+  name: Foundever India
+  careers_url: https://www.foundeverindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_iqor_india
+  name: iQor India
+  careers_url: https://www.iqorindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_vxi_global_solutions
+  name: VXI Global Solutions
+  careers_url: https://www.vxiglobalsolutions.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_exl_service
+  name: EXL Service
+  careers_url: https://www.exlservice.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_infosys_bpm
+  name: Infosys BPM
+  careers_url: https://www.infosysbpm.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_hcl_healthcare
+  name: HCL Healthcare
+  careers_url: https://www.hclhealthcare.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_wipro_ge_healthcare
+  name: Wipro GE Healthcare
+  careers_url: https://www.wiprogehealthcare.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_tech_mahindra_bps
+  name: Tech Mahindra BPS
+  careers_url: https://www.techmahindrabps.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_mphasis_bpo
+  name: Mphasis BPO
+  careers_url: https://www.mphasisbpo.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_firstsource_bpo
+  name: Firstsource BPO
+  careers_url: https://www.firstsourcebpo.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_eclerx_bpo
+  name: eClerx BPO
+  careers_url: https://www.eclerxbpo.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_wipro_gallagher
+  name: Wipro Gallagher
+  careers_url: https://www.wiprogallagher.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_wns_care_services
+  name: WNS Care Services
+  careers_url: https://www.wnscareservices.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_genpact_headstrong
+  name: Genpact Headstrong
+  careers_url: https://www.genpactheadstrong.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_allianz_services_india
+  name: Allianz Services India
+  careers_url: https://www.allianzservicesindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_benchmark_gensuite_india
+  name: Benchmark Gensuite India
+  careers_url: https://www.benchmarkgensuiteindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_goldman_sachs_india
+  name: Goldman Sachs India
+  careers_url: https://www.goldmansachsindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_jpmorgan_chase_india
+  name: JPMorgan Chase India
+  careers_url: https://www.jpmorganchaseindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_deutsche_bank_technology_centre_india
+  name: Deutsche Bank Technology Centre India
+  careers_url: https://www.deutschebanktechnologycentreindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_barclays_technology_centre_india
+  name: Barclays Technology Centre India
+  careers_url: https://www.barclaystechnologycentreindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_citibank_india_technology
+  name: Citibank India Technology
+  careers_url: https://www.citibankindiatechnology.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_morgan_stanley_india
+  name: Morgan Stanley India
+  careers_url: https://www.morganstanleyindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_hsbc_technology_india
+  name: HSBC Technology India
+  careers_url: https://www.hsbctechnologyindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_standard_chartered_gbs_india
+  name: Standard Chartered GBS India
+  careers_url: https://www.standardcharteredgbsindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_bny_mellon_india
+  name: BNY Mellon India
+  careers_url: https://www.bnymellonindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_wells_fargo_india
+  name: Wells Fargo India
+  careers_url: https://www.wellsfargoindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_american_express_india
+  name: American Express India
+  careers_url: https://www.americanexpressindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_societe_generale_global_solution_centre_india
+  name: Societe Generale Global Solution Centre India
+  careers_url: https://www.societegeneraleglobalsolutioncentreindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_ubs_india
+  name: UBS India
+  careers_url: https://www.ubsindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_nomura_india
+  name: Nomura India
+  careers_url: https://www.nomuraindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_bank_of_america_india
+  name: Bank of America India
+  careers_url: https://www.bankofamericaindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_mufg_india
+  name: MUFG India
+  careers_url: https://www.mufgindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_mizuho_bank_india
+  name: Mizuho Bank India
+  careers_url: https://www.mizuhobankindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_bnp_paribas_india
+  name: BNP Paribas India
+  careers_url: https://www.bnpparibasindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_natwest_india
+  name: NatWest India
+  careers_url: https://www.natwestindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_lloyds_banking_group_india
+  name: Lloyds Banking Group India
+  careers_url: https://www.lloydsbankinggroupindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_dbs_bank_india
+  name: DBS Bank India
+  careers_url: https://www.dbsbankindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_anz_bangalore
+  name: ANZ Bangalore
+  careers_url: https://www.anzbangalore.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_macquarie_group_india
+  name: Macquarie Group India
+  careers_url: https://www.macquariegroupindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_jefferies_india
+  name: Jefferies India
+  careers_url: https://www.jefferiesindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_blackstone_india
+  name: Blackstone India
+  careers_url: https://www.blackstoneindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_kkr_india
+  name: KKR India
+  careers_url: https://www.kkrindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_sequoia_capital_india
+  name: Sequoia Capital India
+  careers_url: https://www.sequoiacapitalindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_accel_india
+  name: Accel India
+  careers_url: https://www.accelindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_matrix_partners_india
+  name: Matrix Partners India
+  careers_url: https://www.matrixpartnersindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_nexus_venture_partners
+  name: Nexus Venture Partners
+  careers_url: https://www.nexusventurepartners.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_blume_ventures
+  name: Blume Ventures
+  careers_url: https://www.blumeventures.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_kalaari_capital
+  name: Kalaari Capital
+  careers_url: https://www.kalaaricapital.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_lightspeed_india
+  name: Lightspeed India
+  careers_url: https://www.lightspeedindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_tiger_global_india
+  name: Tiger Global India
+  careers_url: https://www.tigerglobalindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_softbank_india
+  name: SoftBank India
+  careers_url: https://www.softbankindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_brookfield_india
+  name: Brookfield India
+  careers_url: https://www.brookfieldindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_blackrock_india
+  name: BlackRock India
+  careers_url: https://www.blackrockindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_fidelity_investments_india
+  name: Fidelity Investments India
+  careers_url: https://www.fidelityinvestmentsindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_state_street_india
+  name: State Street India
+  careers_url: https://www.statestreetindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_northern_trust_india
+  name: Northern Trust India
+  careers_url: https://www.northerntrustindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_citadel_india
+  name: Citadel India
+  careers_url: https://www.citadelindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_two_sigma_india
+  name: Two Sigma India
+  careers_url: https://www.twosigmaindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_jane_street_india
+  name: Jane Street India
+  careers_url: https://www.janestreetindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_de_shaw_india
+  name: DE Shaw India
+  careers_url: https://www.deshawindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_bajaj_finserv
+  name: Bajaj Finserv
+  careers_url: https://www.bajajfinserv.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_bandhan_bank
+  name: Bandhan Bank
+  careers_url: https://www.bandhanbank.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_angel_one
+  name: Angel One
+  careers_url: https://www.angelone.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_hdfc_bank
+  name: HDFC Bank
+  careers_url: https://www.hdfcbank.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_icici_bank
+  name: ICICI Bank
+  careers_url: https://www.icicibank.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_axis_bank
+  name: Axis Bank
+  careers_url: https://www.axisbank.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_kotak_mahindra_bank
+  name: Kotak Mahindra Bank
+  careers_url: https://www.kotakmahindrabank.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_yes_bank
+  name: Yes Bank
+  careers_url: https://www.yesbank.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_indusind_bank
+  name: IndusInd Bank
+  careers_url: https://www.indusindbank.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_idfc_first_bank
+  name: IDFC First Bank
+  careers_url: https://www.idfcfirstbank.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_federal_bank
+  name: Federal Bank
+  careers_url: https://www.federalbank.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_rbl_bank
+  name: RBL Bank
+  careers_url: https://www.rblbank.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_au_small_finance_bank
+  name: AU Small Finance Bank
+  careers_url: https://www.ausmallfinancebank.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_equitas_small_finance_bank
+  name: Equitas Small Finance Bank
+  careers_url: https://www.equitassmallfinancebank.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_ujjivan_small_finance_bank
+  name: Ujjivan Small Finance Bank
+  careers_url: https://www.ujjivansmallfinancebank.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_fincare_small_finance_bank
+  name: Fincare Small Finance Bank
+  careers_url: https://www.fincaresmallfinancebank.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_protean_egov_technologies
+  name: Protean eGov Technologies
+  careers_url: https://www.proteanegovtechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_cams
+  name: CAMS
+  careers_url: https://www.cams.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_kfin_technologies
+  name: KFin Technologies
+  careers_url: https://www.kfintechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_bse_india
+  name: BSE India
+  careers_url: https://www.bseindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_nse_india
+  name: NSE India
+  careers_url: https://www.nseindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_cdsl
+  name: CDSL
+  careers_url: https://www.cdsl.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_nsdl
+  name: NSDL
+  careers_url: https://www.nsdl.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_mcx_india
+  name: MCX India
+  careers_url: https://www.mcxindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_ncdex
+  name: NCDEX
+  careers_url: https://www.ncdex.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_clearing_corporation_of_india
+  name: Clearing Corporation of India
+  careers_url: https://www.clearingcorporationofindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_npci
+  name: NPCI
+  careers_url: https://www.npci.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_paytm_payments_bank
+  name: Paytm Payments Bank
+  careers_url: https://www.paytmpaymentsbank.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_phonepe_india
+  name: PhonePe India
+  careers_url: https://www.phonepeindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_bosch_global_software_technologies
+  name: Bosch Global Software Technologies
+  careers_url: https://www.boschglobalsoftwaretechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_siemens_technology_and_services
+  name: Siemens Technology and Services
+  careers_url: https://www.siemenstechnologyandservices.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_ge_healthcare_india
+  name: GE Healthcare India
+  careers_url: https://www.gehealthcareindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_philips_innovation_campus
+  name: Philips Innovation Campus
+  careers_url: https://www.philipsinnovationcampus.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_abb_india
+  name: ABB India
+  careers_url: https://www.abbindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_honeywell_technology_solutions
+  name: Honeywell Technology Solutions
+  careers_url: https://www.honeywelltechnologysolutions.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_schneider_electric_india
+  name: Schneider Electric India
+  careers_url: https://www.schneiderelectricindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_mercedes_benz_research_and_development_india
+  name: Mercedes-Benz Research and Development India
+  careers_url: https://www.mercedesbenzresearchanddevelopmentindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_continental_automotive_components_india
+  name: Continental Automotive Components India
+  careers_url: https://www.continentalautomotivecomponentsindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_robert_bosch_engineering_and_business_solutions
+  name: Robert Bosch Engineering and Business Solutions
+  careers_url: https://www.robertboschengineeringandbusinesssolutions.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_ford_india_business_solutions
+  name: Ford India Business Solutions
+  careers_url: https://www.fordindiabusinesssolutions.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_hyundai_motor_india_engineering
+  name: Hyundai Motor India Engineering
+  careers_url: https://www.hyundaimotorindiaengineering.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_volvo_group_india
+  name: Volvo Group India
+  careers_url: https://www.volvogroupindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_tata_motors_digital
+  name: Tata Motors Digital
+  careers_url: https://www.tatamotorsdigital.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_mahindra_mahindra_digital
+  name: Mahindra & Mahindra Digital
+  careers_url: https://www.mahindramahindradigital.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_bajaj_auto
+  name: Bajaj Auto
+  careers_url: https://www.bajajauto.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_tvs_motor_company
+  name: TVS Motor Company
+  careers_url: https://www.tvsmotorcompany.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_hero_motocorp
+  name: Hero MotoCorp
+  careers_url: https://www.heromotocorp.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_royal_enfield
+  name: Royal Enfield
+  careers_url: https://www.royalenfield.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_renault_nissan_technology_and_business_centre_india
+  name: Renault Nissan Technology and Business Centre India
+  careers_url: https://www.renaultnissantechnologyandbusinesscentreindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_gm_technical_centre_india
+  name: GM Technical Centre India
+  careers_url: https://www.gmtechnicalcentreindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_stellantis_india
+  name: Stellantis India
+  careers_url: https://www.stellantisindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_ashok_leyland
+  name: Ashok Leyland
+  careers_url: https://www.ashokleyland.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_eicher_motors
+  name: Eicher Motors
+  careers_url: https://www.eichermotors.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_force_motors
+  name: Force Motors
+  careers_url: https://www.forcemotors.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_sona_comstar
+  name: Sona Comstar
+  careers_url: https://www.sonacomstar.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_motherson_sumi_systems
+  name: Motherson Sumi Systems
+  careers_url: https://www.mothersonsumisystems.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_bharat_forge
+  name: Bharat Forge
+  careers_url: https://www.bharatforge.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_amara_raja_batteries
+  name: Amara Raja Batteries
+  careers_url: https://www.amararajabatteries.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_exide_industries
+  name: Exide Industries
+  careers_url: https://www.exideindustries.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_cummins_india
+  name: Cummins India
+  careers_url: https://www.cumminsindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_thermax
+  name: Thermax
+  careers_url: https://www.thermax.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_larsen_toubro
+  name: Larsen & Toubro
+  careers_url: https://www.larsentoubro.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_l_t_construction
+  name: L&T Construction
+  careers_url: https://www.ltconstruction.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_l_t_hydrocarbon_engineering
+  name: L&T Hydrocarbon Engineering
+  careers_url: https://www.lthydrocarbonengineering.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_l_t_realty
+  name: L&T Realty
+  careers_url: https://www.ltrealty.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_l_t_finance
+  name: L&T Finance
+  careers_url: https://www.ltfinance.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_blue_star
+  name: Blue Star
+  careers_url: https://www.bluestar.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_carrier_midea_india
+  name: Carrier Midea India
+  careers_url: https://www.carriermideaindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_voltas
+  name: Voltas
+  careers_url: https://www.voltas.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_crompton_greaves
+  name: Crompton Greaves
+  careers_url: https://www.cromptongreaves.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_havells_india
+  name: Havells India
+  careers_url: https://www.havellsindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_polycab_india
+  name: Polycab India
+  careers_url: https://www.polycabindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_finolex_cables
+  name: Finolex Cables
+  careers_url: https://www.finolexcables.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_kei_industries
+  name: KEI Industries
+  careers_url: https://www.keiindustries.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_oracle_financial_services_software
+  name: Oracle Financial Services Software
+  careers_url: https://www.oraclefinancialservicessoftware.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_intel_technology_india
+  name: Intel Technology India
+  careers_url: https://www.inteltechnologyindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_qualcomm_india
+  name: Qualcomm India
+  careers_url: https://www.qualcommindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_texas_instruments_india
+  name: Texas Instruments India
+  careers_url: https://www.texasinstrumentsindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_amd_india
+  name: AMD India
+  careers_url: https://www.amdindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_samsung_r_d_institute_india
+  name: Samsung R&D Institute India
+  careers_url: https://www.samsungrdinstituteindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_samsung_r_d_institute_bangalore
+  name: Samsung R&D Institute Bangalore
+  careers_url: https://www.samsungrdinstitutebangalore.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_samsung_r_d_institute_delhi
+  name: Samsung R&D Institute Delhi
+  careers_url: https://www.samsungrdinstitutedelhi.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_samsung_r_d_institute_noida
+  name: Samsung R&D Institute Noida
+  careers_url: https://www.samsungrdinstitutenoida.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_samsung_semiconductor_india
+  name: Samsung Semiconductor India
+  careers_url: https://www.samsungsemiconductorindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_mediatek_india
+  name: MediaTek India
+  careers_url: https://www.mediatekindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_marvell_india
+  name: Marvell India
+  careers_url: https://www.marvellindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_stmicroelectronics_india
+  name: STMicroelectronics India
+  careers_url: https://www.stmicroelectronicsindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_nxp_semiconductors_india
+  name: NXP Semiconductors India
+  careers_url: https://www.nxpsemiconductorsindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_infineon_technologies_india
+  name: Infineon Technologies India
+  careers_url: https://www.infineontechnologiesindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_micron_technology_india
+  name: Micron Technology India
+  careers_url: https://www.microntechnologyindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_western_digital_india
+  name: Western Digital India
+  careers_url: https://www.westerndigitalindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_seagate_technology_india
+  name: Seagate Technology India
+  careers_url: https://www.seagatetechnologyindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_dell_technologies_india
+  name: Dell Technologies India
+  careers_url: https://www.delltechnologiesindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_hewlett_packard_enterprise_india
+  name: Hewlett Packard Enterprise India
+  careers_url: https://www.hewlettpackardenterpriseindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_hp_india
+  name: HP India
+  careers_url: https://www.hpindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_lenovo_india
+  name: Lenovo India
+  careers_url: https://www.lenovoindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_acer_india
+  name: Acer India
+  careers_url: https://www.acerindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_asus_india
+  name: Asus India
+  careers_url: https://www.asusindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_dixon_technologies
+  name: Dixon Technologies
+  careers_url: https://www.dixontechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_optiemus_infracom
+  name: Optiemus Infracom
+  careers_url: https://www.optiemusinfracom.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_lava_international
+  name: Lava International
+  careers_url: https://www.lavainternational.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_micromax_informatics
+  name: Micromax Informatics
+  careers_url: https://www.micromaxinformatics.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_hcl_infosystems
+  name: HCL Infosystems
+  careers_url: https://www.hclinfosystems.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_intex_technologies
+  name: Intex Technologies
+  careers_url: https://www.intextechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_realme_india
+  name: Realme India
+  careers_url: https://www.realmeindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_oneplus_india
+  name: OnePlus India
+  careers_url: https://www.oneplusindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_oppo_india
+  name: Oppo India
+  careers_url: https://www.oppoindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_vivo_india
+  name: Vivo India
+  careers_url: https://www.vivoindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_xiaomi_india
+  name: Xiaomi India
+  careers_url: https://www.xiaomiindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_nothing_india
+  name: Nothing India
+  careers_url: https://www.nothingindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_iball
+  name: iBall
+  careers_url: https://www.iball.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_zebronics
+  name: Zebronics
+  careers_url: https://www.zebronics.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_portronics
+  name: Portronics
+  careers_url: https://www.portronics.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_zoho_corporation
+  name: Zoho Corporation
+  careers_url: https://www.zohocorporation.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_payu
+  name: PayU
+  careers_url: https://www.payu.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_flipkart
+  name: Flipkart
+  careers_url: https://www.flipkart.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_myntra
+  name: Myntra
+  careers_url: https://www.myntra.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_phonepe
+  name: PhonePe
+  careers_url: https://www.phonepe.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_razorpay
+  name: Razorpay
+  careers_url: https://www.razorpay.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_paytm
+  name: Paytm
+  careers_url: https://www.paytm.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_ola
+  name: Ola
+  careers_url: https://www.ola.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_swiggy
+  name: Swiggy
+  careers_url: https://www.swiggy.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_zomato
+  name: Zomato
+  careers_url: https://www.zomato.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_meesho
+  name: Meesho
+  careers_url: https://www.meesho.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_cred
+  name: CRED
+  careers_url: https://www.cred.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_groww
+  name: Groww
+  careers_url: https://www.groww.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_upstox
+  name: Upstox
+  careers_url: https://www.upstox.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_zerodha
+  name: Zerodha
+  careers_url: https://www.zerodha.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_nykaa
+  name: Nykaa
+  careers_url: https://www.nykaa.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_policybazaar
+  name: Policybazaar
+  careers_url: https://www.policybazaar.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_delhivery
+  name: Delhivery
+  careers_url: https://www.delhivery.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_udaan
+  name: Udaan
+  careers_url: https://www.udaan.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_inmobi
+  name: InMobi
+  careers_url: https://www.inmobi.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_mu_sigma
+  name: Mu Sigma
+  careers_url: https://www.musigma.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_lenskart
+  name: Lenskart
+  careers_url: https://www.lenskart.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_bigbasket
+  name: BigBasket
+  careers_url: https://www.bigbasket.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_snapdeal
+  name: Snapdeal
+  careers_url: https://www.snapdeal.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_dream11
+  name: Dream11
+  careers_url: https://www.dream11.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_sharechat
+  name: ShareChat
+  careers_url: https://www.sharechat.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_oyo
+  name: OYO
+  careers_url: https://www.oyo.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_makemytrip
+  name: MakeMyTrip
+  careers_url: https://www.makemytrip.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_ixigo
+  name: ixigo
+  careers_url: https://www.ixigo.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_practo
+  name: Practo
+  careers_url: https://www.practo.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_druva
+  name: Druva
+  careers_url: https://www.druva.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_billdesk
+  name: BillDesk
+  careers_url: https://www.billdesk.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_cashfree
+  name: Cashfree
+  careers_url: https://www.cashfree.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_juspay
+  name: Juspay
+  careers_url: https://www.juspay.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_slice
+  name: Slice
+  careers_url: https://www.slice.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_pine_labs
+  name: Pine Labs
+  careers_url: https://www.pinelabs.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_mobikwik
+  name: MobiKwik
+  careers_url: https://www.mobikwik.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_freecharge
+  name: Freecharge
+  careers_url: https://www.freecharge.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_bankbazaar
+  name: BankBazaar
+  careers_url: https://www.bankbazaar.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_paisabazaar
+  name: Paisabazaar
+  careers_url: https://www.paisabazaar.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_cardekho
+  name: CarDekho
+  careers_url: https://www.cardekho.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_cartrade_tech
+  name: CarTrade Tech
+  careers_url: https://www.cartradetech.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_spinny
+  name: Spinny
+  careers_url: https://www.spinny.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_cars24
+  name: Cars24
+  careers_url: https://www.cars24.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_vedantu
+  name: Vedantu
+  careers_url: https://www.vedantu.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_byju_s
+  name: Byju's
+  careers_url: https://www.byjus.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_unacademy
+  name: Unacademy
+  careers_url: https://www.unacademy.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_upgrad
+  name: upGrad
+  careers_url: https://www.upgrad.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_eruditus
+  name: Eruditus
+  careers_url: https://www.eruditus.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_simplilearn
+  name: Simplilearn
+  careers_url: https://www.simplilearn.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_great_learning
+  name: Great Learning
+  careers_url: https://www.greatlearning.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_scaler
+  name: Scaler
+  careers_url: https://www.scaler.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_interviewbit
+  name: InterviewBit
+  careers_url: https://www.interviewbit.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_testbook
+  name: Testbook
+  careers_url: https://www.testbook.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_toppr
+  name: Toppr
+  careers_url: https://www.toppr.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_cuemath
+  name: Cuemath
+  careers_url: https://www.cuemath.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_physicswallah
+  name: PhysicsWallah
+  careers_url: https://www.physicswallah.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_classplus
+  name: Classplus
+  careers_url: https://www.classplus.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_lead_school
+  name: LEAD School
+  careers_url: https://www.leadschool.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_nobroker
+  name: NoBroker
+  careers_url: https://www.nobroker.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_housing_com
+  name: Housing.com
+  careers_url: https://www.housingcom.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_99acres
+  name: 99acres
+  careers_url: https://www.99acres.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_magicbricks
+  name: Magicbricks
+  careers_url: https://www.magicbricks.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_proptiger
+  name: PropTiger
+  careers_url: https://www.proptiger.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_square_yards
+  name: Square Yards
+  careers_url: https://www.squareyards.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_livspace
+  name: Livspace
+  careers_url: https://www.livspace.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_urban_company
+  name: Urban Company
+  careers_url: https://www.urbancompany.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_pepperfry
+  name: Pepperfry
+  careers_url: https://www.pepperfry.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_licious
+  name: Licious
+  careers_url: https://www.licious.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_freshtohome
+  name: FreshToHome
+  careers_url: https://www.freshtohome.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_country_delight
+  name: Country Delight
+  careers_url: https://www.countrydelight.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_milkbasket
+  name: Milkbasket
+  careers_url: https://www.milkbasket.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_ninjacart
+  name: Ninjacart
+  careers_url: https://www.ninjacart.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_dehaat
+  name: DeHaat
+  careers_url: https://www.dehaat.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_agrostar
+  name: AgroStar
+  careers_url: https://www.agrostar.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_rivigo
+  name: Rivigo
+  careers_url: https://www.rivigo.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_blackbuck
+  name: BlackBuck
+  careers_url: https://www.blackbuck.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_fareye
+  name: FarEye
+  careers_url: https://www.fareye.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_shiprocket
+  name: Shiprocket
+  careers_url: https://www.shiprocket.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_shadowfax
+  name: Shadowfax
+  careers_url: https://www.shadowfax.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_xpressbees
+  name: Xpressbees
+  careers_url: https://www.xpressbees.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_ecom_express
+  name: Ecom Express
+  careers_url: https://www.ecomexpress.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_rebel_foods
+  name: Rebel Foods
+  careers_url: https://www.rebelfoods.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_curefoods
+  name: Curefoods
+  careers_url: https://www.curefoods.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_zetwerk
+  name: Zetwerk
+  careers_url: https://www.zetwerk.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_ofbusiness
+  name: OfBusiness
+  careers_url: https://www.ofbusiness.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_infra_market
+  name: Infra.Market
+  careers_url: https://www.inframarket.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_elasticrun
+  name: ElasticRun
+  careers_url: https://www.elasticrun.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_bizongo
+  name: Bizongo
+  careers_url: https://www.bizongo.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_turtlemint
+  name: Turtlemint
+  careers_url: https://www.turtlemint.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_acko
+  name: Acko
+  careers_url: https://www.acko.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_digit_insurance
+  name: Digit Insurance
+  careers_url: https://www.digitinsurance.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_renewbuy
+  name: RenewBuy
+  careers_url: https://www.renewbuy.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_insurancedekho
+  name: InsuranceDekho
+  careers_url: https://www.insurancedekho.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_go_digit_general_insurance
+  name: Go Digit General Insurance
+  careers_url: https://www.godigitgeneralinsurance.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_jar
+  name: Jar
+  careers_url: https://www.jar.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_khatabook
+  name: Khatabook
+  careers_url: https://www.khatabook.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_okcredit
+  name: OkCredit
+  careers_url: https://www.okcredit.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_bharatpe
+  name: BharatPe
+  careers_url: https://www.bharatpe.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_shopclues
+  name: ShopClues
+  careers_url: https://www.shopclues.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_bewakoof
+  name: Bewakoof
+  careers_url: https://www.bewakoof.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_honasa_consumer
+  name: Honasa Consumer
+  careers_url: https://www.honasaconsumer.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_boat
+  name: boAt
+  careers_url: https://www.boat.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_noise
+  name: Noise
+  careers_url: https://www.noise.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_blinkit
+  name: Blinkit
+  careers_url: https://www.blinkit.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_dunzo
+  name: Dunzo
+  careers_url: https://www.dunzo.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_zepto
+  name: Zepto
+  careers_url: https://www.zepto.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_info_edge_india
+  name: Info Edge India
+  careers_url: https://www.infoedgeindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_naukri_com
+  name: Naukri.com
+  careers_url: https://www.naukricom.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_jeevansathi
+  name: Jeevansathi
+  careers_url: https://www.jeevansathi.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_shiksha_com
+  name: Shiksha.com
+  careers_url: https://www.shikshacom.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_dailyhunt
+  name: Dailyhunt
+  careers_url: https://www.dailyhunt.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_inshorts
+  name: InShorts
+  careers_url: https://www.inshorts.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_verse_innovation
+  name: VerSe Innovation
+  careers_url: https://www.verseinnovation.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_glance
+  name: Glance
+  careers_url: https://www.glance.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_mx_player
+  name: MX Player
+  careers_url: https://www.mxplayer.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_disney_star_india
+  name: Disney Star India
+  careers_url: https://www.disneystarindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_sony_pictures_networks_india
+  name: Sony Pictures Networks India
+  careers_url: https://www.sonypicturesnetworksindia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_zee_entertainment_enterprises
+  name: Zee Entertainment Enterprises
+  careers_url: https://www.zeeentertainmententerprises.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_times_internet
+  name: Times Internet
+  careers_url: https://www.timesinternet.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_network18_media
+  name: Network18 Media
+  careers_url: https://www.network18media.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_ht_media
+  name: HT Media
+  careers_url: https://www.htmedia.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_amagi_media_labs
+  name: Amagi Media Labs
+  careers_url: https://www.amagimedialabs.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_pocket_aces
+  name: Pocket Aces
+  careers_url: https://www.pocketaces.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_the_viral_fever
+  name: The Viral Fever
+  careers_url: https://www.theviralfever.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_reliance_jio
+  name: Reliance Jio
+  careers_url: https://www.reliancejio.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_jio_platforms
+  name: Jio Platforms
+  careers_url: https://www.jioplatforms.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_reliance_retail
+  name: Reliance Retail
+  careers_url: https://www.relianceretail.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_kissflow
+  name: Kissflow
+  careers_url: https://www.kissflow.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_chargebee
+  name: Chargebee
+  careers_url: https://www.chargebee.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_wingify
+  name: Wingify
+  careers_url: https://www.wingify.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_whatfix
+  name: Whatfix
+  careers_url: https://www.whatfix.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_wibmo
+  name: Wibmo
+  careers_url: https://www.wibmo.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_winzo
+  name: WinZO
+  careers_url: https://www.winzo.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_yatra_com
+  name: Yatra.com
+  careers_url: https://www.yatracom.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_yulu_bikes
+  name: Yulu Bikes
+  careers_url: https://www.yulubikes.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_zeta
+  name: Zeta
+  careers_url: https://www.zeta.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_zivame
+  name: Zivame
+  careers_url: https://www.zivame.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_zaggle
+  name: Zaggle
+  careers_url: https://www.zaggle.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_zebpay
+  name: Zebpay
+  careers_url: https://www.zebpay.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_bookmyshow
+  name: BookMyShow
+  careers_url: https://www.bookmyshow.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_cleartrip
+  name: Cleartrip
+  careers_url: https://www.cleartrip.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_cleartax
+  name: Cleartax
+  careers_url: https://www.cleartax.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_clevertap
+  name: CleverTap
+  careers_url: https://www.clevertap.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_capillary_technologies
+  name: Capillary Technologies
+  careers_url: https://www.capillarytechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_caratlane
+  name: CaratLane
+  careers_url: https://www.caratlane.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR
+- id: india_care_health_insurance
+  name: Care Health Insurance
+  careers_url: https://www.carehealthinsurance.com/careers
+  ats: website
+  remote: true
+  pays_usd: false
+  currency: INR
+  catalog_group: india
+  region: india
+  notes: QA/testing roles based in India; compensation typically in INR

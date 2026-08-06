@@ -14,6 +14,8 @@ LEGACY_SHEET = "Job Requirements"
 DAILY_SUMMARY_SHEET = "Daily Summary"
 OVERSEAS_DIRECTORY_SHEET = "Overseas Job Boards"
 REMOTE_QA_COMPANIES_SHEET = "Remote QA Companies (USD)"
+REMOTE_QA_OVERSEAS_SHEET = "Remote QA Overseas (Non-USD)"
+REMOTE_QA_INDIA_SHEET = "Remote QA Companies (India)"
 
 JOBS_COLUMNS = [
     "Company",
@@ -326,12 +328,13 @@ def export_overseas_directory(platforms: list, filepath: Path) -> None:
     _autosize_columns(filepath)
 
 
-def export_remote_qa_companies(companies: list, filepath: Path) -> None:
-    """Write the 500-company remote QA / USD employer catalog to the tracker workbook."""
-    rows = [
+def _company_catalog_rows(companies: list) -> list[dict]:
+    return [
         {
             "Company": c.name,
             "Careers URL": c.careers_url,
+            "Catalog": c.catalog_group,
+            "Currency": c.currency,
             "ATS": c.ats,
             "ATS Slug": c.ats_slug or "",
             "Remote": "Yes" if c.remote else "No",
@@ -342,9 +345,19 @@ def export_remote_qa_companies(companies: list, filepath: Path) -> None:
         }
         for c in companies
     ]
-    df = pd.DataFrame(rows)
+
+
+def export_remote_qa_companies(companies: list, filepath: Path) -> None:
+    """Write USD, overseas, and India QA employer catalogs to the tracker workbook."""
     sheets = _read_existing_sheets(filepath)
-    sheets[REMOTE_QA_COMPANIES_SHEET] = df
+    usd = [c for c in companies if c.catalog_group == "usd_global"]
+    overseas = [c for c in companies if c.catalog_group == "overseas_global"]
+    india = [c for c in companies if c.catalog_group == "india"]
+
+    sheets[REMOTE_QA_COMPANIES_SHEET] = pd.DataFrame(_company_catalog_rows(usd))
+    sheets[REMOTE_QA_OVERSEAS_SHEET] = pd.DataFrame(_company_catalog_rows(overseas))
+    sheets[REMOTE_QA_INDIA_SHEET] = pd.DataFrame(_company_catalog_rows(india))
+
     filepath.parent.mkdir(parents=True, exist_ok=True)
     with pd.ExcelWriter(filepath, engine="openpyxl") as writer:
         for name, sheet_df in sheets.items():
