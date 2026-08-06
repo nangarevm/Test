@@ -268,8 +268,9 @@ def telegram_run(ctx: click.Context, interval: float | None, no_immediate: bool,
 
 @telegram.command("bot")
 @click.option("--all-qa", is_flag=True, help="Include full-time QA roles when scanning")
+@click.option("--automated", is_flag=True, help="Apply automation config (scanning_on_boot, run_on_boot)")
 @click.pass_context
-def telegram_bot(ctx: click.Context, all_qa: bool) -> None:
+def telegram_bot(ctx: click.Context, all_qa: bool, automated: bool) -> None:
     """Run interactive Telegram bot (start/stop scanning via chat commands)."""
     from src.notifications.telegram import TelegramNotifier
     from src.notifications.telegram_bot import TelegramBotController
@@ -292,7 +293,73 @@ def telegram_bot(ctx: click.Context, all_qa: bool) -> None:
         return notifier.send_reports(config, data_dir)
 
     controller = TelegramBotController(config, data_dir, fetch_job, send_job)
-    controller.run()
+    automation = config.get("automation", {}) if automated else {}
+    controller.run(
+        auto_start_scanning=automation.get("scanning_on_boot", False),
+        run_on_boot=automation.get("run_on_boot", False),
+    )
+
+
+@cli.group()
+@click.pass_context
+def automate(ctx: click.Context) -> None:
+    """Fully automated background operation (bot + scanning + reports)."""
+    pass
+
+
+@automate.command("start")
+@click.option("--all-qa", is_flag=True, help="Include full-time QA roles when scanning")
+@click.option("--config", "-c", default="config.yaml", hidden=True)
+@click.pass_context
+def automate_start(ctx: click.Context, all_qa: bool, config: str) -> None:
+    """Start automation daemon in background (bot + auto scanning)."""
+    from src.automation.daemon import start_daemon
+
+    start_daemon(PROJECT_ROOT, config, all_qa=all_qa)
+
+
+@automate.command("stop")
+@click.pass_context
+def automate_stop(ctx: click.Context) -> None:
+    """Stop the automation daemon."""
+    from src.automation.daemon import stop_daemon
+
+    stop_daemon(ctx.obj["config"], ctx.obj["data_dir"])
+
+
+@automate.command("status")
+@click.pass_context
+def automate_status(ctx: click.Context) -> None:
+    """Show automation daemon and scanning status."""
+    from src.automation.daemon import daemon_status
+
+    status = daemon_status(ctx.obj["config"], ctx.obj["data_dir"])
+    running = "running" if status["running"] else "stopped"
+    console.print(f"Daemon: {running}")
+    if status["pid"]:
+        console.print(f"  PID: {status['pid']}")
+    console.print(f"  Scanning: {'ON' if status['scanning_enabled'] else 'OFF'}")
+    console.print(f"  PID file: {status['pid_file']}")
+    console.print(f"  Log file: {status['log_file']}")
+
+
+@automate.command("restart")
+@click.option("--all-qa", is_flag=True, help="Include full-time QA roles when scanning")
+@click.pass_context
+def automate_restart(ctx: click.Context, all_qa: bool) -> None:
+    """Restart the automation daemon."""
+    from src.automation.daemon import start_daemon, stop_daemon
+
+    stop_daemon(ctx.obj["config"], ctx.obj["data_dir"])
+    start_daemon(PROJECT_ROOT, "config.yaml", all_qa=all_qa)
+
+
+@automate.command("worker")
+@click.option("--all-qa", is_flag=True, help="Include full-time QA roles when scanning")
+@click.pass_context
+def automate_worker(ctx: click.Context, all_qa: bool) -> None:
+    """Internal worker process — runs Telegram bot with automation settings."""
+    ctx.invoke(telegram_bot, all_qa=all_qa, automated=True)
 
 
 if __name__ == "__main__":

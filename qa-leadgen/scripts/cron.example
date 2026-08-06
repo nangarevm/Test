@@ -1,0 +1,10 @@
+# Cron example — fetch + send Excel every 12 hours (no long-running daemon)
+# Install: crontab -e
+# Replace /path/to/qa-leadgen with your install directory
+
+0 */12 * * * cd /path/to/qa-leadgen && /usr/bin/python3 main.py telegram send --fetch-first >> data/automation.log 2>&1
+
+# Alternative: use the full automation daemon at boot (Linux systemd)
+# sudo cp scripts/qa-leadgen.service /etc/systemd/system/
+# sudo systemctl enable qa-leadgen
+# sudo systemctl start qa-leadgen

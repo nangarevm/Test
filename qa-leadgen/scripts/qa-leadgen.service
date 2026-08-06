@@ -1,0 +1,18 @@
+[Unit]
+Description=QA Lead-Gen Automation (Telegram bot + job scanning)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=%i
+WorkingDirectory=/opt/qa-leadgen
+EnvironmentFile=/opt/qa-leadgen/.env
+ExecStart=/usr/bin/python3 /opt/qa-leadgen/main.py automate worker
+Restart=always
+RestartSec=15
+StandardOutput=append:/opt/qa-leadgen/data/automation.log
+StandardError=append:/opt/qa-leadgen/data/automation.log
+
+[Install]
+WantedBy=multi-user.target

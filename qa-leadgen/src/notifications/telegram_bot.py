@@ -240,16 +240,33 @@ class TelegramBotController:
             return []
         return data.get("result", [])
 
-    def run(self) -> None:
+    def run(self, *, auto_start_scanning: bool = False, run_on_boot: bool = False) -> None:
         if not self.is_ready:
             raise RuntimeError("Telegram bot_token and chat_id are required.")
 
         schedule.clear()
+
+        if auto_start_scanning and not self.state.scanning_enabled:
+            self.state.start_scanning()
+            console.print("[green]Auto-started job scanning (automation config)[/green]")
+
         if self.state.scanning_enabled:
             schedule.every(self.interval_hours).hours.do(self._scheduled_scan)
 
+        if run_on_boot:
+            console.print("[cyan]Running initial fetch + report on boot...[/cyan]")
+            try:
+                self.fetch_fn()
+                self.state.record_scan()
+                self.send_fn()
+                self.state.record_report()
+            except Exception as exc:
+                console.print(f"[red]Boot job failed: {exc}[/red]")
+                self.notifier.send_message(f"Boot scan failed: {exc}")
+
         self.notifier.send_message(
-            "QA Lead-Gen bot is online.\n"
+            "QA Lead-Gen bot is online (automated).\n"
+            f"Scanning: {'ON' if self.state.scanning_enabled else 'OFF'}\n\n"
             + HELP_TEXT.format(interval=self.interval_hours)
         )
         console.print("[green]Telegram bot listening for commands. Press Ctrl+C to stop.[/green]")

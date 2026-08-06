@@ -124,11 +124,16 @@ Send the Excel tracker to your Telegram chat automatically.
    TELEGRAM_CHAT_ID=your_chat_id
    ```
 4. Enable in `config.yaml`:
-   ```yaml
-   telegram:
-     enabled: true
-     interval_hours: 12
-   ```
+```yaml
+telegram:
+  enabled: true
+  interval_hours: 12
+
+automation:
+  enabled: true
+  scanning_on_boot: true    # auto-start 12h scanning when daemon starts
+  run_on_boot: true         # fetch + send Excel immediately on start
+```
 
 **Commands:**
 ```bash
@@ -146,7 +151,26 @@ python main.py telegram run
 
 # Interactive bot — control scanning from Telegram chat
 python main.py telegram bot
+
+# Full automation (recommended) — runs everything in background
+python main.py automate start     # Start daemon (bot + auto scanning + boot job)
+python main.py automate status    # Check if running
+python main.py automate stop      # Stop daemon
+python main.py automate restart   # Restart daemon
+
+# Or use helper scripts
+./scripts/start_automation.sh
+./scripts/stop_automation.sh
 ```
+
+On boot the daemon will automatically:
+1. Run an initial job scan + send Excel (if `automation.run_on_boot: true`)
+2. Enable 12-hour scanning (if `automation.scanning_on_boot: true`)
+3. Listen for Telegram commands (`/start`, `/stop`, `/scan`, etc.)
+
+**GitHub Actions** (cloud automation without a server): add secrets `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` — workflow runs every 12 hours.
+
+**systemd** (Linux server): see `scripts/qa-leadgen.service`
 
 **Telegram bot commands** (send these to your bot in chat):
 
