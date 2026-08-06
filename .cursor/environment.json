@@ -1,0 +1,4 @@
+{
+  "name": "ReqRes API Playwright Tests",
+  "install": "npm ci"
+}

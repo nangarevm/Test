@@ -8,7 +8,7 @@ class TokenUtils {
    * Returns the API token to be used in authenticated requests.
    */
   getToken() {
-      return 'reqres-free-v1';
+      return process.env.REQRES_API_KEY || 'reqres-free-v1';
     }
   }
   
