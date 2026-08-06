@@ -20,11 +20,13 @@ from src.export.excel_export import (
     export_company_directory,
     export_jobs_tracker,
     export_overseas_directory,
+    export_remote_qa_companies,
     load_company_directory,
     load_jobs_tracker,
     merge_jobs,
 )
 from src.aggregator.platforms_registry import load_platforms
+from src.company_sources import catalog_summary, load_company_catalog, resolve_company_sources
 from src.outreach.tracker import OutreachManager
 
 console = Console()
@@ -44,6 +46,7 @@ def _run_fetch(ctx: click.Context, all_qa: bool = False) -> None:
     merged = merge_jobs(existing, new_jobs)
     daily_sheet = export_jobs_tracker(merged, jobs_file, daily_jobs=new_jobs)
     export_overseas_directory(load_platforms(), jobs_file)
+    export_remote_qa_companies(resolve_company_sources(config), jobs_file)
     console.print(f"[green]Saved {len(merged)} jobs to {jobs_file}[/green]")
     console.print(f"  Daily sheet: {daily_sheet} ({len(new_jobs)} jobs found this run)")
 
@@ -193,6 +196,54 @@ def platforms_cmd(
         f"Coverage: {coverage['total_portals']} portals across "
         f"{coverage['countries_regions']} countries/regions + "
         f"{coverage['global_portals']} global boards."
+    )
+
+
+@cli.command("companies")
+@click.option("--summary", is_flag=True, help="Show catalog summary only")
+@click.option("--ats-only", is_flag=True, help="Show only ATS auto-fetch companies")
+@click.option("--limit", default=25, help="Rows to display (default 25)")
+@click.pass_context
+def companies_cmd(ctx: click.Context, summary: bool, ats_only: bool, limit: int) -> None:
+    """List 500 remote QA employers paying USD globally."""
+    from rich.table import Table
+
+    config = ctx.obj["config"]
+    companies = resolve_company_sources(config)
+    stats = catalog_summary(companies)
+
+    if summary:
+        console.print("[bold]Remote QA Company Catalog (USD, global)[/bold]")
+        console.print(f"  Total companies: {stats['total']}")
+        console.print(f"  Remote: {stats['remote']} | Pays USD: {stats['pays_usd']}")
+        console.print(f"  ATS auto-fetch: {stats['ats_fetchable']}")
+        console.print(f"  Catalog/reference only: {stats['website_only']}")
+        console.print(f"  By ATS: {stats['by_ats']}")
+        console.print("\nSheet in Excel: Remote QA Companies (USD)")
+        return
+
+    if ats_only:
+        companies = [c for c in companies if c.is_ats_fetchable]
+
+    table = Table(title=f"Remote QA Companies ({len(companies)} shown)")
+    table.add_column("Company")
+    table.add_column("ATS")
+    table.add_column("Region")
+    table.add_column("Careers URL", overflow="fold")
+
+    for company in companies[:limit]:
+        table.add_row(
+            company.name,
+            company.ats,
+            company.region,
+            company.careers_url,
+        )
+    console.print(table)
+    if len(companies) > limit:
+        console.print(f"\nShowing {limit} of {len(companies)}. Use --limit to see more.")
+    console.print(
+        f"\nCatalog: {stats['total']} companies | "
+        f"{stats['ats_fetchable']} scanned via ATS APIs each fetch run"
     )
 
 

@@ -1,0 +1,168 @@
+# User-confirmed priority companies (checked 2026-08-06)
+companies:
+  - id: ineight
+    name: InEight
+    careers_url: https://ineight.com/company/careers/
+    ats: website
+    remote: true
+    pays_usd: true
+    region: usa
+    notes: Confirmed careers page; construction SaaS, remote-friendly
+
+  - id: rainforest_qa
+    name: Rainforest QA
+    careers_url: https://www.rainforestqa.com/careers
+    ats: website
+    remote: true
+    pays_usd: true
+    region: global
+    notes: QA platform company; no open roles at time of check
+
+  - id: xapo_bank
+    name: Xapo Bank
+    careers_url: https://www.xapobank.com/en/careers
+    ats: website
+    remote: true
+    pays_usd: true
+    region: global
+    notes: Confirmed careers page
+
+  - id: bamboohr
+    name: BambooHR
+    careers_url: https://www.bamboohr.com/careers/
+    ats: website
+    remote: true
+    pays_usd: true
+    region: usa
+    notes: Confirmed careers page
+
+  - id: aurora_labs
+    name: Aurora Labs
+    careers_url: https://www.auroralabs.com/career
+    ats: website
+    remote: true
+    pays_usd: true
+    region: global
+    notes: Confirmed; no open positions listed currently
+
+  - id: synack
+    name: Synack
+    careers_url: https://www.synack.com/careers/
+    ats: greenhouse
+    ats_slug: synack
+    remote: true
+    pays_usd: true
+    region: usa
+    notes: Greenhouse API verified
+
+  - id: bloomreach
+    name: Bloomreach
+    careers_url: https://www.bloomreach.com/en/careers
+    ats: greenhouse
+    ats_slug: bloomreach
+    remote: true
+    pays_usd: true
+    region: global
+    notes: Greenhouse API verified
+
+  - id: brillio
+    name: Brillio
+    careers_url: https://www.brillio.com/careers/
+    ats: website
+    remote: true
+    pays_usd: true
+    region: global
+    notes: Confirmed careers page
+
+  - id: the_block
+    name: The Block
+    careers_url: https://jobs.lever.co/theblockcrypto
+    ats: lever
+    ats_slug: theblockcrypto
+    remote: true
+    pays_usd: true
+    region: global
+    notes: Lever board confirmed
+
+  - id: allata
+    name: Allata
+    careers_url: https://www.allata.com/careers/
+    ats: website
+    remote: true
+    pays_usd: true
+    region: usa
+    notes: Confirmed careers page
+
+  - id: deep_consulting_solutions
+    name: Deep Consulting Solutions
+    careers_url: https://deepconsulting.solutions/
+    ats: website
+    remote: true
+    pays_usd: true
+    region: global
+    notes: Remote QA roles on WWR/RemoteOK; site may rate-limit bots
+
+  - id: soar_financials
+    name: Soar Financials
+    careers_url: https://www.soarfinancial.com/
+    ats: website
+    remote: true
+    pays_usd: true
+    region: usa
+    notes: No dedicated /careers page; check LinkedIn for openings
+
+  - id: kodify_media_group
+    name: Kodify Media Group
+    careers_url: https://kodify.recruitee.com/
+    ats: recruitee
+    ats_slug: kodify
+    remote: true
+    pays_usd: true
+    region: europe
+    notes: Recruitee API verified; includes SDET role
+
+  - id: wealthbox_crm
+    name: Wealthbox CRM
+    careers_url: https://www.wealthbox.com/careers/
+    ats: website
+    remote: true
+    pays_usd: true
+    region: usa
+    notes: Confirmed careers page
+
+  - id: xm
+    name: XM
+    careers_url: https://www.xm.com/about-us/careers/
+    ats: website
+    remote: true
+    pays_usd: true
+    region: global
+    notes: Careers page blocks some bots; manual check recommended
+
+  - id: close
+    name: Close
+    careers_url: https://close.com/careers
+    ats: website
+    remote: true
+    pays_usd: true
+    region: global
+    notes: Confirmed careers page
+
+  - id: toptal
+    name: Toptal
+    careers_url: https://jobs.lever.co/toptal
+    ats: lever
+    ats_slug: toptal
+    remote: true
+    pays_usd: true
+    region: global
+    notes: Lever API verified
+
+  - id: cortes_23
+    name: Cortes 23
+    careers_url: https://cortes23.com/
+    ats: website
+    remote: true
+    pays_usd: true
+    region: usa
+    notes: No public careers page; roles appear on job aggregators

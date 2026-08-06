@@ -13,6 +13,7 @@ MASTER_SHEET = "All Jobs"
 LEGACY_SHEET = "Job Requirements"
 DAILY_SUMMARY_SHEET = "Daily Summary"
 OVERSEAS_DIRECTORY_SHEET = "Overseas Job Boards"
+REMOTE_QA_COMPANIES_SHEET = "Remote QA Companies (USD)"
 
 JOBS_COLUMNS = [
     "Company",
@@ -318,6 +319,32 @@ def export_overseas_directory(platforms: list, filepath: Path) -> None:
     sheets = _read_existing_sheets(filepath)
     sheets[OVERSEAS_DIRECTORY_SHEET] = df
 
+    filepath.parent.mkdir(parents=True, exist_ok=True)
+    with pd.ExcelWriter(filepath, engine="openpyxl") as writer:
+        for name, sheet_df in sheets.items():
+            sheet_df.to_excel(writer, sheet_name=name, index=False)
+    _autosize_columns(filepath)
+
+
+def export_remote_qa_companies(companies: list, filepath: Path) -> None:
+    """Write the 500-company remote QA / USD employer catalog to the tracker workbook."""
+    rows = [
+        {
+            "Company": c.name,
+            "Careers URL": c.careers_url,
+            "ATS": c.ats,
+            "ATS Slug": c.ats_slug or "",
+            "Remote": "Yes" if c.remote else "No",
+            "Pays USD": "Yes" if c.pays_usd else "No",
+            "Region": c.region,
+            "Auto-Fetch": "Yes" if c.is_ats_fetchable else "Catalog",
+            "Notes": c.notes,
+        }
+        for c in companies
+    ]
+    df = pd.DataFrame(rows)
+    sheets = _read_existing_sheets(filepath)
+    sheets[REMOTE_QA_COMPANIES_SHEET] = df
     filepath.parent.mkdir(parents=True, exist_ok=True)
     with pd.ExcelWriter(filepath, engine="openpyxl") as writer:
         for name, sheet_df in sheets.items():

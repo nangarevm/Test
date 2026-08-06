@@ -1,0 +1,4096 @@
+meta:
+  description: 500 remote-friendly employers for QA roles with USD pay globally
+  total: 500
+  remote: true
+  pays_usd: true
+  ats_fetchable: 89
+companies:
+- id: ineight
+  name: InEight
+  careers_url: https://ineight.com/company/careers/
+  ats: website
+  remote: true
+  pays_usd: true
+  region: usa
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: rainforest_qa
+  name: Rainforest QA
+  careers_url: https://www.rainforestqa.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: xapo_bank
+  name: Xapo Bank
+  careers_url: https://www.xapobank.com/en/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: bamboohr
+  name: BambooHR
+  careers_url: https://www.bamboohr.com/careers/
+  ats: website
+  remote: true
+  pays_usd: true
+  region: usa
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: aurora_labs
+  name: Aurora Labs
+  careers_url: https://www.auroralabs.com/career
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: synack
+  name: Synack
+  careers_url: https://boards.greenhouse.io/synack
+  ats: greenhouse
+  ats_slug: synack
+  remote: true
+  pays_usd: true
+  region: usa
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: bloomreach
+  name: Bloomreach
+  careers_url: https://boards.greenhouse.io/bloomreach
+  ats: greenhouse
+  ats_slug: bloomreach
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: brillio
+  name: Brillio
+  careers_url: https://www.brillio.com/careers/
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: the_block
+  name: The Block
+  careers_url: https://jobs.lever.co/theblockcrypto
+  ats: lever
+  ats_slug: theblockcrypto
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: allata
+  name: Allata
+  careers_url: https://www.allata.com/careers/
+  ats: website
+  remote: true
+  pays_usd: true
+  region: usa
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: deep_consulting_solutions
+  name: Deep Consulting Solutions
+  careers_url: https://deepconsulting.solutions/
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: soar_financials
+  name: Soar Financials
+  careers_url: https://www.soarfinancial.com/
+  ats: website
+  remote: true
+  pays_usd: true
+  region: usa
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: kodify_media_group
+  name: Kodify Media Group
+  careers_url: https://kodify.recruitee.com/
+  ats: recruitee
+  ats_slug: kodify
+  remote: true
+  pays_usd: true
+  region: europe
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: wealthbox_crm
+  name: Wealthbox CRM
+  careers_url: https://www.wealthbox.com/careers/
+  ats: website
+  remote: true
+  pays_usd: true
+  region: usa
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: xm
+  name: XM
+  careers_url: https://www.xm.com/about-us/careers/
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: close
+  name: Close
+  careers_url: https://close.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: toptal
+  name: Toptal
+  careers_url: https://jobs.lever.co/toptal
+  ats: lever
+  ats_slug: toptal
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: cortes_23
+  name: Cortes 23
+  careers_url: https://cortes23.com/
+  ats: website
+  remote: true
+  pays_usd: true
+  region: usa
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: browserstack
+  name: BrowserStack
+  careers_url: https://www.browserstack.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: lambdatest
+  name: LambdaTest
+  careers_url: https://www.lambdatest.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: sauce_labs
+  name: Sauce Labs
+  careers_url: https://www.saucelabs.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: testrail
+  name: TestRail
+  careers_url: https://www.testrail.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: smartbear
+  name: SmartBear
+  careers_url: https://www.smartbear.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: applitools
+  name: Applitools
+  careers_url: https://www.applitools.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: katalon
+  name: Katalon
+  careers_url: https://www.katalon.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: mabl
+  name: Mabl
+  careers_url: https://www.mabl.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: testim
+  name: Testim
+  careers_url: https://www.testim.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: percy
+  name: Percy
+  careers_url: https://www.percy.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: cypress_io
+  name: Cypress.io
+  careers_url: https://www.cypressio.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: tricentis
+  name: Tricentis
+  careers_url: https://www.tricentis.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: leapwork
+  name: Leapwork
+  careers_url: https://www.leapwork.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: subject7
+  name: Subject7
+  careers_url: https://www.subject7.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: functionize
+  name: Functionize
+  careers_url: https://www.functionize.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: testlio
+  name: Testlio
+  careers_url: https://www.testlio.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: qa_wolf
+  name: QA Wolf
+  careers_url: https://www.qawolf.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: global_app_testing
+  name: Global App Testing
+  careers_url: https://www.globalapptesting.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: test_io
+  name: Test IO
+  careers_url: https://www.testio.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: utest
+  name: uTest
+  careers_url: https://www.utest.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: applause
+  name: Applause
+  careers_url: https://www.applause.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: qualitest
+  name: Qualitest
+  careers_url: https://www.qualitest.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: keysight_eggplant
+  name: Keysight Eggplant
+  careers_url: https://www.keysighteggplant.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: epam_systems
+  name: EPAM Systems
+  careers_url: https://www.epamsystems.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: cognizant
+  name: Cognizant
+  careers_url: https://www.cognizant.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: accenture
+  name: Accenture
+  careers_url: https://www.accenture.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: capgemini
+  name: Capgemini
+  careers_url: https://www.capgemini.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: infosys
+  name: Infosys
+  careers_url: https://www.infosys.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: wipro
+  name: Wipro
+  careers_url: https://www.wipro.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: tcs
+  name: TCS
+  careers_url: https://www.tcs.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: hcltech
+  name: HCLTech
+  careers_url: https://www.hcltech.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: ltimindtree
+  name: LTIMindtree
+  careers_url: https://www.ltimindtree.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: virtusa
+  name: Virtusa
+  careers_url: https://www.virtusa.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: persistent_systems
+  name: Persistent Systems
+  careers_url: https://www.persistentsystems.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: globant
+  name: Globant
+  careers_url: https://www.globant.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: endava
+  name: Endava
+  careers_url: https://www.endava.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: thoughtworks
+  name: Thoughtworks
+  careers_url: https://www.thoughtworks.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: slalom
+  name: Slalom
+  careers_url: https://www.slalom.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: avanade
+  name: Avanade
+  careers_url: https://www.avanade.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: deloitte_digital
+  name: Deloitte Digital
+  careers_url: https://www.deloittedigital.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: andela
+  name: Andela
+  careers_url: https://www.andela.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: crossover
+  name: Crossover
+  careers_url: https://www.crossover.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: turing
+  name: Turing
+  careers_url: https://www.turing.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: bairesdev
+  name: BairesDev
+  careers_url: https://www.bairesdev.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: softtek
+  name: Softtek
+  careers_url: https://www.softtek.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: ci_t
+  name: CI&T
+  careers_url: https://www.cit.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: stefanini
+  name: Stefanini
+  careers_url: https://www.stefanini.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: luxoft
+  name: Luxoft
+  careers_url: https://www.luxoft.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: grid_dynamics
+  name: Grid Dynamics
+  careers_url: https://www.griddynamics.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: dataart
+  name: DataArt
+  careers_url: https://www.dataart.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: intellias
+  name: Intellias
+  careers_url: https://www.intellias.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: n_ix
+  name: N-iX
+  careers_url: https://www.nix.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: eleks
+  name: Eleks
+  careers_url: https://www.eleks.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: netguru
+  name: Netguru
+  careers_url: https://www.netguru.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: 10clouds
+  name: 10Clouds
+  careers_url: https://www.10clouds.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: sciencesoft
+  name: ScienceSoft
+  careers_url: https://www.sciencesoft.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: itransition
+  name: Itransition
+  careers_url: https://www.itransition.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: agileengine
+  name: AgileEngine
+  careers_url: https://www.agileengine.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: avenga
+  name: Avenga
+  careers_url: https://www.avenga.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: ciklum
+  name: Ciklum
+  careers_url: https://www.ciklum.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: symphony_solutions
+  name: Symphony Solutions
+  careers_url: https://www.symphonysolutions.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: vention
+  name: Vention
+  careers_url: https://www.vention.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: gitlab
+  name: GitLab
+  careers_url: https://boards.greenhouse.io/gitlab
+  ats: greenhouse
+  ats_slug: gitlab
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: automattic
+  name: Automattic
+  careers_url: https://automattic.com/work-with-us/
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: zapier
+  name: Zapier
+  careers_url: https://boards.greenhouse.io/zapier
+  ats: greenhouse
+  ats_slug: zapier
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: shopify
+  name: Shopify
+  careers_url: https://boards.greenhouse.io/shopify
+  ats: greenhouse
+  ats_slug: shopify
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: atlassian
+  name: Atlassian
+  careers_url: https://www.atlassian.com/company/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: notion
+  name: Notion
+  careers_url: https://boards.greenhouse.io/notion
+  ats: greenhouse
+  ats_slug: notion
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: figma
+  name: Figma
+  careers_url: https://boards.greenhouse.io/figma
+  ats: greenhouse
+  ats_slug: figma
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: asana
+  name: Asana
+  careers_url: https://boards.greenhouse.io/asana
+  ats: greenhouse
+  ats_slug: asana
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: airtable
+  name: Airtable
+  careers_url: https://boards.greenhouse.io/airtable
+  ats: greenhouse
+  ats_slug: airtable
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: monday_com
+  name: monday.com
+  careers_url: https://boards.greenhouse.io/mondaydotcom
+  ats: greenhouse
+  ats_slug: mondaydotcom
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: clickup
+  name: ClickUp
+  careers_url: https://boards.greenhouse.io/clickup
+  ats: greenhouse
+  ats_slug: clickup
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: miro
+  name: Miro
+  careers_url: https://boards.greenhouse.io/miro
+  ats: greenhouse
+  ats_slug: miro
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: canva
+  name: Canva
+  careers_url: https://boards.greenhouse.io/canva
+  ats: greenhouse
+  ats_slug: canva
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: hubspot
+  name: HubSpot
+  careers_url: https://boards.greenhouse.io/hubspot
+  ats: greenhouse
+  ats_slug: hubspot
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: zendesk
+  name: Zendesk
+  careers_url: https://boards.greenhouse.io/zendesk
+  ats: greenhouse
+  ats_slug: zendesk
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: intercom
+  name: Intercom
+  careers_url: https://boards.greenhouse.io/intercom
+  ats: greenhouse
+  ats_slug: intercom
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: freshworks
+  name: Freshworks
+  careers_url: https://boards.greenhouse.io/freshworks
+  ats: greenhouse
+  ats_slug: freshworks
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: calendly
+  name: Calendly
+  careers_url: https://boards.greenhouse.io/calendly
+  ats: greenhouse
+  ats_slug: calendly
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: loom
+  name: Loom
+  careers_url: https://boards.greenhouse.io/loom
+  ats: greenhouse
+  ats_slug: loom
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: dropbox
+  name: Dropbox
+  careers_url: https://boards.greenhouse.io/dropbox
+  ats: greenhouse
+  ats_slug: dropbox
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: box
+  name: Box
+  careers_url: https://boards.greenhouse.io/box
+  ats: greenhouse
+  ats_slug: box
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: docusign
+  name: DocuSign
+  careers_url: https://boards.greenhouse.io/docusign
+  ats: greenhouse
+  ats_slug: docusign
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: twilio
+  name: Twilio
+  careers_url: https://boards.greenhouse.io/twilio
+  ats: greenhouse
+  ats_slug: twilio
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: typeform
+  name: Typeform
+  careers_url: https://boards.greenhouse.io/typeform
+  ats: greenhouse
+  ats_slug: typeform
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: webflow
+  name: Webflow
+  careers_url: https://boards.greenhouse.io/webflow
+  ats: greenhouse
+  ats_slug: webflow
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: squarespace
+  name: Squarespace
+  careers_url: https://boards.greenhouse.io/squarespace
+  ats: greenhouse
+  ats_slug: squarespace
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: wix
+  name: Wix
+  careers_url: https://boards.greenhouse.io/wix
+  ats: greenhouse
+  ats_slug: wix
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: smartsheet
+  name: Smartsheet
+  careers_url: https://boards.greenhouse.io/smartsheet
+  ats: greenhouse
+  ats_slug: smartsheet
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: pipedrive
+  name: Pipedrive
+  careers_url: https://boards.greenhouse.io/pipedrive
+  ats: greenhouse
+  ats_slug: pipedrive
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: gong
+  name: Gong
+  careers_url: https://boards.greenhouse.io/gong
+  ats: greenhouse
+  ats_slug: gong
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: outreach
+  name: Outreach
+  careers_url: https://boards.greenhouse.io/outreach
+  ats: greenhouse
+  ats_slug: outreach
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: salesloft
+  name: Salesloft
+  careers_url: https://boards.greenhouse.io/salesloft
+  ats: greenhouse
+  ats_slug: salesloft
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: pendo
+  name: Pendo
+  careers_url: https://boards.greenhouse.io/pendo
+  ats: greenhouse
+  ats_slug: pendo
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: gainsight
+  name: Gainsight
+  careers_url: https://boards.greenhouse.io/gainsight
+  ats: greenhouse
+  ats_slug: gainsight
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: productboard
+  name: Productboard
+  careers_url: https://boards.greenhouse.io/productboard
+  ats: greenhouse
+  ats_slug: productboard
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: linear
+  name: Linear
+  careers_url: https://boards.greenhouse.io/linear
+  ats: greenhouse
+  ats_slug: linear
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: basecamp
+  name: Basecamp
+  careers_url: https://basecamp.com/about/jobs
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: doist
+  name: Doist
+  careers_url: https://doist.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: buffer
+  name: Buffer
+  careers_url: https://buffer.com/journey
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: toggl
+  name: Toggl
+  careers_url: https://toggl.com/jobs/
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: hotjar
+  name: Hotjar
+  careers_url: https://boards.greenhouse.io/hotjar
+  ats: greenhouse
+  ats_slug: hotjar
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: fullstory
+  name: FullStory
+  careers_url: https://boards.greenhouse.io/fullstory
+  ats: greenhouse
+  ats_slug: fullstory
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: heap
+  name: Heap
+  careers_url: https://boards.greenhouse.io/heap
+  ats: greenhouse
+  ats_slug: heap
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: amplitude
+  name: Amplitude
+  careers_url: https://boards.greenhouse.io/amplitude
+  ats: greenhouse
+  ats_slug: amplitude
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: mixpanel
+  name: Mixpanel
+  careers_url: https://boards.greenhouse.io/mixpanel
+  ats: greenhouse
+  ats_slug: mixpanel
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: segment
+  name: Segment
+  careers_url: https://boards.greenhouse.io/segment
+  ats: greenhouse
+  ats_slug: segment
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: rudderstack
+  name: RudderStack
+  careers_url: https://boards.greenhouse.io/rudderstack
+  ats: greenhouse
+  ats_slug: rudderstack
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: hightouch
+  name: Hightouch
+  careers_url: https://boards.greenhouse.io/hightouch
+  ats: greenhouse
+  ats_slug: hightouch
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: census
+  name: Census
+  careers_url: https://boards.greenhouse.io/census
+  ats: greenhouse
+  ats_slug: census
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: fivetran
+  name: Fivetran
+  careers_url: https://boards.greenhouse.io/fivetran
+  ats: greenhouse
+  ats_slug: fivetran
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: airbyte
+  name: Airbyte
+  careers_url: https://boards.greenhouse.io/airbyte
+  ats: greenhouse
+  ats_slug: airbyte
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: dbt_labs
+  name: dbt Labs
+  careers_url: https://boards.greenhouse.io/dbtlabs
+  ats: greenhouse
+  ats_slug: dbtlabs
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: coda
+  name: Coda
+  careers_url: https://boards.greenhouse.io/coda
+  ats: greenhouse
+  ats_slug: coda
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: lattice
+  name: Lattice
+  careers_url: https://boards.greenhouse.io/lattice
+  ats: greenhouse
+  ats_slug: lattice
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: gusto
+  name: Gusto
+  careers_url: https://boards.greenhouse.io/gusto
+  ats: greenhouse
+  ats_slug: gusto
+  remote: true
+  pays_usd: true
+  region: usa
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: rippling
+  name: Rippling
+  careers_url: https://boards.greenhouse.io/rippling
+  ats: greenhouse
+  ats_slug: rippling
+  remote: true
+  pays_usd: true
+  region: usa
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: deel
+  name: Deel
+  careers_url: https://boards.greenhouse.io/deel
+  ats: greenhouse
+  ats_slug: deel
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: remote_com
+  name: Remote
+  careers_url: https://boards.greenhouse.io/remote
+  ats: greenhouse
+  ats_slug: remote
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: oyster_hr
+  name: Oyster
+  careers_url: https://boards.greenhouse.io/oysterhr
+  ats: greenhouse
+  ats_slug: oysterhr
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: papaya_global
+  name: Papaya Global
+  careers_url: https://boards.greenhouse.io/papayaglobal
+  ats: greenhouse
+  ats_slug: papayaglobal
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: justworks
+  name: Justworks
+  careers_url: https://boards.greenhouse.io/justworks
+  ats: greenhouse
+  ats_slug: justworks
+  remote: true
+  pays_usd: true
+  region: usa
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: 15five
+  name: 15Five
+  careers_url: https://boards.greenhouse.io/15five
+  ats: greenhouse
+  ats_slug: 15five
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: culture_amp
+  name: Culture Amp
+  careers_url: https://boards.greenhouse.io/cultureamp
+  ats: greenhouse
+  ats_slug: cultureamp
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: leapsome
+  name: Leapsome
+  careers_url: https://boards.greenhouse.io/leapsome
+  ats: greenhouse
+  ats_slug: leapsome
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: personio
+  name: Personio
+  careers_url: https://boards.greenhouse.io/personio
+  ats: greenhouse
+  ats_slug: personio
+  remote: true
+  pays_usd: true
+  region: europe
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: hibob
+  name: HiBob
+  careers_url: https://boards.greenhouse.io/hibob
+  ats: greenhouse
+  ats_slug: hibob
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: ashby
+  name: Ashby
+  careers_url: https://boards.greenhouse.io/ashby
+  ats: greenhouse
+  ats_slug: ashby
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: greenhouse_software
+  name: Greenhouse Software
+  careers_url: https://boards.greenhouse.io/greenhouse
+  ats: greenhouse
+  ats_slug: greenhouse
+  remote: true
+  pays_usd: true
+  region: usa
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: lever
+  name: Lever
+  careers_url: https://boards.greenhouse.io/lever
+  ats: greenhouse
+  ats_slug: lever
+  remote: true
+  pays_usd: true
+  region: usa
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: gem
+  name: Gem
+  careers_url: https://boards.greenhouse.io/gem
+  ats: greenhouse
+  ats_slug: gem
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: beamery
+  name: Beamery
+  careers_url: https://boards.greenhouse.io/beamery
+  ats: greenhouse
+  ats_slug: beamery
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: eightfold_ai
+  name: Eightfold AI
+  careers_url: https://boards.greenhouse.io/eightfold
+  ats: greenhouse
+  ats_slug: eightfold
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: phenom
+  name: Phenom
+  careers_url: https://boards.greenhouse.io/phenom
+  ats: greenhouse
+  ats_slug: phenom
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: icims
+  name: iCIMS
+  careers_url: https://boards.greenhouse.io/icims
+  ats: greenhouse
+  ats_slug: icims
+  remote: true
+  pays_usd: true
+  region: usa
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: smartrecruiters
+  name: SmartRecruiters
+  careers_url: https://boards.greenhouse.io/smartrecruiters
+  ats: greenhouse
+  ats_slug: smartrecruiters
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: workable
+  name: Workable
+  careers_url: https://boards.greenhouse.io/workable
+  ats: greenhouse
+  ats_slug: workable
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: recruitee
+  name: Recruitee
+  careers_url: https://recruitee.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: europe
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: teamtailor
+  name: Teamtailor
+  careers_url: https://career.teamtailor.com/
+  ats: website
+  remote: true
+  pays_usd: true
+  region: europe
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: factorial
+  name: Factorial
+  careers_url: https://boards.greenhouse.io/factorial
+  ats: greenhouse
+  ats_slug: factorial
+  remote: true
+  pays_usd: true
+  region: europe
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: hashicorp
+  name: HashiCorp
+  careers_url: https://www.hashicorp.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: datadog
+  name: Datadog
+  careers_url: https://www.datadog.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: new_relic
+  name: New Relic
+  careers_url: https://www.newrelic.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: splunk
+  name: Splunk
+  careers_url: https://www.splunk.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: pagerduty
+  name: PagerDuty
+  careers_url: https://www.pagerduty.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: launchdarkly
+  name: LaunchDarkly
+  careers_url: https://www.launchdarkly.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: circleci
+  name: CircleCI
+  careers_url: https://www.circleci.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: github
+  name: GitHub
+  careers_url: https://www.github.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: jetbrains
+  name: JetBrains
+  careers_url: https://www.jetbrains.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: sentry
+  name: Sentry
+  careers_url: https://www.sentry.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: postman
+  name: Postman
+  careers_url: https://www.postman.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: docker
+  name: Docker
+  careers_url: https://www.docker.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: red_hat
+  name: Red Hat
+  careers_url: https://www.redhat.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: canonical
+  name: Canonical
+  careers_url: https://www.canonical.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: vercel
+  name: Vercel
+  careers_url: https://www.vercel.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: netlify
+  name: Netlify
+  careers_url: https://www.netlify.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: railway
+  name: Railway
+  careers_url: https://www.railway.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: render
+  name: Render
+  careers_url: https://www.render.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: fly_io
+  name: Fly.io
+  careers_url: https://www.flyio.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: digitalocean
+  name: DigitalOcean
+  careers_url: https://www.digitalocean.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: cloudflare
+  name: Cloudflare
+  careers_url: https://www.cloudflare.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: fastly
+  name: Fastly
+  careers_url: https://www.fastly.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: akamai
+  name: Akamai
+  careers_url: https://www.akamai.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: pulumi
+  name: Pulumi
+  careers_url: https://www.pulumi.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: jfrog
+  name: JFrog
+  careers_url: https://www.jfrog.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: sonatype
+  name: Sonatype
+  careers_url: https://www.sonatype.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: sonarsource
+  name: SonarSource
+  careers_url: https://www.sonarsource.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: semgrep
+  name: Semgrep
+  careers_url: https://www.semgrep.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: snowflake
+  name: Snowflake
+  careers_url: https://boards.greenhouse.io/snowflake
+  ats: greenhouse
+  ats_slug: snowflake
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: databricks
+  name: Databricks
+  careers_url: https://boards.greenhouse.io/databricks
+  ats: greenhouse
+  ats_slug: databricks
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: confluent
+  name: Confluent
+  careers_url: https://boards.greenhouse.io/confluent
+  ats: greenhouse
+  ats_slug: confluent
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: elastic
+  name: Elastic
+  careers_url: https://boards.greenhouse.io/elastic
+  ats: greenhouse
+  ats_slug: elastic
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: mongodb
+  name: MongoDB
+  careers_url: https://boards.greenhouse.io/mongodb
+  ats: greenhouse
+  ats_slug: mongodb
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: cockroach_labs
+  name: Cockroach Labs
+  careers_url: https://boards.greenhouse.io/cockroachlabs
+  ats: greenhouse
+  ats_slug: cockroachlabs
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: planetscale
+  name: PlanetScale
+  careers_url: https://boards.greenhouse.io/planetscale
+  ats: greenhouse
+  ats_slug: planetscale
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: supabase
+  name: Supabase
+  careers_url: https://boards.greenhouse.io/supabase
+  ats: greenhouse
+  ats_slug: supabase
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: neon
+  name: Neon
+  careers_url: https://boards.greenhouse.io/neon
+  ats: greenhouse
+  ats_slug: neon
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: hasura
+  name: Hasura
+  careers_url: https://boards.greenhouse.io/hasura
+  ats: greenhouse
+  ats_slug: hasura
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: retool
+  name: Retool
+  careers_url: https://boards.greenhouse.io/retool
+  ats: greenhouse
+  ats_slug: retool
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: workato
+  name: Workato
+  careers_url: https://boards.greenhouse.io/workato
+  ats: greenhouse
+  ats_slug: workato
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: tray_io
+  name: Tray.io
+  careers_url: https://boards.greenhouse.io/trayio
+  ats: greenhouse
+  ats_slug: trayio
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: crowdstrike
+  name: CrowdStrike
+  careers_url: https://www.crowdstrike.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: palo_alto_networks
+  name: Palo Alto Networks
+  careers_url: https://www.paloaltonetworks.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: fortinet
+  name: Fortinet
+  careers_url: https://www.fortinet.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: okta
+  name: Okta
+  careers_url: https://www.okta.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: auth0
+  name: Auth0
+  careers_url: https://www.auth0.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: 1password
+  name: 1Password
+  careers_url: https://www.1password.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: bitwarden
+  name: Bitwarden
+  careers_url: https://www.bitwarden.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: nord_security
+  name: Nord Security
+  careers_url: https://www.nordsecurity.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: zscaler
+  name: Zscaler
+  careers_url: https://www.zscaler.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: sentinelone
+  name: SentinelOne
+  careers_url: https://www.sentinelone.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: rapid7
+  name: Rapid7
+  careers_url: https://www.rapid7.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: tenable
+  name: Tenable
+  careers_url: https://www.tenable.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: qualys
+  name: Qualys
+  careers_url: https://www.qualys.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: hackerone
+  name: HackerOne
+  careers_url: https://www.hackerone.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: bugcrowd
+  name: Bugcrowd
+  careers_url: https://www.bugcrowd.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: cobalt
+  name: Cobalt
+  careers_url: https://www.cobalt.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: intruder
+  name: Intruder
+  careers_url: https://www.intruder.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: detectify
+  name: Detectify
+  careers_url: https://www.detectify.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: snyk
+  name: Snyk
+  careers_url: https://www.snyk.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: wiz
+  name: Wiz
+  careers_url: https://www.wiz.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: lacework
+  name: Lacework
+  careers_url: https://www.lacework.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: orca_security
+  name: Orca Security
+  careers_url: https://www.orcasecurity.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: mandiant
+  name: Mandiant
+  careers_url: https://www.mandiant.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: proofpoint
+  name: Proofpoint
+  careers_url: https://www.proofpoint.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: mimecast
+  name: Mimecast
+  careers_url: https://www.mimecast.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: darktrace
+  name: Darktrace
+  careers_url: https://www.darktrace.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: recorded_future
+  name: Recorded Future
+  careers_url: https://www.recordedfuture.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: cyberark
+  name: CyberArk
+  careers_url: https://www.cyberark.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: beyondtrust
+  name: BeyondTrust
+  careers_url: https://www.beyondtrust.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: veracode
+  name: Veracode
+  careers_url: https://www.veracode.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: checkmarx
+  name: Checkmarx
+  careers_url: https://www.checkmarx.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: stripe
+  name: Stripe
+  careers_url: https://www.stripe.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: plaid
+  name: Plaid
+  careers_url: https://www.plaid.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: brex
+  name: Brex
+  careers_url: https://www.brex.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: ramp
+  name: Ramp
+  careers_url: https://www.ramp.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: mercury
+  name: Mercury
+  careers_url: https://www.mercury.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: wise
+  name: Wise
+  careers_url: https://www.wise.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: revolut
+  name: Revolut
+  careers_url: https://www.revolut.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: chime
+  name: Chime
+  careers_url: https://www.chime.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: sofi
+  name: SoFi
+  careers_url: https://www.sofi.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: affirm
+  name: Affirm
+  careers_url: https://www.affirm.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: klarna
+  name: Klarna
+  careers_url: https://www.klarna.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: adyen
+  name: Adyen
+  careers_url: https://www.adyen.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: block
+  name: Block
+  careers_url: https://www.block.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: paypal
+  name: PayPal
+  careers_url: https://www.paypal.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: coinbase
+  name: Coinbase
+  careers_url: https://www.coinbase.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: kraken
+  name: Kraken
+  careers_url: https://www.kraken.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: gemini
+  name: Gemini
+  careers_url: https://www.gemini.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: circle
+  name: Circle
+  careers_url: https://www.circle.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: anchorage_digital
+  name: Anchorage Digital
+  careers_url: https://www.anchoragedigital.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: fireblocks
+  name: Fireblocks
+  careers_url: https://www.fireblocks.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: chainalysis
+  name: Chainalysis
+  careers_url: https://www.chainalysis.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: alchemy
+  name: Alchemy
+  careers_url: https://www.alchemy.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: consensys
+  name: Consensys
+  careers_url: https://www.consensys.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: ledger
+  name: Ledger
+  careers_url: https://www.ledger.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: bitgo
+  name: BitGo
+  careers_url: https://www.bitgo.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: paxos
+  name: Paxos
+  careers_url: https://www.paxos.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: marqeta
+  name: Marqeta
+  careers_url: https://www.marqeta.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: checkout_com
+  name: Checkout.com
+  careers_url: https://www.checkoutcom.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: rapyd
+  name: Rapyd
+  careers_url: https://www.rapyd.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: mollie
+  name: Mollie
+  careers_url: https://www.mollie.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: payoneer
+  name: Payoneer
+  careers_url: https://www.payoneer.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: remitly
+  name: Remitly
+  careers_url: https://www.remitly.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: airwallex
+  name: Airwallex
+  careers_url: https://www.airwallex.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: robinhood
+  name: Robinhood
+  careers_url: https://www.robinhood.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: etoro
+  name: eToro
+  careers_url: https://www.etoro.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: oscar_health
+  name: Oscar Health
+  careers_url: https://www.oscarhealth.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: ro
+  name: Ro
+  careers_url: https://www.ro.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: hims_hers
+  name: Hims & Hers
+  careers_url: https://www.himshers.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: teladoc
+  name: Teladoc
+  careers_url: https://www.teladoc.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: amwell
+  name: Amwell
+  careers_url: https://www.amwell.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: headspace
+  name: Headspace
+  careers_url: https://www.headspace.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: calm
+  name: Calm
+  careers_url: https://www.calm.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: lyra_health
+  name: Lyra Health
+  careers_url: https://www.lyrahealth.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: spring_health
+  name: Spring Health
+  careers_url: https://www.springhealth.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: modern_health
+  name: Modern Health
+  careers_url: https://www.modernhealth.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: talkspace
+  name: Talkspace
+  careers_url: https://www.talkspace.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: noom
+  name: Noom
+  careers_url: https://www.noom.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: omada_health
+  name: Omada Health
+  careers_url: https://www.omadahealth.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: virta_health
+  name: Virta Health
+  careers_url: https://www.virtahealth.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: color_health
+  name: Color Health
+  careers_url: https://www.colorhealth.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: tempus
+  name: Tempus
+  careers_url: https://www.tempus.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: flatiron_health
+  name: Flatiron Health
+  careers_url: https://www.flatironhealth.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: veeva_systems
+  name: Veeva Systems
+  careers_url: https://www.veevasystems.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: doximity
+  name: Doximity
+  careers_url: https://www.doximity.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: zocdoc
+  name: Zocdoc
+  careers_url: https://www.zocdoc.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: health_catalyst
+  name: Health Catalyst
+  careers_url: https://www.healthcatalyst.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: innovaccer
+  name: Innovaccer
+  careers_url: https://www.innovaccer.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: komodo_health
+  name: Komodo Health
+  careers_url: https://www.komodohealth.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: hinge_health
+  name: Hinge Health
+  careers_url: https://www.hingehealth.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: sword_health
+  name: Sword Health
+  careers_url: https://www.swordhealth.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: carbon_health
+  name: Carbon Health
+  careers_url: https://www.carbonhealth.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: devoted_health
+  name: Devoted Health
+  careers_url: https://www.devotedhealth.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: clover_health
+  name: Clover Health
+  careers_url: https://www.cloverhealth.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: amazon
+  name: Amazon
+  careers_url: https://www.amazon.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: ebay
+  name: eBay
+  careers_url: https://www.ebay.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: etsy
+  name: Etsy
+  careers_url: https://www.etsy.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: wayfair
+  name: Wayfair
+  careers_url: https://www.wayfair.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: chewy
+  name: Chewy
+  careers_url: https://www.chewy.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: instacart
+  name: Instacart
+  careers_url: https://www.instacart.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: doordash
+  name: DoorDash
+  careers_url: https://www.doordash.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: uber
+  name: Uber
+  careers_url: https://www.uber.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: lyft
+  name: Lyft
+  careers_url: https://www.lyft.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: airbnb
+  name: Airbnb
+  careers_url: https://www.airbnb.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: booking_com
+  name: Booking.com
+  careers_url: https://www.bookingcom.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: expedia
+  name: Expedia
+  careers_url: https://www.expedia.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: poshmark
+  name: Poshmark
+  careers_url: https://www.poshmark.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: stockx
+  name: StockX
+  careers_url: https://www.stockx.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: goat
+  name: GOAT
+  careers_url: https://www.goat.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: farfetch
+  name: Farfetch
+  careers_url: https://www.farfetch.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: zalando
+  name: Zalando
+  careers_url: https://www.zalando.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: bigcommerce
+  name: BigCommerce
+  careers_url: https://www.bigcommerce.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: vtex
+  name: VTEX
+  careers_url: https://www.vtex.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: commercetools
+  name: commercetools
+  careers_url: https://www.commercetools.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: salsify
+  name: Salsify
+  careers_url: https://www.salsify.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: openai
+  name: OpenAI
+  careers_url: https://www.openai.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: anthropic
+  name: Anthropic
+  careers_url: https://www.anthropic.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: cohere
+  name: Cohere
+  careers_url: https://www.cohere.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: hugging_face
+  name: Hugging Face
+  careers_url: https://www.huggingface.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: scale_ai
+  name: Scale AI
+  careers_url: https://www.scaleai.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: labelbox
+  name: Labelbox
+  careers_url: https://www.labelbox.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: weights_biases
+  name: Weights & Biases
+  careers_url: https://www.weightsbiases.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: arize_ai
+  name: Arize AI
+  careers_url: https://www.arizeai.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: anyscale
+  name: Anyscale
+  careers_url: https://www.anyscale.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: replicate
+  name: Replicate
+  careers_url: https://www.replicate.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: together_ai
+  name: Together AI
+  careers_url: https://www.togetherai.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: mistral_ai
+  name: Mistral AI
+  careers_url: https://www.mistralai.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: stability_ai
+  name: Stability AI
+  careers_url: https://www.stabilityai.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: runway
+  name: Runway
+  careers_url: https://www.runway.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: grammarly
+  name: Grammarly
+  careers_url: https://www.grammarly.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: glean
+  name: Glean
+  careers_url: https://www.glean.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: perplexity
+  name: Perplexity
+  careers_url: https://www.perplexity.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: pinecone
+  name: Pinecone
+  careers_url: https://www.pinecone.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: weaviate
+  name: Weaviate
+  careers_url: https://www.weaviate.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: langchain
+  name: LangChain
+  careers_url: https://www.langchain.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: humanloop
+  name: Humanloop
+  careers_url: https://www.humanloop.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: workday
+  name: Workday
+  careers_url: https://www.workday.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: adp
+  name: ADP
+  careers_url: https://www.adp.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: paychex
+  name: Paychex
+  careers_url: https://www.paychex.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: paylocity
+  name: Paylocity
+  careers_url: https://www.paylocity.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: paycom
+  name: Paycom
+  careers_url: https://www.paycom.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: ukg
+  name: UKG
+  careers_url: https://www.ukg.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: trinet
+  name: TriNet
+  careers_url: https://www.trinet.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: carta
+  name: Carta
+  careers_url: https://www.carta.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: wellfound
+  name: Wellfound
+  careers_url: https://www.wellfound.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: hired
+  name: Hired
+  careers_url: https://www.hired.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: codesignal
+  name: CodeSignal
+  careers_url: https://www.codesignal.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: hackerrank
+  name: HackerRank
+  careers_url: https://www.hackerrank.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: codility
+  name: Codility
+  careers_url: https://www.codility.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: testgorilla
+  name: TestGorilla
+  careers_url: https://www.testgorilla.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: slack
+  name: Slack
+  careers_url: https://www.slack.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: zoom
+  name: Zoom
+  careers_url: https://www.zoom.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: ringcentral
+  name: RingCentral
+  careers_url: https://www.ringcentral.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: dialpad
+  name: Dialpad
+  careers_url: https://www.dialpad.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: aircall
+  name: Aircall
+  careers_url: https://www.aircall.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: talkdesk
+  name: Talkdesk
+  careers_url: https://www.talkdesk.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: five9
+  name: Five9
+  careers_url: https://www.five9.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: genesys
+  name: Genesys
+  careers_url: https://www.genesys.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: braze
+  name: Braze
+  careers_url: https://www.braze.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: iterable
+  name: Iterable
+  careers_url: https://www.iterable.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: customer_io
+  name: Customer.io
+  careers_url: https://www.customerio.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: klaviyo
+  name: Klaviyo
+  careers_url: https://www.klaviyo.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: attentive
+  name: Attentive
+  careers_url: https://www.attentive.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: gorgias
+  name: Gorgias
+  careers_url: https://www.gorgias.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: gladly
+  name: Gladly
+  careers_url: https://www.gladly.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: front
+  name: Front
+  careers_url: https://www.front.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: help_scout
+  name: Help Scout
+  careers_url: https://www.helpscout.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: drift
+  name: Drift
+  careers_url: https://www.drift.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: clearbit
+  name: Clearbit
+  careers_url: https://www.clearbit.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: zoominfo
+  name: ZoomInfo
+  careers_url: https://www.zoominfo.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: apollo_io
+  name: Apollo.io
+  careers_url: https://www.apolloio.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: 6sense
+  name: 6sense
+  careers_url: https://www.6sense.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: demandbase
+  name: Demandbase
+  careers_url: https://www.demandbase.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: coursera
+  name: Coursera
+  careers_url: https://www.coursera.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: udemy
+  name: Udemy
+  careers_url: https://www.udemy.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: duolingo
+  name: Duolingo
+  careers_url: https://www.duolingo.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: khan_academy
+  name: Khan Academy
+  careers_url: https://www.khanacademy.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: chegg
+  name: Chegg
+  careers_url: https://www.chegg.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: 2u
+  name: 2U
+  careers_url: https://www.2u.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: instructure
+  name: Instructure
+  careers_url: https://www.instructure.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: powerschool
+  name: PowerSchool
+  careers_url: https://www.powerschool.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: classdojo
+  name: ClassDojo
+  careers_url: https://www.classdojo.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: quizlet
+  name: Quizlet
+  careers_url: https://www.quizlet.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: kahoot
+  name: Kahoot
+  careers_url: https://www.kahoot.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: masterclass
+  name: MasterClass
+  careers_url: https://www.masterclass.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: skillshare
+  name: Skillshare
+  careers_url: https://www.skillshare.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: pluralsight
+  name: Pluralsight
+  careers_url: https://www.pluralsight.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: codecademy
+  name: Codecademy
+  careers_url: https://www.codecademy.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: datacamp
+  name: DataCamp
+  careers_url: https://www.datacamp.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: clio
+  name: Clio
+  careers_url: https://www.clio.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: ironclad
+  name: Ironclad
+  careers_url: https://www.ironclad.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: icertis
+  name: Icertis
+  careers_url: https://www.icertis.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: relativity
+  name: Relativity
+  careers_url: https://www.relativity.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: everlaw
+  name: Everlaw
+  careers_url: https://www.everlaw.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: legalzoom
+  name: LegalZoom
+  careers_url: https://www.legalzoom.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: rocket_lawyer
+  name: Rocket Lawyer
+  careers_url: https://www.rocketlawyer.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: zillow
+  name: Zillow
+  careers_url: https://www.zillow.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: redfin
+  name: Redfin
+  careers_url: https://www.redfin.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: opendoor
+  name: Opendoor
+  careers_url: https://www.opendoor.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: compass
+  name: Compass
+  careers_url: https://www.compass.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: appfolio
+  name: AppFolio
+  careers_url: https://www.appfolio.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: procore
+  name: Procore
+  careers_url: https://www.procore.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: autodesk
+  name: Autodesk
+  careers_url: https://www.autodesk.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: matterport
+  name: Matterport
+  careers_url: https://www.matterport.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: flexport
+  name: Flexport
+  careers_url: https://www.flexport.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: project44
+  name: Project44
+  careers_url: https://www.project44.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: fourkites
+  name: FourKites
+  careers_url: https://www.fourkites.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: shipbob
+  name: ShipBob
+  careers_url: https://www.shipbob.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: shipmonk
+  name: ShipMonk
+  careers_url: https://www.shipmonk.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: samsara
+  name: Samsara
+  careers_url: https://www.samsara.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: motive
+  name: Motive
+  careers_url: https://www.motive.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: unity
+  name: Unity
+  careers_url: https://www.unity.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: epic_games
+  name: Epic Games
+  careers_url: https://www.epicgames.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: roblox
+  name: Roblox
+  careers_url: https://www.roblox.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: riot_games
+  name: Riot Games
+  careers_url: https://www.riotgames.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: spotify
+  name: Spotify
+  careers_url: https://www.spotify.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: netflix
+  name: Netflix
+  careers_url: https://www.netflix.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: pinterest
+  name: Pinterest
+  careers_url: https://www.pinterest.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: snap
+  name: Snap
+  careers_url: https://www.snap.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: reddit
+  name: Reddit
+  careers_url: https://www.reddit.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: discord
+  name: Discord
+  careers_url: https://www.discord.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: twitch
+  name: Twitch
+  careers_url: https://www.twitch.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: microsoft
+  name: Microsoft
+  careers_url: https://www.microsoft.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: google
+  name: Google
+  careers_url: https://www.google.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: apple
+  name: Apple
+  careers_url: https://www.apple.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: meta
+  name: Meta
+  careers_url: https://www.meta.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: linkedin
+  name: LinkedIn
+  careers_url: https://www.linkedin.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: nvidia
+  name: Nvidia
+  careers_url: https://www.nvidia.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: adobe
+  name: Adobe
+  careers_url: https://www.adobe.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: salesforce
+  name: Salesforce
+  careers_url: https://www.salesforce.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: servicenow
+  name: ServiceNow
+  careers_url: https://www.servicenow.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: oracle
+  name: Oracle
+  careers_url: https://www.oracle.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: sap
+  name: SAP
+  careers_url: https://www.sap.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: ibm
+  name: IBM
+  careers_url: https://www.ibm.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: cisco
+  name: Cisco
+  careers_url: https://www.cisco.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: vmware
+  name: VMware
+  careers_url: https://www.vmware.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: broadcom
+  name: Broadcom
+  careers_url: https://www.broadcom.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: wealthfront
+  name: Wealthfront
+  careers_url: https://www.wealthfront.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: betterment
+  name: Betterment
+  careers_url: https://www.betterment.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: personal_capital
+  name: Personal Capital
+  careers_url: https://www.personalcapital.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: ynab
+  name: YNAB
+  careers_url: https://www.ynab.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: monzo
+  name: Monzo
+  careers_url: https://www.monzo.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: starling_bank
+  name: Starling Bank
+  careers_url: https://www.starlingbank.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: spryker
+  name: Spryker
+  careers_url: https://www.spryker.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: mirakl
+  name: Mirakl
+  careers_url: https://www.mirakl.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: channeladvisor
+  name: ChannelAdvisor
+  careers_url: https://www.channeladvisor.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: yotpo
+  name: Yotpo
+  careers_url: https://www.yotpo.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: okendo
+  name: Okendo
+  careers_url: https://www.okendo.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: mutiny
+  name: Mutiny
+  careers_url: https://www.mutiny.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: metadata_io
+  name: Metadata.io
+  careers_url: https://www.metadataio.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: lucid_software
+  name: Lucid Software
+  careers_url: https://www.lucidsoftware.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: mural
+  name: Mural
+  careers_url: https://www.mural.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: whimsical
+  name: Whimsical
+  careers_url: https://www.whimsical.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: craft_docs
+  name: Craft Docs
+  careers_url: https://www.craftdocs.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: outline
+  name: Outline
+  careers_url: https://www.outline.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: slite
+  name: Slite
+  careers_url: https://www.slite.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: guru
+  name: Guru
+  careers_url: https://www.guru.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: invision
+  name: InVision
+  careers_url: https://www.invision.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: framer
+  name: Framer
+  careers_url: https://www.framer.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: zeplin
+  name: Zeplin
+  careers_url: https://www.zeplin.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: sympli
+  name: Sympli
+  careers_url: https://www.sympli.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: lemonade
+  name: Lemonade
+  careers_url: https://www.lemonade.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: root_insurance
+  name: Root Insurance
+  careers_url: https://www.rootinsurance.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: hippo
+  name: Hippo
+  careers_url: https://www.hippo.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: next_insurance
+  name: Next Insurance
+  careers_url: https://www.nextinsurance.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: coalition
+  name: Coalition
+  careers_url: https://www.coalition.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: at_bay
+  name: At-Bay
+  careers_url: https://www.atbay.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: hopper
+  name: Hopper
+  careers_url: https://www.hopper.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: kiwi_com
+  name: Kiwi.com
+  careers_url: https://www.kiwicom.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: skyscanner
+  name: Skyscanner
+  careers_url: https://www.skyscanner.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: kayak
+  name: Kayak
+  careers_url: https://www.kayak.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: navan
+  name: Navan
+  careers_url: https://www.navan.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: tripactions
+  name: TripActions
+  careers_url: https://www.tripactions.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: grubhub
+  name: Grubhub
+  careers_url: https://www.grubhub.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: deliveroo
+  name: Deliveroo
+  careers_url: https://www.deliveroo.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: glovo
+  name: Glovo
+  careers_url: https://www.glovo.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: rappi
+  name: Rappi
+  careers_url: https://www.rappi.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: ifood
+  name: iFood
+  careers_url: https://www.ifood.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: epam_continuum
+  name: EPAM Continuum
+  careers_url: https://www.epamcontinuum.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: objectivity
+  name: Objectivity
+  careers_url: https://www.objectivity.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: comarch
+  name: Comarch
+  careers_url: https://www.comarch.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: future_processing
+  name: Future Processing
+  careers_url: https://www.futureprocessing.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: spyrosoft
+  name: Spyrosoft
+  careers_url: https://www.spyrosoft.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: transition_technologies
+  name: Transition Technologies
+  careers_url: https://www.transitiontechnologies.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: intetics
+  name: Intetics
+  careers_url: https://www.intetics.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: belitsoft
+  name: Belitsoft
+  careers_url: https://www.belitsoft.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: elinext
+  name: Elinext
+  careers_url: https://www.elinext.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: oxagile
+  name: Oxagile
+  careers_url: https://www.oxagile.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: sigma_software
+  name: Sigma Software
+  careers_url: https://www.sigmasoftware.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: boldare
+  name: Boldare
+  careers_url: https://www.boldare.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: scalac
+  name: Scalac
+  careers_url: https://www.scalac.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: software_mind
+  name: Software Mind
+  careers_url: https://www.softwaremind.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: vectra_ai
+  name: Vectra AI
+  careers_url: https://www.vectraai.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: extrahop
+  name: ExtraHop
+  careers_url: https://www.extrahop.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: greynoise
+  name: GreyNoise
+  careers_url: https://www.greynoise.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: censys
+  name: Censys
+  careers_url: https://www.censys.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: flashpoint
+  name: Flashpoint
+  careers_url: https://www.flashpoint.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: dragos
+  name: Dragos
+  careers_url: https://www.dragos.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: claroty
+  name: Claroty
+  careers_url: https://www.claroty.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires
+- id: nozomi_networks
+  name: Nozomi Networks
+  careers_url: https://www.nozominetworks.com/careers
+  ats: website
+  remote: true
+  pays_usd: true
+  region: global
+  notes: Remote QA-friendly employer; USD compensation common for global hires

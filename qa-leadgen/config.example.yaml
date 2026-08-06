@@ -42,8 +42,16 @@ sources:
   upwork: true           # best source for freelance QA; requires Upwork OAuth in .env
   wellfound: false
   linkedin_jobs: false
-  custom_career_pages:
-    - "https://careers.example.com/jobs"
+  custom_career_pages: []
+
+# 500 remote QA employers paying USD globally (config/remote_qa_companies.yaml)
+company_sources:
+  enabled: true
+  remote_only: true
+  pays_usd_only: true
+  max_ats_fetch_per_run: 75   # Greenhouse/Lever/Recruitee boards per scan
+  fetch_website_pages: false    # set true to scrape non-ATS career pages (slower)
+  regions: []                   # empty = all; or usa, europe, australia, uae
 
 # Platform registry (192 job boards across 57+ countries — see platforms/*.yaml)
 platform_registry:
