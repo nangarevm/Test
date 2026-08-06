@@ -1,0 +1,1000 @@
+Siemens
+Bosch
+Deutsche Telekom
+TeamViewer
+HelloFresh
+Scout24
+Celonis
+Contentful
+GetYourGuide
+Adjust
+Forto
+Sennder
+Flink
+Trade Republic
+Moss
+Billie
+Omio
+Auto1 Group
+Statista
+Jimdo
+Trivago
+XING
+Scoutbee
+Infarm
+SUSE
+N26
+SumUp
+Rocket Internet
+About You
+Kaufland e-commerce
+MediaMarktSaturn
+Otto Group
+Taxfix
+Clark
+Raisin
+Wefox
+Tier Mobility
+Lilium
+Volocopter
+LeanIX
+Staffbase
+Pitch
+DeepL
+Commerzbank
+Deutsche Bank
+Allianz
+Munich Re
+BMW Group
+Mercedes-Benz
+Volkswagen
+Porsche
+Audi
+DATEV
+Bechtle
+Hypoport
+Solarisbank
+Vivid Money
+HomeToGo
+Tourlane
+Sixt
+FreeNow
+Sono Motors
+Brainlab
+Qiagen
+Evonik
+Henkel
+Bayer
+BASF
+Continental
+ZF Friedrichshafen
+Schaeffler
+MTU Aero Engines
+Infineon
+Brenntag
+Symrise
+Kenjo
+TWAICE
+IntegrityNext
+eyeo
+Supercell
+Relex Solutions
+Smartly.io
+F-Secure
+WithSecure
+ICEYE
+Basware
+Rovio
+Oura
+Wolt
+Nokia
+Kone
+UPM
+Fortum
+Metso Outotec
+Valmet
+Tietoevry
+Gofore
+Reaktor
+Wärtsilä
+Konecranes
+Outokumpu
+ASML
+Philips
+ING
+ABN AMRO
+Rabobank
+TomTom
+Bunq
+Picnic
+MessageBird
+Coolblue
+bol.com
+Randstad
+Heineken
+Unilever
+Shell
+KPN
+PostNL
+Exact
+Visma
+Mambu
+Backbase
+Collibra
+Odoo
+Showpad
+Adevinta
+Maersk
+Novo Nordisk
+Vestas
+Ørsted
+SimCorp
+Netcompany
+Systematic
+Danske Bank
+Jyske Bank
+Nordea
+Handelsbanken
+SEB
+Swedbank
+Sampo
+OP Financial Group
+Kesko
+Back Market
+Deezer
+BlaBlaCar
+Doctolib
+PayFit
+Qonto
+Alan
+Algolia
+Criteo
+Contentsquare
+Spendesk
+Shift Technology
+OVHcloud
+Dassault Systèmes
+Atos
+Worldline
+Sopra Steria
+Thales
+ManoMano
+Veepee
+Believe
+Swile
+Yousign
+Pennylane
+Dataiku
+Dashlane
+Talentsoft
+Cegid
+Vestiaire Collective
+Ankorstore
+Pigment
+Brevo
+Agicap
+Sidetrade
+Lydia
+Swan
+Scaleway
+PrestaShop
+Akeneo
+AB Tasty
+Oodrive
+Equativ
+Sanofi
+L'Oréal
+LVMH
+Schneider Electric
+Wavestone
+Inetum
+Smile
+Aubay
+EDF
+Engie
+Veolia
+Bouygues
+Vinci
+Saint-Gobain
+Legrand
+Dassault Aviation
+Safran
+Airbus
+Michelin
+Danone
+Pernod Ricard
+Accor
+Ipsos
+Publicis Groupe
+Havas
+Ipsen
+Servier
+Eni
+Enel
+TIM
+Telecom Italia
+Poste Italiane
+Intesa Sanpaolo
+UniCredit
+Leonardo
+Ferrero
+Luxottica
+Prada
+Moncler
+Pirelli
+Technogym
+Bending Spoons
+Facile.it
+Scalapay
+Satispay
+Prima Assicurazioni
+Nexi
+SIA
+Iberdrola
+Inditex
+Santander
+BBVA
+CaixaBank
+Telefónica
+Amadeus
+Cellnex
+Ferrovial
+Mapfre
+Naturgy
+eDreams ODIGEO
+Bizum
+Minsait
+Sherpa.ai
+Tarlogic
+Nextail
+GMV
+ViewNext
+Wallapop
+Fever
+TravelPerk
+Seedtag
+CARTO
+Marfeel
+Cabify
+Idealista
+Jobandtalent
+Holded
+Signaturit
+Payhawk
+Devo
+Truecaller
+Einride
+Kry
+Pleo
+Epidemic Sound
+Sinch
+Trustly
+Neo4j
+King
+Mojang Studios
+Husqvarna Group
+Electrolux
+Assa Abloy
+Hexagon AB
+Sandvik
+Atlas Copco
+SKF
+Saab
+Autoliv
+Evolution Gaming
+Embracer Group
+Paradox Interactive
+Storytel
+Northvolt
+Voi Technology
+Lifesum
+Mentimeter
+Quinyx
+Fortnox
+Bokio
+Telia Company
+Ericsson
+H&M
+Volvo Cars
+Volvo Group
+Skanska
+Nordic Semiconductor
+Telenor
+DNB
+Equinor
+Yara
+Opera
+Cognite
+Schibsted
+ABB
+Nestlé
+Novartis
+Roche
+UBS
+Credit Suisse
+Zurich Insurance
+Swiss Re
+Logitech
+Sonova
+Richemont
+SGS
+Givaudan
+Lonza
+Geberit
+Schindler
+Kuehne+Nagel
+Sika
+Temenos
+Scandit
+Beekeeper
+On Running
+Avaloq
+Numbrs
+Frontify
+Yokoy
+Red Bull
+OMV
+Erste Group
+Raiffeisen Bank
+Andritz
+Voestalpine
+Strabag
+Palfinger
+ams OSRAM
+AVL
+Dynatrace
+Bitpanda
+GoStudent
+Refurbed
+Storebox
+Shpock
+Runtastic
+mySugr
+Umicore
+Solvay
+KBC Group
+Ageas
+Proximus
+Elia
+UCB
+Barco
+Melexis
+Materialise
+Allegro
+CD Projekt
+Asseco
+LiveChat
+Text
+Brainly
+DocPlanner
+Booksy
+Infermedica
+Zonda
+G2A
+Software Mansion
+Feedzai
+OutSystems
+Unbabel
+Defined.ai
+Codacy
+Rows
+Jscrambler
+Blip
+Critical Software
+Avast
+Gen Digital
+Rohlik
+Seznam
+UiPath
+Bitdefender
+eMAG
+Fortech
+Zitec
+Amdocs
+Nice Systems
+SolarEdge
+Tower Semiconductor
+Elbit Systems
+Rafael Advanced Defense
+Playtika
+Moon Active
+AppsFlyer
+Viber
+Lightricks
+Check Point
+OrCam
+Fiverr
+Similarweb
+Riskified
+Agora
+Taboola
+Outbrain
+IronSource
+Mobileye
+Gett
+Forter
+Redis
+Tink
+GoCardless
+Oaknorth
+Curve
+Zopa
+PensionBee
+Cleo
+Tide
+Truelayer
+Onfido
+Paddle
+Improbable
+Graphcore
+Sophos
+Arm
+Sage Group
+Gymshark
+Funding Circle
+BT Group
+Vodafone
+Kingfisher
+Ocado
+Rightmove
+AutoTrader UK
+Monese
+TransferGo
+Ocado Technology
+Babylon Health
+BenevolentAI
+Oxford Nanopore
+ARM Holdings
+Rolls-Royce
+BAE Systems
+BT
+Sky
+BBC
+ITV
+Sainsbury's
+Tesco
+Marks & Spencer
+John Lewis
+ASOS
+Boohoo
+Moonpig
+Trainline
+Citymapper
+Octopus Energy
+OVO Energy
+Nutmeg
+Chip
+Plum
+Codat
+ComplyAdvantage
+Thought Machine
+Form3
+Marshmallow
+YuLife
+Zego
+Wrisk
+Superscript
+Freetrade
+PrimaryBid
+Micro Focus
+Computacenter
+Softcat
+RS Group
+Pearson
+RELX
+Informa
+WPP
+Capita
+Serco
+QinetiQ
+Virgin Media O2
+Three UK
+EE
+TalkTalk
+Plusnet
+Hootsuite
+Lightspeed Commerce
+Kinaxis
+OpenText
+Wattpad
+D2L
+Coveo
+Wealthsimple
+Ada
+BenchSci
+MindBridge
+Kong Inc
+Ceridian
+Absolute Software
+Nuvei
+GeoComply
+BlackBerry
+CGI
+Constellation Software
+Descartes Systems
+Enbridge
+Manulife
+Sun Life
+Royal Bank of Canada
+TD Bank
+Scotiabank
+BMO
+CIBC
+National Bank of Canada
+Telus
+Rogers
+Bell Canada
+Clearco
+League
+TouchBistro
+ApplyBoard
+Neo Financial
+KOHO
+Borrowell
+Mogo
+Nulogy
+Top Hat
+PointClickCare
+AlayaCare
+TELUS International
+MDA
+Ballard Power Systems
+Bombardier
+CAE
+Magna International
+Linamar
+Fairfax Financial
+Intact Financial
+Brookfield
+Algonquin Power
+Fortis Inc
+Emera
+Hydro One
+TC Energy
+Pembina Pipeline
+CN Rail
+CP Rail
+Air Canada
+WestJet
+Porter Airlines
+Canada Goose
+Lululemon
+Dollarama
+Canadian Tire
+Loblaw Companies
+Metro Inc
+Empire Company
+Saputo
+Couche-Tard
+Xero
+SafetyCulture
+Employment Hero
+Deputy
+Tyro
+Immutable
+Linktree
+Eucalyptus
+HypeAuditor
+Buildkite
+FrankieOne
+Brighte
+Dovetail
+Harrison.ai
+Nuix
+Envato
+REA Group
+Seek
+Afterpay
+Zip Co
+Prospa
+Judo Bank
+Athena Home Loans
+Lendi
+Airtasker
+Redbubble
+SiteMinder
+TechnologyOne
+WiseTech Global
+Altium
+Appen
+Nearmap
+Computershare
+Telstra
+Optus
+Commonwealth Bank
+Westpac
+NAB
+ANZ
+Macquarie Group
+Qantas
+Flight Centre
+Webjet
+Corporate Travel Management
+NEXTDC
+Megaport
+Iress
+Bravura Solutions
+Infomedia
+Woolworths Group
+Coles Group
+BHP
+Rio Tinto
+Fortescue
+CSL
+ResMed
+Cochlear
+Carsales
+Grab
+Sea Group
+Shopee
+Razer
+Ninja Van
+Carousell
+PropertyGuru
+GovTech Singapore
+NCS Group
+ST Engineering
+Secretlab
+PatSnap
+Horizon Quantum Computing
+Trax
+Nium
+Aspire
+Funding Societies
+Carro
+Oddle
+ShopBack
+Ascend Money
+2C2P
+Fazz Financial
+Xfers
+YouTrip
+Syfe
+Endowus
+StashAway
+Homage
+Doctor Anywhere
+Biofourmis
+Hmlet
+99.co
+Glints
+Intellect
+Acronis
+DBS
+OCBC
+UOB
+Singtel
+StarHub
+M1
+Mapletree
+CapitaLand
+Keppel
+Sembcorp
+Wilmar
+Bowtie
+Lalamove
+WeLab
+Klook
+GoGoX
+TNG Digital
+Animoca Brands
+BitMEX
+Crypto.com
+OSL
+HKBN
+PCCW
+HKEX
+HSBC
+Standard Chartered
+AIA
+Prudential
+ZA Bank
+Mox Bank
+Livi Bank
+WeLab Bank
+Rakuten
+Mercari
+CyberAgent
+DeNA
+GREE
+Mixi
+LINE Corporation
+Z Holdings
+PayPay
+SmartNews
+Money Forward
+freee
+Sansan
+Cybozu
+Fujitsu
+NEC
+Hitachi
+Sony
+Panasonic
+Toyota
+Honda
+Nintendo
+Square Enix
+Capcom
+Bandai Namco
+Recruit Holdings
+Naver
+Kakao
+Coupang
+Baemin
+Toss
+Yanolja
+Krafton
+NCSOFT
+Pearl Abyss
+Woowa Brothers
+Dunamu
+Upbit
+Mercado Libre
+Nubank
+Stone
+PagSeguro
+Creditas
+Loft
+Wildlife Studios
+Gympass
+QuintoAndar
+Loggi
+EBANX
+Kavak
+Clip
+Bitso
+Konfio
+Buser
+Hotmart
+Totvs
+Locaweb
+Movile
+StoneCo
+C6 Bank
+Inter
+PicPay
+Banco Original
+Magazine Luiza
+Via
+Despegar
+B2W Digital
+Americanas
+RD Station
+Conta Azul
+Omie
+Pagar.me
+Jusbrasil
+Arco Educação
+Cogna Educação
+XP Inc
+Banco Inter
+Méliuz
+Facily
+Guiabolso
+Celcoin
+Dock
+QI Tech
+CloudWalk
+RecargaPay
+Will Bank
+Careem
+talabat
+Tabby
+Noon
+Tamara
+Property Finder
+Kitopi
+Bayut
+M42
+Emirates NBD
+ADNOC Digital
+Majid Al Futtaim
+Emaar
+DP World
+Etisalat
+du
+Aramex
+Swvl
+Vezeeta
+Fawry
+Paymob
+Jumia
+Yassir
+Halan
+Breadfast
+Rabbit
+Sylndr
+Khazna
+MNT-Halan
+Instabug
+Flywire
+Software AG
+Fielmann
+Schwarz Group
+Bertelsmann
+Axel Springer SE
+Wolters Kluwer
+Westwing
+ImmoScout24
+Immowelt
+Smava
+Auxmoney
+Interhyp
+Lexoffice
+sevDesk
+Qt Group
+Vaisala
+Cargotec
+Kemira
+Elisa Corporation
+Posti Group
+PostNord AB
+Bring AS
+Bitvavo
+Tony's Chocolonely
+Rituals Cosmetics
+Basic-Fit
+Ahold Delhaize
+Delivery Hero
+PlanRadar
+TourRadar
+Flix
+FlixBus
+Check24
+idealo
+reBuy
+Cyberport
+Murex
+Finastra
+LSEG
+Deutsche Börse
+Euronext
+ClearBank
+Griffin
+Staffomatic
+Siemens Healthineers
+Carl Zeiss Meditec
+Trumpf
+Kärcher
+GEA Group
+MAN Energy Solutions
+Rheinmetall
+DSV
+Deutsche Post DHL
+Rhenus Logistics
+GXO Logistics
+XPO Europe
+Personetics
+SAP Fioneer
+Decathlon
+Kiabi
+Mango
+Desigual
+Oysho
+Massimo Dutti
+Pull&Bear
+Bershka
+Stradivarius
+Ubisoft
+Kering
+Hermès
+L'Occitane
+Sephora
+Société Générale
+BNP Paribas
+Crédit Agricole
+Groupe BPCE
+Natixis
+AXA
+Capgemini Invent
+Sopra Banking Software
+Axway
+Atom Bank
+Tandem Bank
+Shawbrook Bank
+Metro Bank
+Virgin Money UK
+Barclays
+NatWest Group
+Lloyds Banking Group
+Santander UK
+Hargreaves Lansdown
+AJ Bell
+Interactive Investor
+Cervest
+Motorway
+Grainger
+Great Portland Estates
+Experian
+Diageo
+GSK
+AstraZeneca
+Haleon
+Reckitt
+Next plc
+JD Sports
+Frasers Group
+British Land
+Segro
+Legal & General
+Aviva
+Admiral Group
+Direct Line
+Close Brothers
+Investec
+CMC Markets
+IG Group
+Plus500
+Multiverse
+Beam
+Cazoo
+Marshmallow Insurance
+Bulb Energy
+Screwfix
+B&Q
+Toolstation
+Halfords
+Pets at Home
+Associated British Foods
+Smith+Nephew
+Convatec
+Spirax-Sarco
+Halma
+DWS Group
+Schroders
+Man Group
+Jupiter Fund Management
+abrdn
+Royal London
+Quilter
+Integrated Financial
+Rathbones
+Bux
+Trading 212
+Benevity
+Maple
+Dialogue Health
+CloudMD
+WELL Health
+Thomson Reuters
+Flinks
+Sensibill
+Properly
+Paper
+Zeller
+Till Payments
+Assembly Payments
+Fat Zebra
+PromisePay
+Pin Payments
+Pushpay
+Telus Health
+Bullfrog Power
+CarbonCure
+Nuvei Payments
+Solace
+Mable
+hipages
+CarNextDoor
+Lux Group
+Aconex
+Soldo
+Coconut
+Anna Money
+Countingup
+Mettle
+iwoca
+Cashplus
+Zoopla
+SpareRoom
+OnTheMarket
+Purplebricks
+Foxtons
+Savills
+Knight Frank
+JLL
+CBRE
+Countrywide
+LSL Property Services
+Ownr
