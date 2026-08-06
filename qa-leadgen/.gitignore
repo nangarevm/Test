@@ -1,4 +1,11 @@
-# QA Lead-Gen data outputs
-qa-leadgen/data/
-qa-leadgen/config.yaml
-qa-leadgen/.env
+# QA Lead-Gen data outputs and local config
+data/
+config.yaml
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/

@@ -39,10 +39,13 @@ def cli(ctx: click.Context, config: str) -> None:
 
 
 @cli.command()
+@click.option("--all-qa", is_flag=True, help="Include full-time QA jobs, not just freelance/contract")
 @click.pass_context
-def fetch(ctx: click.Context) -> None:
+def fetch(ctx: click.Context, all_qa: bool) -> None:
     """Aggregate QA job postings from configured sources."""
     config = ctx.obj["config"]
+    if all_qa:
+        config.setdefault("search", {})["only_freelance"] = False
     data_dir = ctx.obj["data_dir"]
     jobs_file = data_dir / config["output"]["jobs_tracker"]
 
@@ -52,7 +55,15 @@ def fetch(ctx: click.Context) -> None:
     existing = load_jobs_tracker(jobs_file) if jobs_file.exists() else []
     merged = merge_jobs(existing, new_jobs)
     export_jobs_tracker(merged, jobs_file)
+
+    freelance = sum(1 for j in merged if j.employment_type in {"Freelance", "Contract", "Part-time"})
     console.print(f"[green]Saved {len(merged)} jobs to {jobs_file}[/green]")
+    if merged:
+        console.print(f"  Employment breakdown: {freelance} freelance/contract/part-time, {len(merged) - freelance} other")
+        for j in merged[:10]:
+            console.print(f"    [{j.employment_type}] {j.company} — {j.role} ({j.source})")
+        if len(merged) > 10:
+            console.print(f"    ... and {len(merged) - 10} more")
 
 
 @cli.command()

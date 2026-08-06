@@ -32,6 +32,7 @@ class JobPosting:
     experience_level: str
     source: str
     posting_link: str
+    employment_type: str = "Not specified"
     date_found: datetime = field(default_factory=datetime.utcnow)
     contact_email: Optional[str] = None
     status: JobStatus = JobStatus.NEW

@@ -9,12 +9,20 @@ user:
 
 search:
   keywords:
+    - "freelance qa"
+    - "contract qa"
     - "QA"
     - "quality assurance"
     - "software tester"
     - "SDET"
     - "test engineer"
     - "automation engineer"
+  # When true, only keep freelance/contract/part-time roles
+  only_freelance: true
+  employment_types:
+    - freelance
+    - contract
+    - part_time
   locations:
     - "remote"
     - "United States"
@@ -23,8 +31,9 @@ sources:
   remoteok: true
   weworkremotely: true
   remotive: true
+  arbeitnow: true
   indeed: false          # requires INDEED_PUBLISHER_ID in .env
-  upwork: false          # requires Upwork OAuth credentials in .env
+  upwork: true           # best source for freelance QA; requires Upwork OAuth in .env
   wellfound: false       # limited public access; enable if you have API access
   linkedin_jobs: false   # public job search; use sparingly
   custom_career_pages:

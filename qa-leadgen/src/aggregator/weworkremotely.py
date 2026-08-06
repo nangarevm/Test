@@ -12,7 +12,6 @@ from src.models import JobPosting
 
 QA_CATEGORIES = [
     "https://weworkremotely.com/categories/remote-qa-jobs.rss",
-    "https://weworkremotely.com/categories/remote-programming-jobs.rss",
 ]
 
 

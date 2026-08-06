@@ -18,7 +18,19 @@ from src.outreach.templates import render_email
 def test_is_qa_related():
     assert is_qa_related("Senior QA Engineer", "manual testing")
     assert is_qa_related("SDET", "")
+    assert is_qa_related("Software Tester", "automation experience required")
     assert not is_qa_related("Senior Java Backend Developer", "Spring Boot microservices")
+    assert not is_qa_related("Avi Go", "quality assurance math ops golang")
+
+
+def test_infer_employment_type():
+    from src.aggregator.base import infer_employment_type, is_freelance_or_contract
+
+    assert infer_employment_type("Freelance QA Tester", "") == "Freelance"
+    assert infer_employment_type("QA Contractor", "6 month contract") == "Freelance"
+    assert infer_employment_type("QA Engineer", "", api_job_type="contract") == "Contract"
+    assert is_freelance_or_contract("Contract", "QA Lead", "")
+    assert not is_freelance_or_contract("Full-time", "QA Lead", "full-time role")
 
 
 def test_extract_email():
@@ -35,11 +47,11 @@ def test_infer_seniority():
 def test_deduplicate_jobs():
     j1 = JobPosting(
         company="Acme", role="QA Engineer", jd_text="test", location="Remote",
-        experience_level="Mid", source="A", posting_link="http://a.com",
+        experience_level="Mid", employment_type="Freelance", source="A", posting_link="http://a.com",
     )
     j2 = JobPosting(
         company="Acme", role="QA Engineer", jd_text="longer description here",
-        location="Remote", experience_level="Mid", source="B",
+        location="Remote", experience_level="Mid", employment_type="Contract", source="B",
         posting_link="http://b.com", contact_email="hr@acme.com",
     )
     result = deduplicate_jobs([j1, j2])

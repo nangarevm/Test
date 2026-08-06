@@ -6,6 +6,7 @@ from typing import TYPE_CHECKING
 
 from rich.console import Console
 
+from src.aggregator.arbeitnow import ArbeitnowSource
 from src.aggregator.custom_careers import CustomCareerPageSource
 from src.aggregator.deduplicator import deduplicate_jobs
 from src.aggregator.indeed import IndeedSource
@@ -26,6 +27,7 @@ SOURCE_REGISTRY = {
     "remoteok": RemoteOKSource,
     "weworkremotely": WeWorkRemotelySource,
     "remotive": RemotiveSource,
+    "arbeitnow": ArbeitnowSource,
     "indeed": IndeedSource,
     "upwork": UpworkSource,
     "wellfound": WellfoundSource,
@@ -61,5 +63,20 @@ def aggregate_jobs(config: dict) -> list[JobPosting]:
             console.print(f"  [yellow]Warning: {source.name} failed: {exc}[/yellow]")
 
     deduped = deduplicate_jobs(all_jobs)
+
+    freelance_count = sum(
+        1 for j in deduped if j.employment_type in {"Freelance", "Contract", "Part-time"}
+    )
     console.print(f"[green]Total unique QA postings: {len(deduped)}[/green]")
+    if deduped:
+        console.print(
+            f"  Freelance/contract/part-time: {freelance_count} | "
+            f"Other: {len(deduped) - freelance_count}"
+        )
+    elif config.get("search", {}).get("only_freelance"):
+        console.print(
+            "[yellow]No freelance/contract QA postings found. "
+            "Try: set search.only_freelance to false, enable Upwork/Indeed APIs, "
+            "or add custom career pages.[/yellow]"
+        )
     return deduped

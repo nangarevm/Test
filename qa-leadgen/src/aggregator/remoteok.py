@@ -31,6 +31,8 @@ class RemoteOKSource(JobSource):
             searchable = f"{title} {tags} {description}".lower()
             if keyword_set and not any(k in searchable for k in keyword_set):
                 continue
+            if not any(t in tags.lower() for t in ("qa", "testing", "sdet", "quality")):
+                continue
 
             epoch = item.get("epoch")
             date_found = (
