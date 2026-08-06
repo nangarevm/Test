@@ -13,16 +13,19 @@ A compliant Python tool for QA staffing lead generation and personalized outreac
 ## Features
 
 ### 1. Job Requirement Aggregator
-Includes a **registry of 100 remote/overseas job platforms** (see `platforms/platforms.yaml`), grouped by type:
+Includes a **registry of 165 job platforms** (100 remote boards + 65 overseas software sites across 36 countries):
 
-- General remote job boards (We Work Remotely, RemoteOK, Himalayas, Working Nomads, etc.)
-- Freelance/gig marketplaces (Upwork, Fiverr, Freelancer.com, Toptal, etc.)
-- Tech-focused (Wellfound, Dice, Turing, Lemon.io, etc.)
-- Startup, region-specific, writing, design, customer support, marketing
-- Employer-of-record platforms (Deel, Remote.com, Oyster, etc.)
-- Large aggregators (LinkedIn, Indeed, Glassdoor, etc.)
+```bash
+python main.py platforms
+python main.py platforms -g overseas_software
+python main.py platforms --fetchable-only
+```
 
-**18 platforms** have automated public feed/API adapters. The rest are catalogued for reference — add their career page URLs under `sources.custom_career_pages` to fetch from them.
+- General remote, freelance/gig, tech-focused, startup, regional boards
+- **Overseas software job boards** — USA, UK, Germany, France, India, Australia, Brazil, UAE, Japan, and more
+- Employer-of-record platforms, large aggregators
+
+**20+ platforms** have automated public feed/API adapters. Others are catalogued in the `Overseas Job Boards` Excel sheet — add career page URLs under `custom_career_pages` to fetch from them.
 
 ```bash
 # List all 100 platforms and which are enabled
