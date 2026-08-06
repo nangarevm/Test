@@ -86,8 +86,14 @@ cp .env.example .env
 ### Commands
 
 ```bash
-# Fetch QA jobs from all enabled sources
+# Fetch QA jobs from all enabled sources (freelance/contract only by default)
 python main.py fetch
+
+# Include full-time QA roles too
+python main.py fetch --all-qa
+
+# List all 100 registered job platforms
+python main.py platforms
 
 # Enrich company contacts for jobs missing email
 python main.py enrich
@@ -105,6 +111,48 @@ python main.py stats
 python main.py run-all
 ```
 
+### Telegram Reports (every 12 hours)
+
+Send the Excel tracker to your Telegram chat automatically.
+
+**Setup:**
+1. Create a bot with [@BotFather](https://t.me/BotFather) and copy the bot token
+2. Get your chat ID from [@userinfobot](https://t.me/userinfobot)
+3. Add to `.env`:
+   ```
+   TELEGRAM_BOT_TOKEN=your_bot_token
+   TELEGRAM_CHAT_ID=your_chat_id
+   ```
+4. Enable in `config.yaml`:
+   ```yaml
+   telegram:
+     enabled: true
+     interval_hours: 12
+   ```
+
+**Commands:**
+```bash
+# Verify Telegram setup
+python main.py telegram test
+
+# Send Excel files now
+python main.py telegram send
+
+# Fetch fresh data, then send
+python main.py telegram send --fetch-first
+
+# Run continuously: fetch + send every 12 hours
+python main.py telegram run
+
+# Custom interval (e.g. every 6 hours)
+python main.py telegram run --interval 6
+```
+
+**Cron alternative** (if you prefer system cron over a long-running process):
+```cron
+0 */12 * * * cd /path/to/qa-leadgen && python main.py telegram send --fetch-first
+```
+
 ## Configuration
 
 Edit `config.yaml`:
@@ -117,12 +165,13 @@ user:
   website: "https://janedoe.dev"
 
 sources:
-  remoteok: true
-  weworkremotely: true
-  remotive: true
-  indeed: false          # set INDEED_PUBLISHER_ID in .env
-  custom_career_pages:
-    - "https://careers.your-target-company.com"
+  linkedin_jobs: false   # set true to include LinkedIn public job search
+
+platform_registry:
+  auto_enable_feeds: true   # enable all platforms with public feeds/APIs
+  groups: []                # or enable by category, e.g. [general_remote, freelance_gig]
+  include: []               # explicitly enable platform IDs
+  exclude: [flexjobs, fiverr, problogger, dribbble]
 
 email:
   provider: "smtp"       # smtp | sendgrid | mailgun

@@ -8,3 +8,4 @@ PyYAML>=6.0.0
 lxml>=4.9.0
 click>=8.1.0
 rich>=13.7.0
+schedule>=1.2.0

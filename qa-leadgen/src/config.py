@@ -41,6 +41,16 @@ def _apply_env_overrides(config: dict[str, Any]) -> None:
     if os.getenv("UPWORK_ACCESS_TOKEN"):
         sources["upwork"] = True
 
+    telegram = config.setdefault("telegram", {})
+    env_telegram = {
+        "TELEGRAM_BOT_TOKEN": "bot_token",
+        "TELEGRAM_CHAT_ID": "chat_id",
+    }
+    for env_key, cfg_key in env_telegram.items():
+        val = os.getenv(env_key)
+        if val:
+            telegram[cfg_key] = val
+
 
 def ensure_output_dir(config: dict[str, Any]) -> Path:
     out_dir = Path(config.get("output", {}).get("directory", "./data"))

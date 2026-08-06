@@ -77,3 +77,16 @@ output:
   directory: "./data"
   jobs_tracker: "job_requirements_tracker.xlsx"
   company_directory: "company_directory.xlsx"
+
+# Telegram delivery — sends Excel reports on a schedule
+telegram:
+  enabled: false
+  bot_token: ""          # or set TELEGRAM_BOT_TOKEN in .env
+  chat_id: ""            # or set TELEGRAM_CHAT_ID in .env
+  interval_hours: 12     # how often to fetch + send (when using telegram run)
+  include_company_directory: true
+  message_template: |
+    QA Lead-Gen report ({timestamp})
+    Jobs tracked: {job_count}
+    Freelance/contract: {freelance_count}
+    New: {new_count} | Contacted: {contacted_count} | Responded: {responded_count}

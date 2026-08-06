@@ -28,6 +28,22 @@ from src.outreach.tracker import OutreachManager
 console = Console()
 
 
+def _run_fetch(ctx: click.Context, all_qa: bool = False) -> None:
+    config = ctx.obj["config"]
+    if all_qa:
+        config.setdefault("search", {})["only_freelance"] = False
+    data_dir = ctx.obj["data_dir"]
+    jobs_file = data_dir / config["output"]["jobs_tracker"]
+
+    console.print("[bold]Starting job aggregation...[/bold]")
+    new_jobs = aggregate_jobs(config)
+
+    existing = load_jobs_tracker(jobs_file) if jobs_file.exists() else []
+    merged = merge_jobs(existing, new_jobs)
+    export_jobs_tracker(merged, jobs_file)
+    console.print(f"[green]Saved {len(merged)} jobs to {jobs_file}[/green]")
+
+
 @click.group()
 @click.option("--config", "-c", default="config.yaml", help="Path to config file")
 @click.pass_context
@@ -43,21 +59,13 @@ def cli(ctx: click.Context, config: str) -> None:
 @click.pass_context
 def fetch(ctx: click.Context, all_qa: bool) -> None:
     """Aggregate QA job postings from configured sources."""
+    _run_fetch(ctx, all_qa=all_qa)
     config = ctx.obj["config"]
-    if all_qa:
-        config.setdefault("search", {})["only_freelance"] = False
     data_dir = ctx.obj["data_dir"]
     jobs_file = data_dir / config["output"]["jobs_tracker"]
-
-    console.print("[bold]Starting job aggregation...[/bold]")
-    new_jobs = aggregate_jobs(config)
-
-    existing = load_jobs_tracker(jobs_file) if jobs_file.exists() else []
-    merged = merge_jobs(existing, new_jobs)
-    export_jobs_tracker(merged, jobs_file)
+    merged = load_jobs_tracker(jobs_file)
 
     freelance = sum(1 for j in merged if j.employment_type in {"Freelance", "Contract", "Part-time"})
-    console.print(f"[green]Saved {len(merged)} jobs to {jobs_file}[/green]")
     if merged:
         console.print(f"  Employment breakdown: {freelance} freelance/contract/part-time, {len(merged) - freelance} other")
         for j in merged[:10]:
@@ -185,6 +193,77 @@ def run_all(ctx: click.Context) -> None:
     if ctx.obj["config"].get("enrichment", {}).get("enabled", True):
         ctx.invoke(enrich)
     ctx.invoke(outreach)
+
+
+@cli.group()
+@click.pass_context
+def telegram(ctx: click.Context) -> None:
+    """Send Excel reports to Telegram on demand or every 12 hours."""
+    pass
+
+
+@telegram.command("test")
+@click.pass_context
+def telegram_test(ctx: click.Context) -> None:
+    """Send a test message to verify Telegram configuration."""
+    from src.notifications.telegram import TelegramNotifier
+
+    notifier = TelegramNotifier(ctx.obj["config"])
+    if notifier.send_message("QA Lead-Gen Telegram integration is working."):
+        console.print("[green]Test message sent successfully.[/green]")
+    else:
+        raise SystemExit(1)
+
+
+@telegram.command("send")
+@click.option("--fetch-first", is_flag=True, help="Run fetch before sending Excel files")
+@click.option("--all-qa", is_flag=True, help="Include full-time QA when fetching first")
+@click.pass_context
+def telegram_send(ctx: click.Context, fetch_first: bool, all_qa: bool) -> None:
+    """Send current Excel tracker files to Telegram now."""
+    from src.notifications.telegram import TelegramNotifier
+
+    if fetch_first:
+        _run_fetch(ctx, all_qa=all_qa)
+
+    notifier = TelegramNotifier(ctx.obj["config"])
+    ok = notifier.send_reports(ctx.obj["config"], ctx.obj["data_dir"])
+    if not ok:
+        raise SystemExit(1)
+
+
+@telegram.command("run")
+@click.option("--interval", type=float, default=None, help="Hours between runs (default: config value)")
+@click.option("--no-immediate", is_flag=True, help="Skip the initial run; wait for first interval")
+@click.option("--all-qa", is_flag=True, help="Include full-time QA roles when fetching")
+@click.pass_context
+def telegram_run(ctx: click.Context, interval: float | None, no_immediate: bool, all_qa: bool) -> None:
+    """Fetch jobs and send Excel to Telegram every 12 hours (configurable)."""
+    from src.notifications.scheduler import make_fetch_and_send_job, run_scheduled_loop
+    from src.notifications.telegram import TelegramNotifier
+
+    config = ctx.obj["config"]
+    data_dir = ctx.obj["data_dir"]
+    tg_cfg = config.get("telegram", {})
+    hours = interval or tg_cfg.get("interval_hours", 12)
+
+    notifier = TelegramNotifier(config)
+    if not notifier.is_configured:
+        console.print(
+            "[red]Telegram not configured.[/red]\n"
+            "Set telegram.enabled: true, bot_token, and chat_id in config.yaml\n"
+            "or TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID in .env"
+        )
+        raise SystemExit(1)
+
+    def fetch_job() -> None:
+        _run_fetch(ctx, all_qa=all_qa)
+
+    def send_job() -> bool:
+        return notifier.send_reports(config, data_dir)
+
+    job = make_fetch_and_send_job(config, data_dir, fetch_job, send_job)
+    run_scheduled_loop(job, interval_hours=hours, run_immediately=not no_immediate)
 
 
 if __name__ == "__main__":
