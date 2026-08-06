@@ -202,6 +202,21 @@ def telegram(ctx: click.Context) -> None:
     pass
 
 
+@telegram.command("setup")
+@click.option("--timeout", default=120, help="Seconds to wait for you to message the bot")
+@click.pass_context
+def telegram_setup_cmd(ctx: click.Context, timeout: int) -> None:
+    """Discover your chat ID — message your bot, then we save it to .env."""
+    from src.notifications.telegram_setup import run_setup
+
+    if run_setup(ctx.obj["config"], PROJECT_ROOT, timeout=timeout):
+        console.print("\n[bold]Next steps:[/bold]")
+        console.print("  python main.py telegram test")
+        console.print("  python main.py automate start")
+    else:
+        raise SystemExit(1)
+
+
 @telegram.command("test")
 @click.pass_context
 def telegram_test(ctx: click.Context) -> None:

@@ -244,6 +244,10 @@ class TelegramBotController:
         if not self.is_ready:
             raise RuntimeError("Telegram bot_token and chat_id are required.")
 
+        from src.notifications.telegram_setup import delete_webhook
+
+        delete_webhook(self.notifier.bot_token)
+
         schedule.clear()
 
         if auto_start_scanning and not self.state.scanning_enabled:
