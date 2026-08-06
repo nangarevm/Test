@@ -117,6 +117,33 @@ def _read_existing_sheets(filepath: Path) -> dict[str, pd.DataFrame]:
         return {}
 
 
+def _is_jobs_sheet(df: pd.DataFrame) -> bool:
+    if df is None or df.empty:
+        return False
+    columns = {str(col).strip().lower() for col in df.columns}
+    return {"company", "role"}.issubset(columns)
+
+
+def _resolve_jobs_sheet(sheets: dict[str, pd.DataFrame]) -> pd.DataFrame | None:
+    """Pick the master jobs sheet, supporting legacy and migrated workbooks."""
+    for sheet_name in (MASTER_SHEET, LEGACY_SHEET):
+        df = sheets.get(sheet_name)
+        if _is_jobs_sheet(df):
+            return df
+
+    skip = {
+        DAILY_SUMMARY_SHEET.lower(),
+        OVERSEAS_DIRECTORY_SHEET.lower(),
+        "company directory",
+    }
+    for name, df in sheets.items():
+        if str(name).strip().lower() in skip:
+            continue
+        if _is_jobs_sheet(df):
+            return df
+    return None
+
+
 def _build_daily_summary_row(
     day: date,
     daily_jobs: list[JobPosting],
@@ -190,11 +217,8 @@ def load_jobs_tracker(filepath: Path) -> list[JobPosting]:
     if not filepath.exists():
         return []
     sheets = _read_existing_sheets(filepath)
-    for sheet_name in (MASTER_SHEET, LEGACY_SHEET):
-        if sheet_name in sheets:
-            df = sheets[sheet_name]
-            break
-    else:
+    df = _resolve_jobs_sheet(sheets)
+    if df is None:
         return []
 
     jobs = []
