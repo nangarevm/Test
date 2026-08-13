@@ -75,6 +75,7 @@ class CompanyContact:
     general_contact_email: str = ""
     location: str = ""
     enrichment_source: str = ""
+    verified: bool = False
 
 
 @dataclass

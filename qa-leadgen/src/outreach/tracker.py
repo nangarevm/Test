@@ -13,6 +13,7 @@ from rich.prompt import Confirm, Prompt
 from src.export.excel_export import load_jobs_tracker, update_job_status
 from src.models import EmailStatus, JobStatus, OutreachEmail
 from src.outreach.email_sender import EmailSender
+from src.outreach.suppression import SuppressionList
 from src.outreach.templates import render_email
 
 console = Console()
@@ -27,6 +28,7 @@ class OutreachManager:
             "jobs_tracker", "job_requirements_tracker.xlsx"
         )
         self.sender = EmailSender(config, data_dir)
+        self.suppression = SuppressionList(data_dir / "suppression_list.json")
         self.outreach_log: list[dict] = self._load_log()
 
     def _load_log(self) -> list[dict]:
@@ -51,6 +53,7 @@ class OutreachManager:
             if j.status in (JobStatus.NEW, JobStatus.CONTACTED)
             and (j.contact_email or self._lookup_company_email(j.company))
             and not self._already_contacted(j.dedup_key)
+            and not self.suppression.is_suppressed(j.contact_email, j.company)
         ]
 
         if not contactable:
@@ -80,13 +83,17 @@ class OutreachManager:
             ))
 
             action = Prompt.ask(
-                "Action",
-                choices=["send", "edit", "skip", "quit"],
+                "Action (block = never contact this company/email again)",
+                choices=["send", "edit", "skip", "block", "quit"],
                 default="skip",
             )
 
             if action == "quit":
                 break
+            if action == "block":
+                self.suppression.add(email=to_email, company=job.company, reason="manual block during review")
+                console.print(f"[yellow]Suppressed {job.company} / {to_email} — will not be contacted again.[/yellow]")
+                continue
             if action == "skip":
                 continue
 
@@ -124,6 +131,9 @@ class OutreachManager:
                         update_job_status(self.jobs_file, job.dedup_key, JobStatus.CONTACTED)
 
     def _lookup_company_email(self, company: str) -> str | None:
+        """Only returns enrichment emails confirmed to belong to this company —
+        unverified/guessed contacts stay in the Company Directory sheet for manual
+        review but are never used to auto-populate outreach."""
         company_file = self.data_dir / self.config.get("output", {}).get(
             "company_directory", "company_directory.xlsx"
         )
@@ -132,7 +142,7 @@ class OutreachManager:
         from src.export.excel_export import load_company_directory
 
         for c in load_company_directory(company_file):
-            if c.company.lower() == company.lower() and c.general_contact_email:
+            if c.company.lower() == company.lower() and c.general_contact_email and c.verified:
                 return c.general_contact_email
         return None
 
@@ -141,3 +151,4 @@ class OutreachManager:
         sent = sum(1 for e in self.outreach_log if e.get("status") == EmailStatus.SENT.value)
         console.print(f"Outreach stats: {sent} sent / {total} total logged")
         console.print(f"Remaining today: {self.sender.rate_limiter.remaining}")
+        console.print(f"Suppressed (opted out): {len(self.suppression.all())}")

@@ -71,12 +71,18 @@ Columns: Company, Role, JD Summary, Location, Experience Level, **Employment Typ
 ### 3. Company Contact Enrichment
 For companies without a public contact in the posting, looks up publicly listed business info (Contact Us pages, mailto links). Does **not** scrape personal LinkedIn profiles.
 
+When the company's website isn't known from the posting itself, it's guessed from the company name — so every guessed contact is cross-checked against the fetched page content (title/text must actually mention the company) before it's trusted. Guesses that can't be confirmed are still recorded in the Company Directory for manual review, marked `Verified: No`, and are **never** auto-used for outreach (see below).
+
 ### 4. Excel Export — Company Directory
-Columns: Company, Website, Industry, Size, General Contact Email, Location.
+Columns: Company, Website, Industry, Size, General Contact Email, **Verified**, Location, Enrichment Source.
+
+`Verified: No` means the contact is a guess (unconfirmed domain, or an inferred `careers@domain`-style address) — check it manually before reaching out; the outreach command won't auto-select it.
 
 ### 5. Outreach Module
 - Personalized email templates referencing the specific JD
-- Interactive review/edit before each send
+- Interactive review/edit before each send — `send` / `edit` / `skip` / `block` / `quit`
+- Only uses enrichment contacts that were confirmed to belong to the company (`Verified: Yes` in the Company Directory); unverified guesses are skipped automatically
+- Persistent suppression (opt-out) list — `block` during review, or `python main.py suppress add`, permanently excludes a company/email from all future outreach, independent of which job posting it comes from
 - Unsubscribe/opt-out line and your real contact info
 - Tracks sent status back to the Excel tracker
 - Rate-limited sending (configurable, default 45/day)
@@ -121,6 +127,12 @@ python main.py stats
 
 # Full pipeline: fetch → enrich → outreach
 python main.py run-all
+
+# Suppression (opt-out) list — permanently excluded from outreach
+python main.py suppress add --email jane@acme.com --reason "replied unsubscribe"
+python main.py suppress add --company "Acme Inc"
+python main.py suppress list
+python main.py suppress remove --email jane@acme.com
 ```
 
 ### Telegram Reports (every 12 hours)

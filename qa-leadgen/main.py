@@ -325,6 +325,65 @@ def run_all(ctx: click.Context) -> None:
 
 @cli.group()
 @click.pass_context
+def suppress(ctx: click.Context) -> None:
+    """Manage the outreach suppression (opt-out) list."""
+    pass
+
+
+@suppress.command("add")
+@click.option("--email", default="", help="Email address to suppress")
+@click.option("--company", default="", help="Company name to suppress")
+@click.option("--reason", default="manual", help="Reason for suppression")
+@click.pass_context
+def suppress_add(ctx: click.Context, email: str, company: str, reason: str) -> None:
+    """Add an email or company to the suppression list — never contacted again."""
+    from src.outreach.suppression import SuppressionList
+
+    if not email and not company:
+        console.print("[red]Provide --email and/or --company.[/red]")
+        raise SystemExit(1)
+
+    suppression = SuppressionList(ctx.obj["data_dir"] / "suppression_list.json")
+    suppression.add(email=email, company=company, reason=reason)
+    console.print(f"[green]Suppressed.[/green] email={email or '-'} company={company or '-'}")
+
+
+@suppress.command("list")
+@click.pass_context
+def suppress_list(ctx: click.Context) -> None:
+    """Show all suppressed emails/companies."""
+    from rich.table import Table
+
+    from src.outreach.suppression import SuppressionList
+
+    entries = SuppressionList(ctx.obj["data_dir"] / "suppression_list.json").all()
+    table = Table(title=f"Suppression List ({len(entries)})")
+    table.add_column("Email")
+    table.add_column("Company")
+    table.add_column("Reason")
+    table.add_column("Added At")
+    for e in entries:
+        table.add_row(e.get("email", ""), e.get("company", ""), e.get("reason", ""), e.get("added_at", ""))
+    console.print(table)
+
+
+@suppress.command("remove")
+@click.option("--email", default="", help="Email address to remove")
+@click.option("--company", default="", help="Company name to remove")
+@click.pass_context
+def suppress_remove(ctx: click.Context, email: str, company: str) -> None:
+    """Remove an email or company from the suppression list."""
+    from src.outreach.suppression import SuppressionList
+
+    suppression = SuppressionList(ctx.obj["data_dir"] / "suppression_list.json")
+    if suppression.remove(email=email, company=company):
+        console.print("[green]Removed.[/green]")
+    else:
+        console.print("[yellow]No matching entry found.[/yellow]")
+
+
+@cli.group()
+@click.pass_context
 def telegram(ctx: click.Context) -> None:
     """Telegram reports, bot commands, and scheduled scanning."""
     pass

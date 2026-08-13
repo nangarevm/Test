@@ -54,6 +54,7 @@ COMPANY_COLUMNS = [
     "Industry",
     "Size",
     "General Contact Email",
+    "Verified",
     "Location",
     "Enrichment Source",
 ]
@@ -373,6 +374,7 @@ def export_company_directory(companies: list[CompanyContact], filepath: Path) ->
             "Industry": c.industry,
             "Size": c.size,
             "General Contact Email": c.general_contact_email,
+            "Verified": "Yes" if c.verified else "No",
             "Location": c.location,
             "Enrichment Source": c.enrichment_source,
         }
@@ -405,6 +407,7 @@ def load_company_directory(filepath: Path) -> list[CompanyContact]:
                 industry=row.get("Industry", "") or "",
                 size=row.get("Size", "") or "",
                 general_contact_email=row.get("General Contact Email", "") or "",
+                verified=str(row.get("Verified", "")).strip().lower() == "yes",
                 location=row.get("Location", "") or "",
                 enrichment_source=row.get("Enrichment Source", "") or "",
             )
