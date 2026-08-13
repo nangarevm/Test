@@ -26,11 +26,8 @@ class RSSPlatformSource(JobSource):
         if not self.platform.feed_url:
             return []
         jobs: list[JobPosting] = []
-        try:
-            resp = self._get(self.platform.feed_url)
-            jobs.extend(self._parse_feed(resp.text, keywords))
-        except Exception:
-            return jobs
+        resp = self._get(self.platform.feed_url)
+        jobs.extend(self._parse_feed(resp.text, keywords))
         return jobs
 
     def _parse_feed(self, xml_text: str, keywords: Iterable[str]) -> list[JobPosting]:
@@ -120,12 +117,9 @@ class JSONPlatformSource(JobSource):
         if not self.platform.feed_url:
             return []
         jobs: list[JobPosting] = []
-        try:
-            resp = self._get(self.platform.feed_url)
-            data = resp.json()
-            jobs.extend(self._parse_json(data, keywords))
-        except Exception:
-            return jobs
+        resp = self._get(self.platform.feed_url)
+        data = resp.json()
+        jobs.extend(self._parse_json(data, keywords))
         return jobs
 
     def _parse_json(self, data: Any, keywords: Iterable[str]) -> list[JobPosting]:

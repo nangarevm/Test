@@ -22,11 +22,8 @@ class WellfoundSource(JobSource):
 
     def fetch(self, keywords: Iterable[str]) -> list[JobPosting]:
         jobs: list[JobPosting] = []
-        try:
-            resp = self._get(self.SEARCH_URL)
-            html = resp.text
-        except Exception:
-            return jobs
+        resp = self._get(self.SEARCH_URL)
+        html = resp.text
 
         # Wellfound embeds job data in JSON-LD or script tags on listing pages
         for match in re.finditer(

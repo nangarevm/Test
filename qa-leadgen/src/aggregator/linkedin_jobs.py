@@ -8,9 +8,12 @@ from typing import Iterable
 from urllib.parse import quote_plus
 
 from bs4 import BeautifulSoup
+from rich.console import Console
 
 from src.aggregator.base import JobSource
 from src.models import JobPosting
+
+console = Console()
 
 
 class LinkedInJobsSource(JobSource):
@@ -29,7 +32,8 @@ class LinkedInJobsSource(JobSource):
                 url = f"{self.BASE_URL}?keywords={quote_plus(keyword)}&f_WT=2"
                 resp = self._get(url)
                 jobs.extend(self._parse_search_results(resp.text, keyword))
-            except Exception:
+            except Exception as exc:
+                console.print(f"  [yellow]{self.name}: '{keyword}' search failed: {exc}[/yellow]")
                 continue
         return jobs
 

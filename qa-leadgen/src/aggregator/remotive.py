@@ -19,11 +19,8 @@ class RemotiveSource(JobSource):
             resp = self._get(self.API_URL, params={"category": "qa"})
             data = resp.json()
         except Exception:
-            try:
-                resp = self._get(self.API_URL)
-                data = resp.json()
-            except Exception:
-                return jobs
+            resp = self._get(self.API_URL)
+            data = resp.json()
 
         keyword_set = {k.lower() for k in keywords}
         for item in data.get("jobs", []):

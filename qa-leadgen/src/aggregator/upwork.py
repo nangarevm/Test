@@ -6,8 +6,12 @@ import os
 from datetime import datetime
 from typing import Iterable
 
+from rich.console import Console
+
 from src.aggregator.base import JobSource
 from src.models import JobPosting
+
+console = Console()
 
 
 class UpworkSource(JobSource):
@@ -67,7 +71,8 @@ class UpworkSource(JobSource):
                 )
                 resp.raise_for_status()
                 data = resp.json()
-            except Exception:
+            except Exception as exc:
+                console.print(f"  [yellow]{self.name}: '{keyword}' query failed: {exc}[/yellow]")
                 continue
 
             edges = (

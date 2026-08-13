@@ -6,8 +6,12 @@ import os
 from datetime import datetime
 from typing import Iterable
 
+from rich.console import Console
+
 from src.aggregator.base import JobSource, extract_email
 from src.models import JobPosting
+
+console = Console()
 
 
 class IndeedSource(JobSource):
@@ -34,7 +38,8 @@ class IndeedSource(JobSource):
                     },
                 )
                 data = resp.json()
-            except Exception:
+            except Exception as exc:
+                console.print(f"  [yellow]{self.name}: '{keyword}' query failed: {exc}[/yellow]")
                 continue
 
             for item in data.get("results", []):

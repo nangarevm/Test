@@ -21,11 +21,8 @@ class WeWorkRemotelySource(JobSource):
     def fetch(self, keywords: Iterable[str]) -> list[JobPosting]:
         jobs: list[JobPosting] = []
         for feed_url in QA_CATEGORIES:
-            try:
-                resp = self._get(feed_url)
-                jobs.extend(self._parse_rss(resp.text, keywords))
-            except Exception:
-                continue
+            resp = self._get(feed_url)
+            jobs.extend(self._parse_rss(resp.text, keywords))
         return jobs
 
     def _parse_rss(self, xml_text: str, keywords: Iterable[str]) -> list[JobPosting]:

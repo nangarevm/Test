@@ -7,10 +7,13 @@ from typing import Iterable
 from urllib.parse import urljoin, urlparse
 
 from bs4 import BeautifulSoup
+from rich.console import Console
 
 from src.aggregator.base import JobSource, extract_email, is_qa_related
 from src.company_sources import CompanySource, resolve_company_sources
 from src.models import JobPosting
+
+console = Console()
 
 
 class CustomCareerPageSource(JobSource):
@@ -33,20 +36,22 @@ class CustomCareerPageSource(JobSource):
                 try:
                     batch = self._fetch_ats_company(company, keywords)
                     jobs.extend(batch)
-                except Exception:
-                    pass
+                except Exception as exc:
+                    console.print(f"  [yellow]{self.name}: {company.name} ({company.ats}) failed: {exc}[/yellow]")
                 ats_fetched += 1
                 continue
             if cfg.get("fetch_website_pages", False):
                 try:
                     jobs.extend(self._scrape_career_page(company.careers_url, keywords, company.name))
-                except Exception:
+                except Exception as exc:
+                    console.print(f"  [yellow]{self.name}: {company.name} careers page failed: {exc}[/yellow]")
                     continue
 
         for url in extra_urls:
             try:
                 jobs.extend(self._scrape_career_page(url, keywords))
-            except Exception:
+            except Exception as exc:
+                console.print(f"  [yellow]{self.name}: {url} failed: {exc}[/yellow]")
                 continue
         return jobs
 
